@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c5f6e67f-511b-4f39-83ec-6e45ce780ada">
+  <name>StartEmptyBase</name>
+  <synonym>
+    <key>ru</key>
+    <value>Start empty base</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension"/>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="12b7e3e6-404a-46c0-af22-391c28b4994d"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e1937ddb-ac29-4317-8c16-71b45df34101"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="dcf3cef2-8bfc-4be4-9245-3b270e9c1cc1"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b8db256e-6209-45a3-8cad-bf8b258d07f7"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c3009c1d-af4f-433e-8c4a-2589883722f9"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="3c7c57cb-164d-4540-af51-7a32f37755f2"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="2a7c5b40-2080-482a-895b-0df6c1b3617b"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>SSL_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <compatibilityMode>8.3.23</compatibilityMode>
+  <commonModules>CommonModule.ConfigurationSubsystemsOverridable</commonModules>
+  <commonModules>CommonModule.SSL_StartEmptyBase</commonModules>
+  <informationRegisters>InformationRegister.ApplicationRuntimeParameters</informationRegisters>
+</mdclass:Configuration>
