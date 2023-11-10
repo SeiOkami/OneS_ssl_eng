@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccb54dc9-3d12-43d0-af6a-138d3526f5d5">
+  <name>UpdateBusinessProcessState</name>
+  <synonym>
+    <key>en</key>
+    <value>Update business process state</value>
+  </synonym>
+  <source>
+    <types>DefinedType.BusinessProcessObject</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.BusinessProcessesAndTasksEvents.UpdateBusinessProcessState</handler>
+</mdclass:EventSubscription>

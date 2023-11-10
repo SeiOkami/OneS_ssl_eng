@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="396ef757-d7f6-411f-8c4c-1acb1106a009">
+  <name>ConfigurationUpdate</name>
+  <synonym>
+    <key>en</key>
+    <value>Configuration update</value>
+  </synonym>
+  <comment>APK:566 work in the web client is not provided</comment>
+  <content>CommonModule.ConfigurationUpdate</content>
+  <content>CommonModule.ConfigurationUpdateClient</content>
+  <content>Constant.ConfigurationUpdateStatus</content>
+  <content>DataProcessor.InstallUpdates</content>
+  <content>CommonModule.ConfigurationUpdateServerCall</content>
+  <content>XDTOPackage.Patch</content>
+  <content>CommonForm.InstalledPatches</content>
+  <content>CommonForm.CheckUpdateFile</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

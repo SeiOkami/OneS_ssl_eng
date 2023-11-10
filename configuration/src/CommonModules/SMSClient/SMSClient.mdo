@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c36a616-1071-4243-b125-b6ffc270774b">
+  <name>SMSClient</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка SMS клиент</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Send text messages client</value>
+  </synonym>
+  <comment>Obsolete. Please use SendSMSMessageClient</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

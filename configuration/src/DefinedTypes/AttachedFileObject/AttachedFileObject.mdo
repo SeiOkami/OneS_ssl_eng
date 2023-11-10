@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b67bfd5-ef23-4205-b7ba-9466517e9999">
+  <producedTypes>
+    <containerType typeId="315ef181-e743-44aa-91b7-263684edae4a" valueTypeId="55aaba3d-0c41-406e-8a7d-6aeccc730f39"/>
+  </producedTypes>
+  <name>AttachedFileObject</name>
+  <synonym>
+    <key>en</key>
+    <value>Attachment object</value>
+  </synonym>
+  <type>
+    <types>CatalogObject.SMSMessageAttachedFiles</types>
+    <types>CatalogObject.FilesVersions</types>
+    <types>CatalogObject.MeetingAttachedFiles</types>
+    <types>CatalogObject.PhoneCallAttachedFiles</types>
+    <types>CatalogObject.MessageTemplatesAttachedFiles</types>
+    <types>CatalogObject.Files</types>
+    <types>CatalogObject.OutgoingEmailAttachedFiles</types>
+    <types>CatalogObject.PlannedInteractionAttachedFiles</types>
+    <types>CatalogObject.IncomingEmailAttachedFiles</types>
+  </type>
+</mdclass:DefinedType>

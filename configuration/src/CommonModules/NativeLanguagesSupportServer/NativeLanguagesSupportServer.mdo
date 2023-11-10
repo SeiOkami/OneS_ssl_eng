@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fffde5ff-8fde-4273-99ed-ffd85ab0c0e0">
+  <name>NativeLanguagesSupportServer</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мультиязычность сервер</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Native Languages Support Server</value>
+  </synonym>
+  <comment>Obsolete. Please use NationalLanguageSupportServer</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

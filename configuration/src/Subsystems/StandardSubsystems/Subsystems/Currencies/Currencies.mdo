@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c0037f3-4422-4836-b116-8c72e32bdd55">
+  <name>Currencies</name>
+  <synonym>
+    <key>en</key>
+    <value>Currencies</value>
+  </synonym>
+  <content>CommonModule.CurrenciesExchangeRatesClientServer</content>
+  <content>Catalog.Currencies</content>
+  <content>InformationRegister.ExchangeRates</content>
+  <content>CommonModule.CurrencyRateOperations</content>
+  <content>CommonModule.CurrencyRateOperationsClientServer</content>
+  <content>CommonModule.CurrencyRateOperationsClient</content>
+  <content>CommonModule.CurrencyRateOperationsGlobal</content>
+  <content>CommonModule.CurrencyRateOperationsOverridable</content>
+  <content>Enum.RateSources</content>
+  <content>Role.AddEditCurrencyRates</content>
+  <content>Role.ReadCurrencyRates</content>
+  <content>Constant.UseAlternativeServerToImportCurrencyRates</content>
+  <content>DefinedType.MonetaryAmountPositiveNegative</content>
+  <content>DefinedType.MonetaryAmountNonNegative</content>
+  <content>CommonModule.CurrencyRateOperationsInternal</content>
+  <content>CommonCommand.ImportCurrenciesRates</content>
+  <content>XDTOPackage.CurrencyRates</content>
+  <content>DefinedType.CurrencyExchangeRate</content>
+  <content>CommonModule.CurrenciesExchangeRatesServerCall</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

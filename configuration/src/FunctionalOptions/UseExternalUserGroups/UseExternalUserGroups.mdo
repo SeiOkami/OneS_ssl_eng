@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2181d197-028b-40b2-bf02-3d85dad1af30">
+  <name>UseExternalUserGroups</name>
+  <synonym>
+    <key>en</key>
+    <value>Use external user groups</value>
+  </synonym>
+  <location>Constant.UseExternalUserGroups</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ExternalUsersGroups</content>
+</mdclass:FunctionalOption>

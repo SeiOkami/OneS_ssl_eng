@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cffb795-2a28-4beb-92f4-5813f5994022">
+  <name>DuplicateObjectsDetection</name>
+  <synonym>
+    <key>en</key>
+    <value>Duplicate cleaner</value>
+  </synonym>
+  <content>CommonModule.DuplicateObjectDetection</content>
+  <content>CommonModule.FindAndDeleteDuplicatesDuplicatesClient</content>
+  <content>Report.SearchForReferences</content>
+  <content>DataProcessor.ReplaceAndMergeItems</content>
+  <content>DataProcessor.DuplicateObjectsDetection</content>
+  <content>CommonModule.DuplicateObjectsDetectionOverridable</content>
+  <content>CommonModule.DuplicateObjectsDetection</content>
+  <content>CommonModule.DuplicateObjectsDetectionClient</content>
+  <content>CommonTemplate.StringSearchAddIn</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

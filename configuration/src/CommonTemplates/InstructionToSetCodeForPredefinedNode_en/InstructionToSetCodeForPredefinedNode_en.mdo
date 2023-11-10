@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2779397-46ed-4d95-8529-45896f9567d2">
+  <name>InstructionToSetCodeForPredefinedNode_en</name>
+  <synonym>
+    <key>en</key>
+    <value>Instruction on how to set code for a predefined node</value>
+  </synonym>
+  <templateType>HTMLDocument</templateType>
+</mdclass:CommonTemplate>

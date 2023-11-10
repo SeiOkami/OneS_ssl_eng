@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bde05768-2dd6-4800-985d-27075f610cca">
+  <name>CheckForChangesOfDatesInSubject</name>
+  <synonym>
+    <key>en</key>
+    <value>Check for changes of dates in subject</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ReminderSubjectObject</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.UserRemindersInternal.CheckForDateChangesInItemWhenRecording</handler>
+</mdclass:EventSubscription>

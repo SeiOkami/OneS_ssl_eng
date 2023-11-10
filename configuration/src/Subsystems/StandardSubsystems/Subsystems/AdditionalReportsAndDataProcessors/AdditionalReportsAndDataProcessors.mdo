@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4ac0a50-ee39-4dc1-b84f-eec8fe485f03">
+  <name>AdditionalReportsAndDataProcessors</name>
+  <synonym>
+    <key>en</key>
+    <value>Additional reports and data processors</value>
+  </synonym>
+  <content>CommonForm.AdditionalReportsAndDataProcessors</content>
+  <content>Enum.AdditionalReportsAndDataProcessorsKinds</content>
+  <content>CommonCommand.RelatedObjectsCreation</content>
+  <content>InformationRegister.AdditionalDataProcessorsPurposes</content>
+  <content>Catalog.AdditionalReportsAndDataProcessors</content>
+  <content>Role.ReadAdditionalReportsAndDataProcessors</content>
+  <content>CommonModule.AdditionalReportsAndDataProcessors</content>
+  <content>CommonModule.AdditionalReportsAndDataProcessorsClient</content>
+  <content>Enum.AdditionalDataProcessorsCallMethods</content>
+  <content>Role.AddEditAdditionalReportsAndDataProcessors</content>
+  <content>CommonModule.AdditionalReportsAndDataProcessorsClientServer</content>
+  <content>Enum.AdditionalReportsAndDataProcessorsPublicationOptions</content>
+  <content>ScheduledJob.StartingAdditionalDataProcessors</content>
+  <content>InformationRegister.DataProcessorAccessUserSettings</content>
+  <content>CommonModule.AdditionalReportsAndDataProcessorsOverridable</content>
+  <content>CommonForm.MyReportsAndDataProcessorsSettings</content>
+  <content>FunctionalOption.UseAdditionalDataProcessorsForRelatedObjectCreation</content>
+  <content>FunctionalOptionsParameter.AdditionalReportsAndDataProcessorsFormType</content>
+  <content>FunctionalOptionsParameter.AdditionalReportsAndDataProcessorsRelatedObject</content>
+  <content>CommonModule.AdditionalReportsAndDataProcessorsServerCall</content>
+  <content>Constant.UseAdditionalReportsAndDataProcessors</content>
+  <content>FunctionalOption.UseAdditionalReportsAndDataProcessors</content>
+  <content>CommonModule.AdditionalReportsAndDataProcessorsCached</content>
+  <content>CommonModule.AdditionalReportsAndDataProcessorsSafeModeInternal</content>
+  <content>CommonModule.AdditionalReportsAndDataProcessorsClientOverridable</content>
+  <content>XDTOPackage.ApplicationExtensionsPermissions_1_0_0_1</content>
+  <content>XDTOPackage.ApplicationExtensionsManifest_1_0_0_1</content>
+  <content>Enum.AdditionalReportsAndDataProcessorsPermissionCompatibilityModes</content>
+  <content>CommonCommand.AdditionalReportsAdministration</content>
+  <content>CommonCommand.AdditionalDataProcessorsAdministration</content>
+  <content>EventSubscription.AdditionalReportsAndDataProcessorsBeforeDeleteMetadataObjectID</content>
+  <content>DefinedType.ObjectWithAdditionalCommands</content>
+  <content>CommonModule.AdditionalReportsAndDataProcessorsGlobal</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

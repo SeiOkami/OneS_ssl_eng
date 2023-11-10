@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc039475-c872-4b99-9248-c74aae75f0e1">
+  <name>UseOptimizedStandaloneWorkstationCreationWriting</name>
+  <synonym>
+    <key>en</key>
+    <value>Use optimized writing of standalone workstation creation</value>
+  </synonym>
+  <location>Constant.UseOptimizedStandaloneWorkstationCreationWriting</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

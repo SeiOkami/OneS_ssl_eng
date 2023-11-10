@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d95fcb37-fc65-466d-93e2-489f41683276">
+  <name>UseObjectVersioning</name>
+  <synonym>
+    <key>en</key>
+    <value>Use single object versioning</value>
+  </synonym>
+  <comment>Controls the availability of the versioning for each individual object</comment>
+  <location>InformationRegister.ObjectVersioningSettings.Resource.Use</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.ChangeHistory</content>
+</mdclass:FunctionalOption>

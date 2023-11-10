@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90aa2aa8-4ef8-4e3f-9a8e-53b2c5615ac7">
+  <name>AddInClient</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешние компоненты клиент</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Add-ins client</value>
+  </synonym>
+  <comment>Obsolete. Please use AddInsClient</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

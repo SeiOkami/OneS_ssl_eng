@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab7e5f9a-1dfe-4165-a540-21f45ae1d94d">
+  <name>ReportMailing</name>
+  <synonym>
+    <key>en</key>
+    <value>Report distribution</value>
+  </synonym>
+  <content>Catalog.ReportMailings</content>
+  <content>Enum.ReportMailingSchedulePeriodicities</content>
+  <content>CommonModule.ReportMailingCached</content>
+  <content>CommonModule.ReportMailingOverridable</content>
+  <content>CommonModule.ReportMailingClientServer</content>
+  <content>CommonModule.ReportMailingClient</content>
+  <content>CommonModule.ReportMailingServerCall</content>
+  <content>InformationRegister.ReportMailingStates</content>
+  <content>ScheduledJob.ReportMailing</content>
+  <content>Role.AddEditReportBulkEmails</content>
+  <content>CommonPicture.ReportMailingState</content>
+  <content>CommonPicture.ReportMailing</content>
+  <content>CommonModule.ReportMailing</content>
+  <content>DefinedType.BulkEmailRecipient</content>
+  <content>CommonModule.ReportMailingClientOverridable</content>
+  <content>Role.ReadReportBulkEmails</content>
+  <content>EventSubscription.DisableBulkEmailBeforeDeleteBulkEmailRecipientsType</content>
+  <content>InformationRegister.ReportsDistributionHistory</content>
+  <content>Report.ReportDistributionControl</content>
+  <content>InformationRegister.CertificatesOfReportDistributionRecipients</content>
+  <content>Constant.RetainReportDistributionHistory</content>
+  <content>FunctionalOption.RetainReportDistributionHistory</content>
+  <content>Constant.ReportDistributionHistoryRetentionPeriodInMonths</content>
+  <content>ScheduledJob.ReportDistributionHistoryClearUp</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e7684f0-1b3b-4a32-8602-dd0672c5a800">
+  <producedTypes>
+    <objectType typeId="eb1f85a6-a16e-4fef-ab9a-d872041f1c14" valueTypeId="af105d27-977d-4e7a-8a0b-3be67840e65b"/>
+    <managerType typeId="56c2b0e1-0a9f-40a8-a5a6-68638bd8b66b" valueTypeId="c1e9ed22-aacf-4862-a653-c685fa47b0bf"/>
+  </producedTypes>
+  <name>ExchangeMessageTransportEMAIL</name>
+  <synonym>
+    <key>en</key>
+    <value>Exchange message transport over email</value>
+  </synonym>
+  <defaultForm>DataProcessor.ExchangeMessageTransportEMAIL.Form.Form</defaultForm>
+  <attributes uuid="ab178a93-8570-43b6-ae42-f34a7cc4f359">
+    <name>EMAILMaxMessageSize</name>
+    <synonym>
+      <key>en</key>
+      <value>Maximum size of exchange message, KB</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Maximum size of exchange message file (KB).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4c82f31d-7a98-47dd-89dc-1846cb15bf3b">
+    <name>EMAILCompressOutgoingMessageFile</name>
+    <synonym>
+      <key>en</key>
+      <value>Compress outgoing message file</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="168e3189-2676-4cdb-bc9d-78d85df51faf">
+    <name>EMAILAccount</name>
+    <synonym>
+      <key>en</key>
+      <value>Email account</value>
+    </synonym>
+    <type>
+      <types>DefinedType.DataExchangeEmailAccounts</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>An exchange account.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ecf1a87f-4ca4-4efb-a84c-b2db1b0e8829">
+    <name>ArchivePasswordExchangeMessages</name>
+    <synonym>
+      <key>en</key>
+      <value>Exchange message archive password</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="470bbff8-20d0-475c-a61a-1a09ac14c2db">
+    <name>MessageFileNameTemplate</name>
+    <synonym>
+      <key>en</key>
+      <value>Message file name template</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6ea25680-c4db-4717-9498-62420ca16970">
+    <name>UseTempDirectoryToSendAndReceiveMessages</name>
+    <synonym>
+      <key>en</key>
+      <value>Use temporary directory to send and receive messages</value>
+    </synonym>
+    <comment>True - sending and receiving exchange messages will be performed through a temporary directory; False – sending and receiving will be performed directly through the exchange directory</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="55412118-700a-4a2d-b7c9-d3b7c0f4bd9a">
+    <name>InfobaseNode</name>
+    <synonym>
+      <key>en</key>
+      <value>Infobase node</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="14e20d48-635e-4c52-9099-e743323fc190">
+    <name>Form</name>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1861ee4f-fd8c-4afa-8441-c074bf51f67e">
+  <name>UsersSessions</name>
+  <synonym>
+    <key>en</key>
+    <value>User sessions</value>
+  </synonym>
+  <content>CommonModule.IBConnections</content>
+  <content>CommonModule.IBConnectionsClient</content>
+  <content>DataProcessor.ApplicationLock</content>
+  <content>CommonModule.IBConnectionsClientServer</content>
+  <content>DataProcessor.ActiveUsers</content>
+  <content>CommonForm.ApplicationAdministrationParameters</content>
+  <content>CommonModule.IBConnectionsServerCall</content>
+  <content>InformationRegister.DataAreaSessionLocks</content>
+  <content>CommonModule.IBConnectionsOverridable</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

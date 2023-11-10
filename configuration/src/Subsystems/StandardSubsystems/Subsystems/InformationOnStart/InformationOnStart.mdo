@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec797c75-02c5-4cf5-9dd4-26cd46c99519">
+  <name>InformationOnStart</name>
+  <synonym>
+    <key>en</key>
+    <value>Startup notifications</value>
+  </synonym>
+  <content>DataProcessor.InformationOnStart</content>
+  <content>CommonModule.InformationOnStart</content>
+  <content>CommonModule.InformationOnStartClient</content>
+  <content>CommonModule.InformationOnStartOverridable</content>
+  <content>InformationRegister.InformationPackagesOnStart</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

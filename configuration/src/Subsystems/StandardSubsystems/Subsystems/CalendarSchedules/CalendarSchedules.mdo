@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fccdf59-fc99-4a2b-a144-fffe438a147c">
+  <name>CalendarSchedules</name>
+  <synonym>
+    <key>en</key>
+    <value>Calendar schedules</value>
+  </synonym>
+  <content>Subsystem.StandardSubsystems.Subsystem.CalendarSchedules</content>
+  <content>CommonModule.CalendarSchedules</content>
+  <content>CommonForm.SelectDate</content>
+  <content>InformationRegister.BusinessCalendarData</content>
+  <content>Catalog.BusinessCalendars</content>
+  <content>Enum.BusinessCalendarDaysKinds</content>
+  <content>StyleItem.BusinessCalendarDayKindSundayColor</content>
+  <content>StyleItem.BusinessCalendarDayKindColorNotSpecified</content>
+  <content>StyleItem.BusinessCalendarDayKindHolidayColor</content>
+  <content>StyleItem.BusinessCalendarDayKindDayPreholidayColor</content>
+  <content>StyleItem.BusinessCalendarDayKindWorkdayColor</content>
+  <content>StyleItem.BusinessCalendarDayKindSaturdayColor</content>
+  <content>CommonModule.CalendarSchedulesOverridable</content>
+  <content>Constant.UseMultipleBusinessCalendars</content>
+  <content>FunctionalOption.UseMultipleBusinessCalendars</content>
+  <content>Role.AddEditCalendarSchedules</content>
+  <content>CommonModule.CalendarSchedulesInternal</content>
+  <content>StyleItem.BusinessCalendarNonWorkPeriodBackground</content>
+  <content>InformationRegister.CalendarNonWorkDaysPeriods</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

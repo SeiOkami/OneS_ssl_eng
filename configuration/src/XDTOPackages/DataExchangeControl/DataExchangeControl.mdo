@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3913f78f-ce34-4ae3-840a-ccdf06319cbb">
+  <name>DataExchangeControl</name>
+  <synonym>
+    <key>en</key>
+    <value>Data exchange control</value>
+  </synonym>
+  <namespace>http://www.1c.ru/SaaS/Exchange/Control</namespace>
+</mdclass:XDTOPackage>

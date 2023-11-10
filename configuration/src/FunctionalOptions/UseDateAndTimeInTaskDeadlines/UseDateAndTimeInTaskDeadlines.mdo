@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ac74bb3-a4df-47db-ad87-6cb95b85c51f">
+  <name>UseDateAndTimeInTaskDeadlines</name>
+  <synonym>
+    <key>en</key>
+    <value>Use date and time in due dates</value>
+  </synonym>
+  <comment>If False, then only the date, without the time.</comment>
+  <location>Constant.UseDateAndTimeInTaskDeadlines</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

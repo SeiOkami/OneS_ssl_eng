@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08a413ff-bebd-42e5-8ff3-2115746a0844">
+  <name>AccountingAudit</name>
+  <synonym>
+    <key>en</key>
+    <value>Data integrity</value>
+  </synonym>
+  <content>CommonModule.AccountingAudit</content>
+  <content>CommonModule.AccountingAuditInternal</content>
+  <content>CommonModule.AccountingAuditClient</content>
+  <content>CommonModule.AccountingAuditOverridable</content>
+  <content>Role.ReadAccountingCheckResults</content>
+  <content>ScheduledJob.AccountingCheck</content>
+  <content>Catalog.ChecksKinds</content>
+  <content>Report.AccountingCheckResults</content>
+  <content>InformationRegister.AccountingCheckResults</content>
+  <content>CommonModule.AccountingAuditInternalClient</content>
+  <content>CommonModule.AccountingAuditInternalCached</content>
+  <content>Catalog.AccountingCheckRules</content>
+  <content>DefinedType.AccountingChecksContext</content>
+  <content>DefinedType.AccountingCheckContextClarification</content>
+  <content>Enum.AccountingIssueSeverity</content>
+  <content>Enum.CheckMethod</content>
+  <content>InformationRegister.AccessKeysToRegisterAccountingCheckResults</content>
+  <content>CommonModule.AccountingAuditGlobal</content>
+  <content>InformationRegister.AccountingChecksStates</content>
+  <content>CommonPicture.AccountingIssuesSeverityCollection</content>
+  <content>CommonPicture.UsefulTipAccountingAudit</content>
+  <content>CommonModule.AccountingAuditServerCall</content>
+  <content>SessionParameter.AccountingIssuesCounter</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

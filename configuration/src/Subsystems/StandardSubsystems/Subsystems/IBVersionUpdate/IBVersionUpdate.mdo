@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fca4b033-02c4-4d61-9e51-87783c3cef1a">
+  <name>IBVersionUpdate</name>
+  <synonym>
+    <key>en</key>
+    <value>Infobase version update</value>
+  </synonym>
+  <content>CommonModule.InfobaseUpdate</content>
+  <content>CommonModule.InfobaseUpdateClient</content>
+  <content>CommonModule.InfobaseUpdateOverridable</content>
+  <content>CommonModule.InfobaseUpdateClientOverridable</content>
+  <content>CommonForm.ApplicationReleaseNotes</content>
+  <content>CommonModule.InfobaseUpdateInternalCached</content>
+  <content>Constant.WriteIBUpdateDetailsToEventLog</content>
+  <content>CommonTemplate.GetUpdateHandlersTree</content>
+  <content>Role.ViewApplicationChangeLog</content>
+  <content>InformationRegister.SubsystemsVersions</content>
+  <content>DataProcessor.ApplicationUpdateResult</content>
+  <content>Constant.IBUpdateInfo</content>
+  <content>ScheduledJob.DeferredIBUpdate</content>
+  <content>SessionParameter.IBUpdateInProgress</content>
+  <content>CommonModule.InfobaseUpdateGlobal</content>
+  <content>CommonModule.InfobaseUpdateInternal</content>
+  <content>CommonModule.InfobaseUpdateInternalServerCall</content>
+  <content>SessionParameter.UpdateHandlerParameters</content>
+  <content>ExchangePlan.InfobaseUpdate</content>
+  <content>FunctionalOption.DeferredUpdateCompletedSuccessfully</content>
+  <content>Constant.DeferredUpdateCompletedSuccessfully</content>
+  <content>Constant.LockedObjectsInfo</content>
+  <content>InformationRegister.DataProcessedInMasterDIBNode</content>
+  <content>Report.DeferredUpdateProgress</content>
+  <content>CommonModule.InfobaseUpdateServerCall</content>
+  <content>Constant.DeferredMasterNodeUpdateCompleted</content>
+  <content>FunctionalOption.DeferredMasterNodeUpdateCompleted</content>
+  <content>CommonModule.InfobaseUpdateSSL</content>
+  <content>Constant.InfobaseUpdateThreadCount</content>
+  <content>EventSubscription.IBVersionUpdateBeforeDeleteRefObject</content>
+  <content>InformationRegister.UpdateHandlers</content>
+  <content>InformationRegister.UpdateThreads</content>
+  <content>InformationRegister.SharedDataUpdateHandlers</content>
+  <content>Enum.UpdateHandlersStatuses</content>
+  <content>Enum.HandlersExecutionModes</content>
+  <content>Enum.DeferredHandlersExecutionModes</content>
+  <content>DataProcessor.UpdateHandlersDetails</content>
+  <content>InformationRegister.UpdateProgress</content>
+  <content>InformationRegister.CommitDataProcessedByHandlers</content>
+  <content>Enum.OrderOfUpdateHandlers</content>
+  <content>Constant.OrderOfDataToProcess</content>
+  <content>Report.DeferredUpdateDuration</content>
+  <content>ScheduledJob.SetDeferredUpdateProcedureInSaaS</content>
+  <content>ScheduledJob.ClearObsoleteData</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

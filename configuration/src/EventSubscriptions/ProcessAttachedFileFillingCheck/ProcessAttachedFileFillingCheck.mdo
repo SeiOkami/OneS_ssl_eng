@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd07f403-1116-4102-a1bf-35abb03ad493">
+  <name>ProcessAttachedFileFillingCheck</name>
+  <synonym>
+    <key>en</key>
+    <value>Attachment input validation data processor</value>
+  </synonym>
+  <source>
+    <types>DefinedType.AttachedFileObject</types>
+  </source>
+  <event>FillCheckProcessing</event>
+  <handler>CommonModule.FilesOperationsInternal.ProcessAttachedFileFillingCheck</handler>
+</mdclass:EventSubscription>

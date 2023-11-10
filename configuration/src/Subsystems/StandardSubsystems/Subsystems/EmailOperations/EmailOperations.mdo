@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd592a5d-b184-4558-8a28-7079ccf28b89">
+  <name>EmailOperations</name>
+  <synonym>
+    <key>en</key>
+    <value>Email management</value>
+  </synonym>
+  <content>CommonModule.EmailOperationsInternal</content>
+  <content>CommonModule.EmailOperationsClient</content>
+  <content>CommonModule.EmailOperations</content>
+  <content>CommonForm.SendMessage</content>
+  <content>Catalog.EmailAccounts</content>
+  <content>Enum.EmailTextTypes</content>
+  <content>CommonPicture.AttachFile</content>
+  <content>CommonCommand.SystemEmailAccountSetup</content>
+  <content>Role.AddEditEmailAccounts</content>
+  <content>CommonModule.EmailServerCall</content>
+  <content>CommonModule.EmailOperationsOverridable</content>
+  <content>CommonModule.EmailOperationsClientOverridable</content>
+  <content>Role.ReadEmailAccounts</content>
+  <content>Constant.PasswordRecoveryAccount</content>
+  <content>Catalog.InternetServicesAuthorizationSettings</content>
+  <content>ScheduledJob.GetStatusesOfEmailMessages</content>
+  <content>Enum.EmailMessagesStatuses</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

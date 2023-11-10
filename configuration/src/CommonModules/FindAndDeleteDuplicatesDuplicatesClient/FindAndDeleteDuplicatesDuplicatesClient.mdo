@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8a908d6-6865-41b7-b889-1d6b7aab0019">
+  <name>FindAndDeleteDuplicatesDuplicatesClient</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск и удаление дублей клиент</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Duplicate cleaner client</value>
+  </synonym>
+  <comment>Obsolete. Please use DuplicateObjectsDetectionClient</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

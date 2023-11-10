@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5005655f-22b2-49e6-be4f-b15d768d10b2">
+  <producedTypes>
+    <containerType typeId="2322413a-9b4a-4f73-8dc0-986f25b1be14" valueTypeId="7645c092-4756-4752-ac2e-10b57cdad186"/>
+  </producedTypes>
+  <name>AccessKeysValuesOwnerRecordSet</name>
+  <synonym>
+    <key>en</key>
+    <value>Access key values owner record set</value>
+  </synonym>
+  <type>
+    <types>InformationRegisterRecordSet.UserReminders</types>
+    <types>InformationRegisterRecordSet.BusinessProcessesData</types>
+    <types>InformationRegisterRecordSet.ReportOptionsSettings</types>
+    <types>InformationRegisterRecordSet.InteractionsFolderSubjects</types>
+    <types>InformationRegisterRecordSet.ReportsSnapshots</types>
+    <types>InformationRegisterRecordSet.PeriodClosingDates</types>
+    <types>InformationRegisterRecordSet.EmailAccountSettings</types>
+    <types>InformationRegisterRecordSet.AdditionalInfo</types>
+    <types>InformationRegisterRecordSet.TaskPerformers</types>
+    <types>InformationRegisterRecordSet.AccountingCheckResults</types>
+    <types>InformationRegisterRecordSet.UserGroupCompositions</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="618d13d5-fd1f-4b70-ad45-dd6a17a50730">
+  <name>UseAdditionalAttributesAndInfo</name>
+  <synonym>
+    <key>en</key>
+    <value>Use additional attributes and information records</value>
+  </synonym>
+  <location>Constant.UseAdditionalAttributesAndInfo</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.AdditionalAttributesAndInfoSets</content>
+  <content>ChartOfCharacteristicTypes.AdditionalAttributesAndInfo</content>
+  <content>CommonCommand.AdditionalInfoCommandBar</content>
+  <content>InformationRegister.AdditionalInfo</content>
+  <content>Catalog.ObjectsPropertiesValues</content>
+  <content>Catalog.ObjectPropertyValueHierarchy</content>
+  <content>Enum.PropertiesColors</content>
+  <content>Enum.LabelsDisplayOptions</content>
+</mdclass:FunctionalOption>

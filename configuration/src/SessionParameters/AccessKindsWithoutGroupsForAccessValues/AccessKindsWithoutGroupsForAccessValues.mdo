@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae52e48c-20ec-43cd-a9a5-b1753558e1d2">
+  <name>AccessKindsWithoutGroupsForAccessValues</name>
+  <synonym>
+    <key>en</key>
+    <value>Access kinds for an access value (no groups)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+</mdclass:SessionParameter>

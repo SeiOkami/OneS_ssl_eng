@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff8ae395-c740-4a30-a048-0d57eef6267f">
+  <name>Core</name>
+  <synonym>
+    <key>en</key>
+    <value>Core</value>
+  </synonym>
+  <content>CommonModule.NativeLanguagesSupportServer</content>
+  <content>CommonModule.NationalLanguageSupportClient</content>
+  <content>CommonModule.NationalLanguageSupportClientServer</content>
+  <content>CommonModule.NationalLanguageSupportOverridable</content>
+  <content>CommonModule.NationalLanguageSupportCached</content>
+  <content>CommonModule.NationalLanguageSupportServer</content>
+  <content>CommonAttribute.CommentLanguage1</content>
+  <content>CommonAttribute.CommentLanguage2</content>
+  <content>CommonAttribute.DescriptionLanguage1</content>
+  <content>CommonAttribute.DescriptionLanguage2</content>
+  <content>FunctionalOption.UseAdditionalLanguage1</content>
+  <content>FunctionalOption.UseAdditionalLanguage2</content>
+  <content>StyleItem.ChangedFieldColor</content>
+  <content>CommonForm.InputInMultipleLanguages</content>
+  <content>Constant.AdditionalLanguage1</content>
+  <content>Constant.AdditionalLanguage2</content>
+  <content>Constant.UseAdditionalLanguage1</content>
+  <content>Constant.UseAdditionalLanguage2</content>
+  <content>CommonForm.RegionalSettings</content>
+  <content>Constant.DataToChangeMultilanguageAttributes</content>
+  <parentSubsystem>Subsystem.StandardSubsystems.Subsystem.NationalLanguageSupport</parentSubsystem>
+</mdclass:Subsystem>

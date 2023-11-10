@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f1f8bc8-73ce-4384-9496-9bc2d0e212be">
+  <name>FormulasConstructorClient</name>
+  <synonym>
+    <key>en</key>
+    <value>Formula editor client</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

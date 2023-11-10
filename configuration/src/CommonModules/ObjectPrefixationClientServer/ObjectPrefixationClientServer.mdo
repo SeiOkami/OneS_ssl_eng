@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82e8ca47-9a0b-4325-84be-8420bbbaed4c">
+  <name>ObjectPrefixationClientServer</name>
+  <synonym>
+    <key>ru</key>
+    <value>Префиксация объектов клиент сервер</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Object prefixes client/server</value>
+  </synonym>
+  <comment>Obsolete. Please use ObjectsPrefixesClientServer</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

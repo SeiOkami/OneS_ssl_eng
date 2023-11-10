@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f06703e-24cd-4db7-be88-3fbd65e5c252">
+  <name>RunPerformanceMeasurements</name>
+  <synonym>
+    <key>en</key>
+    <value>Enable Performance monitor</value>
+  </synonym>
+  <location>Constant.RunPerformanceMeasurements</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.StandardSubsystems.Subsystem.PerformanceMonitor</content>
+  <content>Catalog.KeyOperations</content>
+  <content>Catalog.KeyOperationProfiles</content>
+  <content>Report.PerformanceMonitor</content>
+  <content>DataProcessor.PerformanceMonitor</content>
+  <content>Enum.PerformanceLevels</content>
+  <content>InformationRegister.TimeMeasurementsTechnological</content>
+  <content>InformationRegister.DeleteTimeMeasurements3</content>
+  <content>InformationRegister.TimeMeasurements</content>
+</mdclass:FunctionalOption>

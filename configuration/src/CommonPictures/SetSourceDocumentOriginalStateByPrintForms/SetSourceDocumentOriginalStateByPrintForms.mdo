@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f7bf652-0375-4f49-94f1-ebe6a00e4e23">
+  <name>SetSourceDocumentOriginalStateByPrintForms</name>
+  <synonym>
+    <key>en</key>
+    <value>Specify source document original state by print forms</value>
+  </synonym>
+</mdclass:CommonPicture>

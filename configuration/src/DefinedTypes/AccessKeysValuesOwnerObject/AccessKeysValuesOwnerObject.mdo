@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6811ee2-769e-488d-9ca0-70f1fe521ca9">
+  <producedTypes>
+    <containerType typeId="7ebd8eb1-2115-4715-bddb-80550c4d009e" valueTypeId="2fa562fd-b077-4440-aace-c28fd2d56a67"/>
+  </producedTypes>
+  <name>AccessKeysValuesOwnerObject</name>
+  <synonym>
+    <key>en</key>
+    <value>Access key values owner object</value>
+  </synonym>
+  <type>
+    <types>CatalogObject.SMSMessageAttachedFiles</types>
+    <types>CatalogObject.FilesVersions</types>
+    <types>CatalogObject.FilesFolders</types>
+    <types>CatalogObject.MessageTemplates</types>
+    <types>CatalogObject.EmailAccounts</types>
+    <types>CatalogObject.ReportMailings</types>
+    <types>CatalogObject.AccessGroupProfiles</types>
+    <types>CatalogObject.MeetingAttachedFiles</types>
+    <types>BusinessProcessObject.Job</types>
+    <types>CatalogObject.PhoneCallAttachedFiles</types>
+    <types>CatalogObject.UserReportSettings</types>
+    <types>CatalogObject.Notes</types>
+    <types>CatalogObject.EmailProcessingRules</types>
+    <types>CatalogObject.MessageTemplatesAttachedFiles</types>
+    <types>CatalogObject.ExternalUsersGroups</types>
+    <types>ChartOfCharacteristicTypesObject.AdditionalAttributesAndInfo</types>
+    <types>CatalogObject.AdditionalReportsAndDataProcessors</types>
+    <types>CatalogObject.ExternalUsers</types>
+    <types>CatalogObject.ObjectsPropertiesValues</types>
+    <types>CatalogObject.ObjectPropertyValueHierarchy</types>
+    <types>CatalogObject.AccessGroups</types>
+    <types>CatalogObject.Files</types>
+    <types>CatalogObject.OutgoingEmailAttachedFiles</types>
+    <types>CatalogObject.PlannedInteractionAttachedFiles</types>
+    <types>CatalogObject.IncomingEmailAttachedFiles</types>
+    <types>CatalogObject.ReportsOptions</types>
+    <types>TaskObject.PerformerTask</types>
+    <types>CatalogObject.EmailMessageFolders</types>
+    <types>CatalogObject.Users</types>
+  </type>
+</mdclass:DefinedType>

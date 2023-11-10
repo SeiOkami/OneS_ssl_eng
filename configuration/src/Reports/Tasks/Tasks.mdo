@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7542e37-a2f0-43b5-852e-4e2b24b1b71f">
+  <producedTypes>
+    <objectType typeId="cd7d5781-bc2f-4b7d-99ff-81ddfa4d181b" valueTypeId="133ea223-f100-43be-858f-fbabec6674a9"/>
+    <managerType typeId="676de47a-d7c6-438b-b83f-1bded5852e18" valueTypeId="bfb434a3-2d6b-4abd-bf4d-b8e7deeed154"/>
+  </producedTypes>
+  <name>Tasks</name>
+  <synonym>
+    <key>en</key>
+    <value>Tasks</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Tasks.Template.MainDataCompositionSchema</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ReportsVariantsStorage</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <templates uuid="3e94649c-7d69-4fb4-ada1-ae00eabf02b6">
+    <name>MainDataCompositionSchema</name>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition schema</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

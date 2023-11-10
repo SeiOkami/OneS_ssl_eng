@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f765c4ba-c677-42ac-8d0c-43bb485405b9">
+  <name>SaaSOperations</name>
+  <synonym>
+    <key>en</key>
+    <value>SaaS</value>
+  </synonym>
+  <subsystems>CoreSaaS</subsystems>
+  <subsystems>AddInsSaaS</subsystems>
+  <subsystems>AdditionalReportsAndDataProcessorsSaaS</subsystems>
+  <subsystems>DataExchangeSaaS</subsystems>
+  <subsystems>IBVersionUpdateSaaS</subsystems>
+  <subsystems>UsersSaaS</subsystems>
+  <subsystems>FilesOperationsSaaS</subsystems>
+  <subsystems>AccessManagementSaaS</subsystems>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fc19eca-1a15-4758-af4b-79637e51edfb">
+  <name>UseOtherInteractions</name>
+  <synonym>
+    <key>en</key>
+    <value>Use other interactions</value>
+  </synonym>
+  <location>Constant.UseOtherInteractions</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.MeetingAttachedFiles</content>
+  <content>Catalog.PlannedInteractionAttachedFiles</content>
+  <content>Catalog.PhoneCallAttachedFiles</content>
+  <content>Document.Meeting</content>
+  <content>Document.PlannedInteraction</content>
+  <content>Document.PhoneCall</content>
+  <content>DocumentJournal.Interactions.Command.PlanMeetingByContact</content>
+  <content>DocumentJournal.Interactions.Command.PlanInteractionByContact</content>
+  <content>DocumentJournal.Interactions.Command.CallByContact</content>
+  <content>Catalog.SMSMessageAttachedFiles</content>
+  <content>Document.SMSMessage</content>
+  <content>DocumentJournal.Interactions.Command.WriteSMSMessageByContact</content>
+  <content>DocumentJournal.Interactions.Command.PlanInteractionBySubject</content>
+  <content>DocumentJournal.Interactions.Command.PlanMeetingBySubject</content>
+  <content>DocumentJournal.Interactions.Command.WriteSMSMessageBySubject</content>
+  <content>DocumentJournal.Interactions.Command.CallBySubject</content>
+</mdclass:FunctionalOption>

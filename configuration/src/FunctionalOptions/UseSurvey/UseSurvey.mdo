@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="697d5715-dd04-40be-9b28-539734725158">
+  <name>UseSurvey</name>
+  <synonym>
+    <key>en</key>
+    <value>Use surveys</value>
+  </synonym>
+  <location>Constant.UseSurvey</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>ChartOfCharacteristicTypes.QuestionsForSurvey</content>
+  <content>Catalog.QuestionnaireAnswersOptions</content>
+  <content>Document.PollPurpose</content>
+  <content>Document.Questionnaire</content>
+  <content>InformationRegister.QuestionnaireQuestionAnswers</content>
+  <content>Report.PollStatistics</content>
+  <content>Catalog.QuestionnaireTemplates</content>
+  <content>Catalog.QuestionnaireTemplateQuestions</content>
+  <content>Report.SurveysAnalyticalReport</content>
+  <content>DataProcessor.AvailableQuestionnaires</content>
+  <content>CommonCommand.StartInterview</content>
+</mdclass:FunctionalOption>

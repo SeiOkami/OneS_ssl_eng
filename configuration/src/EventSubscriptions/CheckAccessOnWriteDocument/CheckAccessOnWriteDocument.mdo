@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="122a94c7-bb89-4f11-b583-b56808c1df47">
+  <name>CheckAccessOnWriteDocument</name>
+  <synonym>
+    <key>en</key>
+    <value>Check access upon saving document</value>
+  </synonym>
+  <source>
+    <types>DefinedType.AccessKeysValuesOwnerDocument</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.AccessManagementInternal.CheckAccessOnWrite</handler>
+</mdclass:EventSubscription>

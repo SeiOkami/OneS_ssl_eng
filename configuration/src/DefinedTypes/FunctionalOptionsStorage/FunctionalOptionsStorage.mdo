@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd03e170-4186-495b-ae1c-fc66385d7ccf">
+  <producedTypes>
+    <containerType typeId="86a9ae88-d9a9-4ac3-83aa-cae91a412c6f" valueTypeId="affe60c7-5bbe-4049-82d5-a51db3cad829"/>
+  </producedTypes>
+  <name>FunctionalOptionsStorage</name>
+  <synonym>
+    <key>en</key>
+    <value>Functional option storage</value>
+  </synonym>
+  <type>
+    <types>ConstantValueManager.IndependentUsageOfAdditionalReportsAndDataProcessorsSaaS</types>
+    <types>ConstantValueManager.GenerateDigitalSignaturesAtServer</types>
+    <types>ConstantValueManager.UseDataSynchronizationSaaS</types>
+    <types>ConstantValueManager.NotUseSeparationByDataAreas</types>
+    <types>ConstantValueManager.UseNotes</types>
+    <types>ConstantValueManager.UseUserReminders</types>
+    <types>ConstantValueManager.UseDataSynchronization</types>
+    <types>ConstantValueManager.UseExternalUserGroups</types>
+    <types>ConstantValueManager.UseTaskStartDate</types>
+    <types>ConstantValueManager.ChangeJobsBackdated</types>
+    <types>ConstantValueManager.UseFullTextSearch</types>
+    <types>ConstantValueManager.UseEmailClient</types>
+    <types>ConstantValueManager.UseDataSynchronizationInLocalMode</types>
+    <types>ConstantValueManager.LimitAccessAtRecordLevel</types>
+    <types>ConstantValueManager.VerifyDigitalSignaturesOnTheServer</types>
+    <types>ConstantValueManager.UseSurvey</types>
+    <types>ConstantValueManager.UseSubordinateBusinessProcesses</types>
+    <types>ConstantValueManager.StoreFilesInVolumesOnHardDrive</types>
+    <types>ConstantValueManager.UseEncryption</types>
+    <types>ConstantValueManager.UseDataSynchronizationSaaSWithWebApplication</types>
+    <types>ConstantValueManager.UseDigitalSignature</types>
+    <types>ConstantValueManager.UseDateAndTimeInTaskDeadlines</types>
+    <types>ConstantValueManager.UseExternalUsers</types>
+    <types>ConstantValueManager.UseOfflineModeSaaS</types>
+    <types>ConstantValueManager.UseSecurityProfiles</types>
+    <types>ConstantValueManager.IsStandaloneWorkplace</types>
+    <types>ConstantValueManager.UseAdditionalReportsAndDataProcessors</types>
+    <types>ConstantValueManager.UseAdditionalAttributesAndInfo</types>
+    <types>ConstantValueManager.ORMCachedValuesRefreshDate</types>
+    <types>ConstantValueManager.UseSeparationByDataAreas</types>
+    <types>ConstantValueManager.UseDataSynchronizationSaaSWithLocalApplication</types>
+    <types>ConstantValueManager.UseUserGroups</types>
+    <types>ConstantValueManager.UseOtherInteractions</types>
+    <types>ConstantValueManager.UseReviewedFlag</types>
+    <types>ConstantValueManager.DistributedInfobaseNodePrefix</types>
+    <types>ConstantValueManager.DataChangesRecorded</types>
+    <types>ConstantValueManager.UseBusinessProcessesAndTasks</types>
+    <types>ConstantValueManager.UseMultipleBusinessCalendars</types>
+    <types>ConstantValueManager.UseObjectsVersioning</types>
+    <types>ConstantValueManager.SendEmailsInHTMLFormat</types>
+  </type>
+</mdclass:DefinedType>

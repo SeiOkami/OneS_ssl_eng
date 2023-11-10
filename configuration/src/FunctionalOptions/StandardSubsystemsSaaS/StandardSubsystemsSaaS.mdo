@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0bb2d66-94c9-4bc6-afd5-534075e8395b">
+  <name>StandardSubsystemsSaaS</name>
+  <synonym>
+    <key>en</key>
+    <value>Standard subsystems in SaaS mode</value>
+  </synonym>
+  <location>Constant.UseSeparationByDataAreas</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.AddServiceUsers</content>
+  <content>CommonCommand.ImportCurrenciesRates</content>
+  <content>InformationRegister.DataAreaSessionLocks</content>
+  <content>InformationRegister.DataAreasSubsystemsVersions</content>
+  <content>InformationRegister.TextExtractionQueue</content>
+</mdclass:FunctionalOption>

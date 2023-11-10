@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="839e29b1-a0d2-40fa-9f3e-46e66b943358">
+  <name>Conversations</name>
+  <synonym>
+    <key>en</key>
+    <value>Conversations</value>
+  </synonym>
+  <content>DataProcessor.EnableDiscussions</content>
+  <content>CommonPicture.EnableDiscussions</content>
+  <content>CommonModule.ConversationsInternalClient</content>
+  <content>CommonModule.ConversationsInternalServerCall</content>
+  <content>CommonModule.ConversationsInternal</content>
+  <content>CommonCommand.Conversations</content>
+  <content>CommonModule.ConversationsInternalClientServer</content>
+  <content>CommonModule.Conversations</content>
+  <content>CommonPicture.Telegram16x16</content>
+  <content>CommonPicture.VKontakte16</content>
+  <content>CommonPicture.BotFather</content>
+  <content>CommonPicture.BotFatherVKontakte</content>
+  <content>CommonModule.ConversationsClient</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d831a8ac-88a4-4191-ab0b-7538dfb3e7d7">
+  <name>UseBusinessProcessesAndTasks</name>
+  <synonym>
+    <key>en</key>
+    <value>Use business processes and tasks</value>
+  </synonym>
+  <location>Constant.UseBusinessProcessesAndTasks</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Task.PerformerTask.Command.AllTasks</content>
+  <content>Task.PerformerTask.Command.Completed2</content>
+  <content>Task.PerformerTask.Command.MyTasks</content>
+  <content>Task.PerformerTask.Command.Forward</content>
+  <content>InformationRegister.BusinessProcessesData.Command.MyBusinessProcesses</content>
+  <content>DataProcessor.BusinessProcessFlowchart</content>
+  <content>Report.HungTasks</content>
+  <content>Report.ExpiringTasksOnDate</content>
+  <content>Report.OverdueTasks</content>
+  <content>Report.Tasks</content>
+  <content>CommonCommand.TasksBySubject</content>
+  <content>CommonCommand.RolesAndTaskPerformers</content>
+  <content>Catalog.PerformerRoles</content>
+  <content>Enum.TaskImportanceOptions</content>
+  <content>ChartOfCharacteristicTypes.TaskAddressingObjects</content>
+  <content>InformationRegister.TaskPerformers</content>
+  <content>InformationRegister.BusinessProcessesData</content>
+  <content>BusinessProcess.Job</content>
+  <content>InformationRegister.TaskPerformers.Command.RolesAndTaskPerformers</content>
+  <content>CommonCommand.TasksByBusinessProcess</content>
+  <content>CommonCommand.BusinessProcessFlowchart</content>
+  <content>Task.PerformerTask</content>
+  <content>Enum.ProcessesStatesForStart</content>
+  <content>InformationRegister.ProcessesToStart</content>
+  <content>Report.Jobs</content>
+  <content>Report.BusinessProcesses</content>
+  <content>Catalog.TaskPerformersGroups</content>
+  <content>Enum.BusinessProcessStates</content>
+</mdclass:FunctionalOption>

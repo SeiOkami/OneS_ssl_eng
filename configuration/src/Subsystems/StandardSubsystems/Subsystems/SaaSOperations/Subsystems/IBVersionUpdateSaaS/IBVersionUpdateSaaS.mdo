@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7cf3981-cf63-4a21-868b-8175a7704a8f">
+  <name>IBVersionUpdateSaaS</name>
+  <synonym>
+    <key>en</key>
+    <value>Infobase version update SaaS</value>
+  </synonym>
+  <content>CommonModule.InfobaseUpdateInternalSaaS</content>
+  <content>InformationRegister.DataAreasSubsystemsVersions</content>
+  <content>CommonForm.DataAreasUpdatePriority</content>
+  <content>Constant.DataAreasUpdatePriority</content>
+  <content>Report.DataAreasUpdateProgress</content>
+  <parentSubsystem>Subsystem.StandardSubsystems.Subsystem.SaaSOperations</parentSubsystem>
+</mdclass:Subsystem>

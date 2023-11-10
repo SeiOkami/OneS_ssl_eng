@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0dcc3bbf-afbe-4a4e-bc4a-17534d5fab28">
+  <name>UseDigitalSignature</name>
+  <synonym>
+    <key>en</key>
+    <value>Use digital signatures</value>
+  </synonym>
+  <location>Constant.UseDigitalSignature</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.FilesVersions.TabularSection.DeleteDigitalSignatures</content>
+  <content>Catalog.MeetingAttachedFiles.TabularSection.DeleteDigitalSignatures</content>
+  <content>Catalog.MeetingAttachedFiles.Attribute.SignedWithDS</content>
+  <content>Catalog.PlannedInteractionAttachedFiles.Attribute.SignedWithDS</content>
+  <content>Catalog.PlannedInteractionAttachedFiles.TabularSection.DeleteDigitalSignatures</content>
+  <content>Catalog.SMSMessageAttachedFiles.Attribute.SignedWithDS</content>
+  <content>Catalog.SMSMessageAttachedFiles.TabularSection.DeleteDigitalSignatures</content>
+  <content>Catalog.PhoneCallAttachedFiles.Attribute.SignedWithDS</content>
+  <content>Catalog.PhoneCallAttachedFiles.TabularSection.DeleteDigitalSignatures</content>
+  <content>Catalog.Files.Attribute.SignedWithDS</content>
+  <content>Catalog.IncomingEmailAttachedFiles.Attribute.SignedWithDS</content>
+  <content>Catalog.IncomingEmailAttachedFiles.TabularSection.DeleteDigitalSignatures</content>
+  <content>Catalog.OutgoingEmailAttachedFiles.Attribute.SignedWithDS</content>
+  <content>Catalog.OutgoingEmailAttachedFiles.TabularSection.DeleteDigitalSignatures</content>
+  <content>Constant.RefineSignaturesAutomatically</content>
+  <content>Constant.AddTimestampsAutomatically</content>
+  <content>Constant.TimestampServersAddresses</content>
+  <content>Constant.CryptoSignatureTypeDefault</content>
+  <content>Constant.RefineSignaturesDates</content>
+</mdclass:FunctionalOption>

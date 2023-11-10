@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47907538-9357-4885-8b50-17f2e16c260f">
+  <producedTypes>
+    <objectType typeId="dc550861-9ca5-4529-bb31-31b5bc0b815a" valueTypeId="97587fb3-cec3-4aec-8bac-7d9eadb48f8c"/>
+    <managerType typeId="6b1e61a6-828b-4b0a-8f88-b9026bf2fc38" valueTypeId="270eaf1b-e1e0-4710-ae8a-f5e0356fb2ea"/>
+  </producedTypes>
+  <name>InteractiveExportChange</name>
+  <synonym>
+    <key>en</key>
+    <value>Edit data to be exported</value>
+  </synonym>
+  <defaultForm>DataProcessor.InteractiveExportChange.Form.Form</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <attributes uuid="17e1840f-fef3-4f17-8476-273e6af24cb4">
+    <name>ExportOption</name>
+    <synonym>
+      <key>en</key>
+      <value>Export option</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a64566fa-b706-49bc-8277-4531145c400e">
+    <name>AllDocumentsFilterPeriod</name>
+    <synonym>
+      <key>en</key>
+      <value>Filter period for all documents</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a8f32b13-249c-4ce6-a521-f06a87f2e670">
+    <name>AllDocumentsComposerAddress</name>
+    <synonym>
+      <key>en</key>
+      <value>Composer address for all documents</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="815775e4-cfb7-495b-87c4-d134b90d93d4">
+    <name>NodeScenarioFilterPeriod</name>
+    <synonym>
+      <key>en</key>
+      <value>Node scenario filter period</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e867f2f1-0550-4d15-9e40-ba36c9aabfbd">
+    <name>AdditionalNodeScenarioRegistration</name>
+    <synonym>
+      <key>en</key>
+      <value>Additional node scenario registration</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8bdbb9ef-3a91-4374-b3c5-9447005bb1b7">
+    <name>NodeScenarioFilterPresentation</name>
+    <synonym>
+      <key>en</key>
+      <value>Node scenario filter presentation</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7a27b378-89ac-4cad-8c69-a0cd14812d7e">
+    <name>AdditionScenarioParameters</name>
+    <synonym>
+      <key>en</key>
+      <value>Addition scenario parameters</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d2433a11-8e1d-4e4c-966d-37cde6283f72">
+    <name>CurrentSettingsItemPresentation</name>
+    <synonym>
+      <key>en</key>
+      <value>Current setting presentation</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="59eb5919-3c33-48bf-b322-ec78018e4142">
+    <name>InfobaseNode</name>
+    <synonym>
+      <key>en</key>
+      <value>Infobase node</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="63f308a5-b955-48a5-8052-50c5bede65d0">
+    <name>AllDocumentsFilterComposer</name>
+    <synonym>
+      <key>en</key>
+      <value>Filter composer for all documents</value>
+    </synonym>
+    <type>
+      <types>DataCompositionSettingsComposer</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1b614b97-5c1d-497a-9574-40114059f836">
+    <name>AdditionalRegistration</name>
+    <synonym>
+      <key>en</key>
+      <value>Additional registration</value>
+    </synonym>
+    <comment>Table of additional registration</comment>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="477dfea4-e401-4cf0-b0a8-2df7c3836c58">
+    <name>FormStorageAddress</name>
+    <synonym>
+      <key>en</key>
+      <value>From storage address</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="294c000f-6979-4ed1-bbc7-7402facd9185">
+    <name>Form</name>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="db607fbc-f785-47d5-9550-577424aa3fe9">
+    <name>PeriodAndFilterEdit</name>
+    <synonym>
+      <key>en</key>
+      <value>Edit period and filter</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b7111ddf-a623-4bae-90aa-636148492ca2">
+    <name>CommonSynchronizationSettings</name>
+    <synonym>
+      <key>en</key>
+      <value>Common synchronization parameters</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="905d9dcd-5793-4362-8fe8-2edce8c35e32">
+    <name>SelectNodeCompositionObjectKind</name>
+    <synonym>
+      <key>en</key>
+      <value>Select node content object type</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a96cb6fd-54e0-4514-9210-7f4636acd336">
+    <name>SettingsCompositionEdit</name>
+    <synonym>
+      <key>en</key>
+      <value>Edit settings</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3580e7a7-95d1-4a8e-bc12-a1449fe03757">
+    <name>ExportComposition</name>
+    <synonym>
+      <key>en</key>
+      <value>Data to export</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="13759790-6c70-4323-9321-a68b90c51663">
+    <name>DataCompositionSchema</name>
+    <synonym>
+      <key>en</key>
+      <value>Data composition schema</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

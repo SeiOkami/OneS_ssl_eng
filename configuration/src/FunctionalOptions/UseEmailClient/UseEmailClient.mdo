@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c561fe6b-53ea-435b-a230-1850e2dc1ff5">
+  <name>UseEmailClient</name>
+  <synonym>
+    <key>en</key>
+    <value>Use System Email Client</value>
+  </synonym>
+  <location>Constant.UseEmailClient</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DocumentJournal.Interactions</content>
+  <content>CommonForm.AddressBook</content>
+  <content>CommonForm.SelectContactPerson</content>
+  <content>CommonForm.ContactsClarification</content>
+  <content>Catalog.InteractionsTabs</content>
+  <content>Catalog.EmailMessageFolders</content>
+  <content>Catalog.EmailProcessingRules</content>
+  <content>Catalog.IncomingEmailAttachedFiles</content>
+  <content>Catalog.OutgoingEmailAttachedFiles</content>
+  <content>Document.IncomingEmail</content>
+  <content>Document.OutgoingEmail</content>
+  <content>DocumentJournal.Interactions.Command.WriteEmailByContact</content>
+  <content>DocumentJournal.Interactions.Command.InteractionsBySubject</content>
+  <content>DocumentJournal.Interactions.Command.PrintEmail</content>
+  <content>DocumentJournal.Interactions.Command.InteractionsByContact</content>
+  <content>Enum.OutgoingEmailStatuses</content>
+  <content>Enum.ReplyToReadReceiptPolicies</content>
+  <content>InformationRegister.ReceivedEmailIDs</content>
+  <content>InformationRegister.EmailAccountSettings</content>
+  <content>InformationRegister.InteractionsFolderSubjects</content>
+  <content>InformationRegister.ReadReceipts</content>
+  <content>InformationRegister.LastEmailImportDate</content>
+</mdclass:FunctionalOption>

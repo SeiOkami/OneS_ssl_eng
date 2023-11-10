@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="757ea742-8c14-4e0a-a867-432eee5cfc64">
+  <name>ClearVersionAuthorInformation</name>
+  <synonym>
+    <key>en</key>
+    <value>Clear version author</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ExternalUsers</types>
+    <types>CatalogObject.Users</types>
+    <types>ExchangePlanObject</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ObjectsVersioningEvents.DeleteVersionAuthorInfo</handler>
+</mdclass:EventSubscription>

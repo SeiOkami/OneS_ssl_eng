@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f93c9a7f-0249-421e-b3d0-55f02d130017">
+  <name>PriorityExchangeData</name>
+  <synonym>
+    <key>en</key>
+    <value>Priority exchange data</value>
+  </synonym>
+  <comment>Uploaded data that must be loaded first before all other data is loaded, such as predefined data.</comment>
+  <type>
+    <types>FixedArray</types>
+  </type>
+</mdclass:SessionParameter>

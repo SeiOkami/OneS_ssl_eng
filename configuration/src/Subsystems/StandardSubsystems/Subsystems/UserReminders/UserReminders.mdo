@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da9b32e6-5b93-45a6-84b2-238d57541e18">
+  <name>UserReminders</name>
+  <synonym>
+    <key>en</key>
+    <value>User reminders</value>
+  </synonym>
+  <content>InformationRegister.UserReminders</content>
+  <content>CommonCommand.Remind</content>
+  <content>Enum.ReminderTimeSettingMethods</content>
+  <content>CommonModule.UserRemindersGlobal</content>
+  <content>CommonModule.UserRemindersClientServer</content>
+  <content>CommonModule.UserRemindersInternal</content>
+  <content>CommonModule.UserRemindersClient</content>
+  <content>CommonPicture.Reminder</content>
+  <content>FunctionalOption.UseUserReminders</content>
+  <content>Constant.UseUserReminders</content>
+  <content>EventSubscription.CheckForChangesOfDatesInSubject</content>
+  <content>CommonPicture.ReminderCollection</content>
+  <content>CommonModule.UserRemindersServerCall</content>
+  <content>Role.AddEditNotifications</content>
+  <content>DefinedType.ReminderSubject</content>
+  <content>DefinedType.ReminderSubjectObject</content>
+  <content>CommonModule.UserRemindersOverridable</content>
+  <content>CommonModule.UserReminders</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

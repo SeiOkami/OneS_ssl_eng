@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1f10624-22e9-4a04-b370-fd085bdd0f67">
+  <name>Print</name>
+  <synonym>
+    <key>en</key>
+    <value>Print tools</value>
+  </synonym>
+  <content>CommonModule.PrintManagementClient</content>
+  <content>CommonModule.PrintManagement</content>
+  <content>CommandGroup.Print</content>
+  <content>CommonModule.PrintManagementMSWordClient</content>
+  <content>CommonModule.PrintManagementOOWriterClient</content>
+  <content>InformationRegister.UserPrintTemplates</content>
+  <content>CommonPicture.TemplateTypes</content>
+  <content>Role.EditPrintFormTemplates</content>
+  <content>CommonPicture.OpenTemplate</content>
+  <content>CommonPicture.EditTemplate</content>
+  <content>CommonPicture.CancelTemplateEditing</content>
+  <content>CommonPicture.EndTemplateEditing</content>
+  <content>CommonPicture.UserTemplateDelete</content>
+  <content>CommonPicture.UseUserTemplate</content>
+  <content>CommonPicture.UseSuppliedTemplate</content>
+  <content>CommonModule.PrintManagementOverridable</content>
+  <content>CommonForm.ComposeNewMessage</content>
+  <content>CommonForm.PrintDocuments</content>
+  <content>CommonForm.SavePrintForm</content>
+  <content>CommonModule.PrintManagementServerCall</content>
+  <content>CommonPicture.TemplateUsage</content>
+  <content>CommonModule.PrintManagementInternalClient</content>
+  <content>CommonTemplate.QRCodePrintingComponent</content>
+  <content>InformationRegister.PrintCommandsSettings</content>
+  <content>CommonForm.PrintCommandsSetup</content>
+  <content>CommonModule.PrintManagementClientServer</content>
+  <content>Role.PrintFormsEdit</content>
+  <content>CommonModule.PrintManagementInternal</content>
+  <content>CommonTemplate.GuideToCreateFacsimileAndStamp</content>
+  <content>CommonModule.PrintManagementClientOverridable</content>
+  <content>InformationRegister.CommonSuppliedPrintTemplates</content>
+  <content>InformationRegister.SuppliedPrintTemplates</content>
+  <content>Catalog.PrintFormTemplates</content>
+  <content>CommonTemplate.PrintDataCharacterCase</content>
+  <content>CommonTemplate.PrintDataCommonAttributes</content>
+  <content>CommonPicture.Signature</content>
+  <content>CommonPicture.CompanySeal</content>
+  <content>CommonPicture.PlaceForPicture</content>
+  <content>CommonPicture.RepeatAtEndPage</content>
+  <content>CommonPicture.RepeatAtTopofPage</content>
+  <content>CommonTemplate.GuideHowToSetUpOpenOfficeTemplate</content>
+  <content>CommonTemplate.OfficeOpenDigitalSignatureStampTemplate</content>
+  <content>CommonTemplate.EmptyDOCXTemplate</content>
+  <content>CommonForm.PrintOfficeOpenDocs</content>
+  <content>CommonForm.EditOfficeOpenDoc</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

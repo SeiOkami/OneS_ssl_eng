@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b27216f9-3ec3-4a9c-8793-37d180d39272">
+  <name>DuplicateObjectDetection</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск и удаление дублей</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Duplicate cleaner</value>
+  </synonym>
+  <comment>Obsolete. Please use DuplicateObjectsDetection</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

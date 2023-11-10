@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b13cad5-91ae-4cd1-a620-9a315ae8024c">
+  <producedTypes>
+    <selectionType typeId="bbb16b42-2be8-49f2-8c9b-4a0d3a7d536e" valueTypeId="16f5cc67-80a1-4838-99ee-4138d06e9b6f"/>
+    <listType typeId="e5f32b2b-6841-44db-a3d9-c23fdf2eae93" valueTypeId="b2cd82da-6850-4abe-9e7f-1bbafee10480"/>
+    <managerType typeId="2e9f8fa9-2ea9-40e0-b1d8-62c99c7868e7" valueTypeId="ffc30151-897d-4761-90a0-430d6d04fb20"/>
+    <recordSetType typeId="f79ed9af-7b11-42f4-a97d-6fdb4bc2aca0" valueTypeId="a3c79808-8173-4651-a6a3-1fbeee6352f7"/>
+    <recordKeyType typeId="7d5432a6-533f-48ca-b437-489f1053c702" valueTypeId="b12d70d3-57e4-400e-8295-f0fcfa2bb9f4"/>
+    <recordType typeId="a9da2bc5-5a31-4b09-a650-cf06b3a0e8c6" valueTypeId="a232db53-fc88-40f1-8df4-2061d91d08fd"/>
+    <recordManagerType typeId="aa9c4af3-bc12-4077-8cc4-bbf6e56008c7" valueTypeId="cd2115ab-b9bc-4b22-9acf-e651ee17ce32"/>
+  </producedTypes>
+  <name>ObjectsVersions</name>
+  <synonym>
+    <key>en</key>
+    <value>Object versions</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>en</key>
+    <value>Object version</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Object version records</value>
+  </listPresentation>
+  <resources uuid="d0634a8e-676f-4f49-9a38-7cb80cfa9fdf">
+    <name>ObjectVersion</name>
+    <synonym>
+      <key>en</key>
+      <value>Object version</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The object presentation in Fast Infoset format.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="59bb5271-4cc7-45aa-8e2a-f556a4afa2dc">
+    <name>VersionAuthor</name>
+    <synonym>
+      <key>en</key>
+      <value>Version author</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ExternalUsers</types>
+      <types>CatalogRef.Users</types>
+      <types>ExchangePlanRef</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The user that modified the object.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="81dd61e5-fe02-4272-a525-affda9b606ca">
+    <name>VersionDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Version date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Object modification date and time.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="8de7b423-b7d1-46fe-b1dc-fb936736b864">
+    <name>Comment</name>
+    <synonym>
+      <key>en</key>
+      <value>Comment</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Version comment</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="f565876c-0326-4b12-895e-c248b9e64115">
+    <name>ObjectVersionType</name>
+    <synonym>
+      <key>en</key>
+      <value>Object version type</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ObjectVersionTypes</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>A version is created when a user modifies an object or as a result of data exchange issues (either a conflict or an attempt to import data after period-end closing).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="62f075c5-1ad0-4a29-9f40-567b9fa70cdf">
+    <name>VersionIgnored</name>
+    <synonym>
+      <key>en</key>
+      <value>Version ignored</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Shows whether the version is ignored when solving data exchange issues. It is not applied to user-created versions.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="88cefe4a-a6c5-4753-935e-f956d9de9f77">
+    <name>DataSize</name>
+    <synonym>
+      <key>en</key>
+      <value>Data size</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The size of the stored version data (in bytes).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="882e78b7-90bd-4b95-8852-146bdb51ec15">
+    <name>Checksum</name>
+    <synonym>
+      <key>en</key>
+      <value>Checksum</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The checksum of the version data hashed with MD5 algorithm.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="ae4435c3-62c0-4f08-b526-7f9571eed8ae">
+    <name>HasVersionData</name>
+    <synonym>
+      <key>en</key>
+      <value>Has version data</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The version data availability flag.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="91a1bd81-e6fa-476c-85e6-317a91f6c8bc">
+    <name>VersionOwner</name>
+    <synonym>
+      <key>en</key>
+      <value>Parent version</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The number of the version that is parent to this one.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f799e1d1-bb78-4a7a-bb1a-d79ba29acd0c">
+    <name>Node</name>
+    <synonym>
+      <key>en</key>
+      <value>Node</value>
+    </synonym>
+    <comment>Technical details used when uploading data to the rib</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The presentation of the node that created the version.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c7b46558-d688-4c42-ae52-f98de7923176">
+    <name>Synchronized</name>
+    <synonym>
+      <key>en</key>
+      <value>Synchronized</value>
+    </synonym>
+    <comment>Technical details used when uploading data to the rib</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Shows whether the version is synchronized in a distributed infobase. It is True for all new versions, and False for versions created in the previous configuration versions.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="31fdbb46-1df1-4b74-a54e-b922260dcca6">
+    <name>Offset</name>
+    <synonym>
+      <key>en</key>
+      <value>Offset</value>
+    </synonym>
+    <comment>Technical details used when uploading data to the rib</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Stores the number of &quot;older&quot; (unsynchronized) object versions. </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ee494dc9-549b-4595-97d1-ca73bacff954">
+    <name>SynchronizationWarning</name>
+    <synonym>
+      <key>en</key>
+      <value>Synchronization warning</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="0f6f8fd9-b3af-4d06-bc47-bdad238d15b7">
+    <name>Object</name>
+    <synonym>
+      <key>en</key>
+      <value>Object</value>
+    </synonym>
+    <type>
+      <types>BusinessProcessRef</types>
+      <types>DocumentRef</types>
+      <types>ChartOfCalculationTypesRef</types>
+      <types>TaskRef</types>
+      <types>ChartOfCharacteristicTypesRef</types>
+      <types>ChartOfAccountsRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>A reference to the object whose version data is stored in the register.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Users.EmptyRef</value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="460e76d2-4ed6-464e-bf9c-a6bcf920aaf2">
+    <name>VersionNumber</name>
+    <synonym>
+      <key>en</key>
+      <value>Version number</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>A unique object version number.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="47a24216-3299-470b-a18c-d8c1258fff24">
+    <name>ObjectVersionsReport</name>
+    <synonym>
+      <key>en</key>
+      <value>Object version report</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="72dcfd46-491e-4f88-a0ea-57919f8fbdea">
+    <name>RecordForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Record form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fa7a11cc-7ee0-4550-8d0d-9c7464d57a37">
+    <name>SelectStoredVersions</name>
+    <synonym>
+      <key>en</key>
+      <value>Select stored versions</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8317ac49-890d-4921-8c0d-1bfc676f0b40">
+    <name>SelectObjectAttributes</name>
+    <synonym>
+      <key>en</key>
+      <value>Select object attributes</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f9161bc3-9a1c-4870-8681-8e97d8ce838a">
+    <name>StandardObjectPresentationTemplate</name>
+    <synonym>
+      <key>en</key>
+      <value>Standard object presentation template</value>
+    </synonym>
+  </templates>
+</mdclass:InformationRegister>

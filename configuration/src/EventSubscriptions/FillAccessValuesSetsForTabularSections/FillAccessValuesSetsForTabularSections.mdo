@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62a6b1c9-8288-4fa1-a17d-241b85a5e4b0">
+  <name>FillAccessValuesSetsForTabularSections</name>
+  <synonym>
+    <key>en</key>
+    <value>Populate access value sets of tables</value>
+  </synonym>
+  <comment>The subscription is supplied by the access Control subsystem to populate the table part of the set of access Values for the metadata objects in which it was created for the #set of Values template to work</comment>
+  <source>
+    <types>DefinedType.OwnerLimitedByAccessValuesSetsObject</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.AccessManagementInternal.FillAccessValuesSetsForTabularSections</handler>
+</mdclass:EventSubscription>

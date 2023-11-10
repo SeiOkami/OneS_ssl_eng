@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb0424b8-dfd1-4a27-bd66-9dea3ffc77c4">
+  <name>PeriodClosingDates</name>
+  <synonym>
+    <key>en</key>
+    <value>Period-end closing dates</value>
+  </synonym>
+  <content>CommonModule.PeriodClosingDates</content>
+  <content>InformationRegister.PeriodClosingDates</content>
+  <content>CommonModule.PeriodClosingDatesInternalCached</content>
+  <content>ChartOfCharacteristicTypes.PeriodClosingDatesSections</content>
+  <content>CommonModule.PeriodClosingDatesInternal</content>
+  <content>CommonModule.PeriodClosingDatesOverridable</content>
+  <content>Report.PeriodClosingDates</content>
+  <content>Enum.PeriodClosingDatesPurposeTypes</content>
+  <content>CommonPicture.IconsExchangePlanNode</content>
+  <content>Report.ImportRestrictionDates</content>
+  <content>SessionParameter.SkipPeriodClosingCheck</content>
+  <content>DefinedType.PeriodClosingTarget</content>
+  <content>Constant.PeriodClosingDatesVersion</content>
+  <content>SessionParameter.UpdatePeriodClosingDatesVersionAfterImportData</content>
+  <content>EventSubscription.PeriodClosingDatesVersionUpdateAfterDataImport</content>
+  <content>SessionParameter.ValidPeriodClosingDates</content>
+  <content>Constant.UseImportForbidDates</content>
+  <content>Constant.UsePeriodClosingDates</content>
+  <content>Role.AddEditPeriodClosingDates</content>
+  <content>FunctionalOption.UseImportForbidDates</content>
+  <content>FunctionalOption.UsePeriodClosingDates</content>
+  <content>CommonModule.PeriodClosingDatesInternalClientServer</content>
+  <content>CommonModule.PeriodClosingDatesInternalClient</content>
+  <content>Role.ReadDataImportRestrictionDates</content>
+  <content>Role.ReadPeriodEndClosingDates</content>
+  <content>Role.AddEditDataImportRestrictionDates</content>
+  <content>SessionParameter.AccessRightsToRestrictionDates</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

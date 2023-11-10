@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOptionsParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c58fc3a-37f8-44b7-b076-2c10ce09b554">
+  <name>AdditionalReportsAndDataProcessorsFormType</name>
+  <synonym>
+    <key>en</key>
+    <value>Additional reports and data processors form type</value>
+  </synonym>
+  <use>InformationRegister.AdditionalDataProcessorsPurposes.Dimension.FormType</use>
+</mdclass:FunctionalOptionsParameter>

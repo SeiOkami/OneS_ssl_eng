@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b77e99b-b1d3-4368-a671-59e0ebba3f0e">
+  <name>NationalLanguageSupportClient</name>
+  <synonym>
+    <key>en</key>
+    <value>National language support client</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

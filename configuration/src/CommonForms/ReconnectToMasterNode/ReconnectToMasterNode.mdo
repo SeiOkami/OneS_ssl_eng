@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c121b8bc-ecbf-4775-b210-3c1e3502a6ac">
+  <name>ReconnectToMasterNode</name>
+  <synonym>
+    <key>en</key>
+    <value>Attach to master node</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84a159ed-bc5f-4497-94d1-94b187b0bffe">
+  <name>UseEncryption</name>
+  <synonym>
+    <key>en</key>
+    <value>Use encryption</value>
+  </synonym>
+  <location>Constant.UseEncryption</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.MeetingAttachedFiles.Attribute.Encrypted</content>
+  <content>Catalog.MeetingAttachedFiles.TabularSection.DeleteEncryptionCertificates</content>
+  <content>Catalog.PlannedInteractionAttachedFiles.Attribute.Encrypted</content>
+  <content>Catalog.PlannedInteractionAttachedFiles.TabularSection.DeleteEncryptionCertificates</content>
+  <content>Catalog.SMSMessageAttachedFiles.Attribute.Encrypted</content>
+  <content>Catalog.SMSMessageAttachedFiles.TabularSection.DeleteEncryptionCertificates</content>
+  <content>Catalog.PhoneCallAttachedFiles.Attribute.Encrypted</content>
+  <content>Catalog.PhoneCallAttachedFiles.TabularSection.DeleteEncryptionCertificates</content>
+  <content>Catalog.Files.Attribute.Encrypted</content>
+  <content>Catalog.IncomingEmailAttachedFiles.Attribute.Encrypted</content>
+  <content>Catalog.IncomingEmailAttachedFiles.TabularSection.DeleteEncryptionCertificates</content>
+  <content>Catalog.OutgoingEmailAttachedFiles.Attribute.Encrypted</content>
+  <content>Catalog.OutgoingEmailAttachedFiles.TabularSection.DeleteEncryptionCertificates</content>
+  <content>Catalog.Files.TabularSection.DeleteEncryptionCertificates</content>
+</mdclass:FunctionalOption>

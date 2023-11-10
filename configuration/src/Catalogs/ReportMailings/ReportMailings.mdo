@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ce6cc1a-8570-4704-b9a3-44e815b2e753">
+  <producedTypes>
+    <objectType typeId="3a971112-d2dc-4de3-809f-725c959539ee" valueTypeId="fb5a710c-d9d6-49ba-aa61-f2c68f2c204a"/>
+    <refType typeId="7e5a68f1-de7c-4e6c-aae6-f03dd01bfda1" valueTypeId="ebcee7d4-d80b-49dc-8035-12cfc4a501ec"/>
+    <selectionType typeId="9a7fe1d2-4b13-421c-ad30-2a216d1a8d31" valueTypeId="ba897ef0-8d1a-4d41-8889-1473cefbc68e"/>
+    <listType typeId="a6b19d86-0be2-4188-893b-d7da2f0e881a" valueTypeId="b928f202-ae50-48d3-964e-5e50f6ee2156"/>
+    <managerType typeId="f3dddb8b-f1f6-4828-9c83-cf6fd975e2d6" valueTypeId="6819ec05-d478-49c1-9841-2a9346259663"/>
+  </producedTypes>
+  <name>ReportMailings</name>
+  <synonym>
+    <key>en</key>
+    <value>Report distribution rules</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ReportMailings.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>en</key>
+      <value>Parent group</value>
+    </synonym>
+    <toolTip>
+      <key>en</key>
+      <value>Group the item belongs to.</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ReportMailings.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>en</key>
+      <value>Description</value>
+    </synonym>
+    <toolTip>
+      <key>en</key>
+      <value>Short presentation of report distribution.
+It can be mentioned in email subject or body.</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <dataLockFields>Catalog.ReportMailings.Attribute.MailingRecipientType</dataLockFields>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>en</key>
+    <value>Report distribution</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="d2adc174-2e1e-47f9-829d-0aa17e3a0269">
+      <name>PersonalMailings</name>
+      <description>Personal mailing lists</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>AutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ReportMailings.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.ReportMailings.Form.FolderForm</defaultFolderForm>
+  <defaultListForm>Catalog.ReportMailings.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.ReportMailings.Form.ListForm</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.ReportMailings.Form.GroupChoiceForm</defaultFolderChoiceForm>
+  <attributes uuid="71aa2bf7-85c9-40f3-a9b0-f6d666eddd28">
+    <name>FTPDirectory</name>
+    <synonym>
+      <key>en</key>
+      <value>Directory</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Directory on the FTP server, to which reports are published.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="497cbe4d-586d-48a2-8e98-d20e3e09ed42">
+    <name>FTPLogin</name>
+    <synonym>
+      <key>en</key>
+      <value>Username</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Name of FTP server user.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="38b7679d-3739-4572-baf2-d8c7b2a94f0a">
+    <name>FTPPassiveConnection</name>
+    <synonym>
+      <key>en</key>
+      <value>Passive connection</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>If the check box is selected and you use the FTP connection, the server opens a port and waits for client connection. It is recommended that you enable it if the client cannot receive incoming TCP connection (for example, when incoming connections are blocked by firewall).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1470f052-f032-46bc-b1ee-54555e725dfd">
+    <name>FTPPort</name>
+    <synonym>
+      <key>en</key>
+      <value>Port</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Specify the FTP server port in the range between 0 and 65535.</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>65535</value>
+    </maxValue>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>21</value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4019a5e9-1f50-44b9-98ba-87c07a0ce4e5">
+    <name>FTPServer</name>
+    <synonym>
+      <key>en</key>
+      <value>Server</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>FTP server.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7d336fdd-5cbf-4c92-a783-f451f7590502">
+    <name>Author</name>
+    <synonym>
+      <key>en</key>
+      <value>Person responsible</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Users</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Scheduled reports are generated with the rights of the user responsible for the report distribution.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ee8af8ee-e49a-4511-9a91-48814ab99d23">
+    <name>ReplyToAddress</name>
+    <synonym>
+      <key>en</key>
+      <value>Reply-to address</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Email address responses will be sent to.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3a7d9d49-b5e5-4c5c-958e-a4c6afda8b9d">
+    <name>Archive</name>
+    <synonym>
+      <key>en</key>
+      <value>Archive</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Archive files to ZIP on delivery</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bc10ad8f-383c-469a-8c0e-60805161055b">
+    <name>RecipientsEmailAddressKind</name>
+    <synonym>
+      <key>en</key>
+      <value>Address type</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ContactInformationKinds</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Report recipients email type.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="86760ecb-2ddd-40ce-bc4f-94c23027a55e">
+    <name>ExecuteOnSchedule</name>
+    <synonym>
+      <key>en</key>
+      <value>Schedule</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Select this option to automatically distribute reports on schedule.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6fbf844e-ee8d-490f-9177-6392d262312f">
+    <name>ArchiveName</name>
+    <synonym>
+      <key>en</key>
+      <value>Archive name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>75</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>ZIP archive name</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="703a3e8a-0204-4e8f-8fa0-a2ed1aeb7662">
+    <name>UseFTPResource</name>
+    <synonym>
+      <key>en</key>
+      <value>Use FTP resource</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Check box of delivery to an FTP resource</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f5d90a5a-1adb-49d6-8640-2e4054bdb99f">
+    <name>UseFolder</name>
+    <synonym>
+      <key>en</key>
+      <value>Use folder</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Check box of delivery to an application folder</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="37722a34-1148-4cc8-95e6-4645ae9cca98">
+    <name>UseNetworkDirectory</name>
+    <synonym>
+      <key>en</key>
+      <value>Use network directory</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Check box of delivery to a network directory</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="11f32e0f-7d16-4ebd-9cef-fffd2d64e70a">
+    <name>UseEmail</name>
+    <synonym>
+      <key>en</key>
+      <value>Send by email:</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Check box of delivery by email</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cc34bd23-de0a-4b09-8333-e4693576b9f4">
+    <name>EmailPicturesInHTMLFormat</name>
+    <synonym>
+      <key>en</key>
+      <value>Mail images in HTML format</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Structure of pictures displayed in the email text.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b16d5e79-9d7e-4d3e-9be8-3b2a932abf78">
+    <name>Personal</name>
+    <synonym>
+      <key>en</key>
+      <value>Personal</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>If the option is selected, the report distribution is available only to its author and the administrator.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="903af13a-1f73-4145-a3d0-971c3be5fbe6">
+    <name>Folder</name>
+    <synonym>
+      <key>en</key>
+      <value>Folder</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.FilesFolders</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Application folder for delivering reports</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fb42ad06-d5a4-40ea-817c-fa7ff385d8db">
+    <name>SchedulePeriodicity</name>
+    <synonym>
+      <key>en</key>
+      <value>Repeated distribution</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ReportMailingSchedulePeriodicities</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Defines how often report distribution will be repeated.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ReportMailingSchedulePeriodicities.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bc110a6a-26fa-4aa1-a2ef-bdaeaa0a33af">
+    <name>Personalized</name>
+    <synonym>
+      <key>en</key>
+      <value>Personalized</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>If the option is selected, each recipient will receive personalized reports.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="953dbad6-4f5c-4319-874a-db358a77d001">
+    <name>HTMLFormatEmail</name>
+    <synonym>
+      <key>en</key>
+      <value>HTML mail</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>If the check box is selected, you can use text decorations and pictures in the email text.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="05243f56-7e9b-4a61-8efb-1b5e525fff21">
+    <name>IsPrepared</name>
+    <synonym>
+      <key>en</key>
+      <value>Prepared</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Defines if the distribution is ready to be sent out.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7aa86a2d-2b47-447e-8901-806411011279">
+    <name>ScheduledJob</name>
+    <synonym>
+      <key>en</key>
+      <value>Scheduled job</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The ID of a scheduled job that starts this report distribution.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fca0dfad-f853-4694-9ce9-53a3a10f59b7">
+    <name>NetworkDirectoryLinux</name>
+    <synonym>
+      <key>en</key>
+      <value>Linux network directory </value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Network directory for delivering reports (for cluster servers running OS Linux).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="934b8380-c6e0-49f8-a6c2-91c0ddb2f95e">
+    <name>NetworkDirectoryWindows</name>
+    <synonym>
+      <key>en</key>
+      <value>Windows network directory</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Network directory for delivering reports (for cluster servers running OS Windows).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="57f4ee70-185e-4f2a-91a6-6c0bf93c1000">
+    <name>BCCs</name>
+    <synonym>
+      <key>en</key>
+      <value>Send emails using BCC</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>If the check box is selected, recipients will not see other email recipients (only themselves).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b4cb92fb-ad82-44ed-9203-397b412b3453">
+    <name>EmailText</name>
+    <synonym>
+      <key>en</key>
+      <value>Email text</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Email body.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="69ceac29-06d3-45f2-b914-7966465cd0d3">
+    <name>EmailTextInHTMLFormat</name>
+    <synonym>
+      <key>en</key>
+      <value>HTML mail</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Mail format that supports text formatting and embedded pictures.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b690721d-960b-4374-8d2c-feed3a2b354b">
+    <name>EmailSubject</name>
+    <synonym>
+      <key>en</key>
+      <value>Subject</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Subject</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="271243d3-1871-4a0a-bf7f-63bacacf0a59">
+    <name>MailingRecipientType</name>
+    <synonym>
+      <key>en</key>
+      <value>To</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ExtensionObjectIDs</types>
+      <types>CatalogRef.MetadataObjectIDs</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Type of report recipients.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b1ed134b-f2aa-4b06-b7a2-0e524ead04df">
+    <name>NotifyOnly</name>
+    <synonym>
+      <key>en</key>
+      <value>Send notifications only</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>If the check box is selected, reports will be published and only their publication addresses will be specified in emails.
+If the check box is cleared, the reports will be attached to emails.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5b379a72-8605-4e88-84cb-14272a3b8f5f">
+    <name>TransliterateFileNames</name>
+    <synonym>
+      <key>en</key>
+      <value>Transliterate file names</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>File names will contain only Latin letters and digits to ensure compatibility with different operating systems.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1281fe19-bbca-4a4f-84d8-14187e62000f">
+    <name>Account</name>
+    <synonym>
+      <key>en</key>
+      <value>From</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.EmailAccounts</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Sender's email account</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Filter.UseForSending</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ec44f92a-06bf-4a53-a7ba-fbe9846a68a6">
+    <name>DeleteIncludeDateInFileName</name>
+    <synonym>
+      <key>en</key>
+      <value>(not used) Include date in file name</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Select the option to add the distribution date to the file name.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="94819f9d-8a93-4a44-b1db-af0f095c7c1d">
+    <name>EmailImportance</name>
+    <synonym>
+      <key>en</key>
+      <value>Email importance</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1eb8721d-bbeb-4cca-9e4f-e8386949c93c">
+    <name>ShouldInsertReportsIntoEmailBody</name>
+    <synonym>
+      <key>en</key>
+      <value>Insert reports into email body</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0012d153-685c-48ef-9623-8aeff3795aa6">
+    <name>ShouldAttachReports</name>
+    <synonym>
+      <key>en</key>
+      <value>Attach reports</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8483a18c-ec6f-455c-9568-2019025a25d2">
+    <name>ShouldSetPasswordsAndEncrypt</name>
+    <synonym>
+      <key>en</key>
+      <value>Set passwords and encrypt data</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="9b7051d5-abc4-416c-a0e6-515d120d78e4">
+    <producedTypes>
+      <objectType typeId="3d05c612-65b6-4bbd-9095-0265d41422e1" valueTypeId="a84664df-b060-48e0-a237-fff4f9ea5046"/>
+      <rowType typeId="163bae46-5150-4f65-b8e8-7edc171323e3" valueTypeId="3000d4a8-07fe-46f0-907b-1d1bd374f320"/>
+    </producedTypes>
+    <name>Reports</name>
+    <synonym>
+      <key>en</key>
+      <value>Reports</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="86d1bc4e-f08d-48c7-8b3a-3c5feb0c843c">
+      <name>Report</name>
+      <synonym>
+        <key>en</key>
+        <value>Report</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.AdditionalReportsAndDataProcessors</types>
+        <types>CatalogRef.ReportsOptions</types>
+      </type>
+      <toolTip>
+        <key>en</key>
+        <value>Report that will be generated for distribution.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="869938e6-6310-4326-bd15-5b91fe2e0911">
+      <name>SendIfEmpty</name>
+      <synonym>
+        <key>en</key>
+        <value>Send blank reports</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>en</key>
+        <value>Send a report even if it does not contain data.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8ed7254b-bbf8-49d9-8a73-9a91316fd02d">
+      <name>Settings</name>
+      <synonym>
+        <key>en</key>
+        <value>Settings</value>
+      </synonym>
+      <comment>Custom set-up of data components or value Tables</comment>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <toolTip>
+        <key>en</key>
+        <value>User settings, with which the report will be generated</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ab6d8fdd-7788-474d-9645-53008d7fa603">
+      <name>DescriptionTemplate1</name>
+      <synonym>
+        <key>en</key>
+        <value>Name template</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="a156521a-ece1-49d3-8056-1c3508273c45">
+    <producedTypes>
+      <objectType typeId="f85e7a59-2c96-4fd9-b7d5-3c73d086859f" valueTypeId="e7f4b0c2-bd89-4397-8caf-61c2619e3a12"/>
+      <rowType typeId="6e7e8308-cbd0-4ffa-8db1-586975378e74" valueTypeId="ae098897-884c-4efa-9576-ef339c0f813c"/>
+    </producedTypes>
+    <name>ReportFormats</name>
+    <synonym>
+      <key>en</key>
+      <value>Report formats</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="075d39e0-a77a-4d0b-9260-7524fb5b2d0c">
+      <name>Report</name>
+      <synonym>
+        <key>en</key>
+        <value>Report</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.AdditionalReportsAndDataProcessors</types>
+        <types>CatalogRef.ReportsOptions</types>
+      </type>
+      <toolTip>
+        <key>en</key>
+        <value>Report that will be generated for distribution.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="10018f80-3138-4089-bf9a-a5f178f1e295">
+      <name>Format</name>
+      <synonym>
+        <key>en</key>
+        <value>Format</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ReportSaveFormats</types>
+      </type>
+      <toolTip>
+        <key>en</key>
+        <value>Report format.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="43aba109-4b7f-45ef-9c30-8b754e81911b">
+    <producedTypes>
+      <objectType typeId="0f715a62-5ea4-4dab-aafd-9de105904429" valueTypeId="50ab9c6f-d1ee-426f-bc4f-9f622e961a1c"/>
+      <rowType typeId="f0223d59-1bbd-4c67-863d-b84d699574c9" valueTypeId="99c31be9-de52-4b63-a788-298d2e46395d"/>
+    </producedTypes>
+    <name>Recipients</name>
+    <synonym>
+      <key>en</key>
+      <value>Recipients</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4ccd72e1-7fd7-4a3b-8428-71b44992937e">
+      <name>Recipient</name>
+      <synonym>
+        <key>en</key>
+        <value>Recipient</value>
+      </synonym>
+      <type>
+        <types>DefinedType.BulkEmailRecipient</types>
+      </type>
+      <toolTip>
+        <key>en</key>
+        <value>If &quot;Yes&quot;, the user is included in the distribution list.
+If set to &quot;No&quot;, report will not be sent to the user
+even if user is listed for distribution.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="46077650-2b2c-4319-8279-41f277971669">
+      <name>Excluded</name>
+      <synonym>
+        <key>en</key>
+        <value>Excluded</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>en</key>
+        <value>Excluded recipients do not receive reports.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="4afe733d-64a0-4ea5-9d12-6e2c86eb91e4">
+    <name>FTPParameters</name>
+    <synonym>
+      <key>en</key>
+      <value>FTP parameters</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="612f3b95-d7db-4b33-92b5-4873205b424b">
+    <name>BulkEmailRecipients</name>
+    <synonym>
+      <key>en</key>
+      <value>Report recipients</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d7afa1a6-0ac9-4527-8f1c-5317ce259b52">
+    <name>Warning</name>
+    <synonym>
+      <key>en</key>
+      <value>Warning</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d0b79c3d-b0c5-4eb3-9971-1def1c88698f">
+    <name>GroupChoiceForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group choice form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e82ebd72-7b5a-4f45-b853-1001bf680a05">
+    <name>FolderForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a74879b8-c080-4cc0-b44f-2b7c4dae87fe">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e9e9b733-e97a-430d-95ce-45ea27751f64">
+    <name>ItemForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9f81693c-4ddd-47ec-b111-d073e1510752">
+    <name>PasswordsEncryption</name>
+    <synonym>
+      <key>en</key>
+      <value>Passwords and encryption</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8a2811be-64c5-44ba-a52c-482c125eb092">
+    <name>PasswordDeliveryViaSMS</name>
+    <synonym>
+      <key>en</key>
+      <value>Send text messages with passwords</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5245bee4-ebb7-45d1-b40a-2a06900e55b1">
+    <name>EmailPreview</name>
+    <synonym>
+      <key>en</key>
+      <value>Preview</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cc8cdc82-ee97-4426-b889-95d2286af37c">
+    <name>ResendReports</name>
+    <synonym>
+      <key>en</key>
+      <value>Resend reports</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="149104f3-a4c7-47e5-8057-b5bcc754a4f2">
+    <name>PrintForm_MXL_ReportDistributionPasswords</name>
+    <synonym>
+      <key>en</key>
+      <value>Report distribution passwords</value>
+    </synonym>
+  </templates>
+  <commands uuid="86ffe9a7-9b3e-49ab-bd88-20269fec56bc">
+    <name>ExecuteNow</name>
+    <synonym>
+      <key>en</key>
+      <value>Run now</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ReportMailings</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.BusinessProcessStart</picture>
+    </picture>
+  </commands>
+  <commands uuid="3dd50c66-27f7-4f1e-86e9-c709995c8609">
+    <name>MailingEvents</name>
+    <synonym>
+      <key>en</key>
+      <value>Report distribution events…</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ReportMailings</types>
+    </commandParameterType>
+    <representation>PictureAndText</representation>
+    <toolTip>
+      <key>en</key>
+      <value>Go to the event log and set filter by the distribution.</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.EventLog</picture>
+    </picture>
+  </commands>
+</mdclass:Catalog>

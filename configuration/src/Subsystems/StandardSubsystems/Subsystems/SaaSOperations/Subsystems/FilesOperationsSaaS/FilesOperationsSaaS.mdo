@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e4dfdfa-ec05-4c9e-89bd-fc24f60f2678">
+  <name>FilesOperationsSaaS</name>
+  <synonym>
+    <key>en</key>
+    <value>File management SaaS</value>
+  </synonym>
+  <content>ScheduledJob.TextExtractionPlanningSaaS</content>
+  <content>CommonModule.FilesOperationsInternalSaaS</content>
+  <content>InformationRegister.TextExtractionQueue</content>
+  <content>CommonModule.FilesOperationsInternalSaaSCached</content>
+  <content>XDTOPackage.DataArtefacts_Files_1_0_0_1</content>
+  <parentSubsystem>Subsystem.StandardSubsystems.Subsystem.SaaSOperations</parentSubsystem>
+</mdclass:Subsystem>

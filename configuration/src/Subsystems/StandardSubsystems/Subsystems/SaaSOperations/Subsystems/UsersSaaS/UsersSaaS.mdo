@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ae93712-74e8-41c7-8f2d-4dfc8983697d">
+  <name>UsersSaaS</name>
+  <synonym>
+    <key>en</key>
+    <value>Users SaaS</value>
+  </synonym>
+  <content>CommonModule.UsersInternalSaaS</content>
+  <content>CommonForm.ServiceUsers</content>
+  <content>CommonCommand.AddServiceUsers</content>
+  <content>CommonModule.UsersInternalSaaSClient</content>
+  <content>CommonForm.AuthenticationInService</content>
+  <content>CommonModule.UsersInternalSaaSServerCall</content>
+  <content>CommonModule.UsersInternalSaaSClientServer</content>
+  <content>CommonModule.UsersInternalSaaSCached</content>
+  <content>EventSubscription.ProcessGetUserFormForSharedUsers</content>
+  <content>CommonForm.SharedUserInfo</content>
+  <content>XDTOPackage.DataArtefacts_ServiceUsers_1_0_0_1</content>
+  <content>DataProcessor.ExportImportDataCollapsingUserReferencesInSeparatedData</content>
+  <content>InformationRegister.SharedUsers</content>
+  <content>FunctionalOption.UsersSaaS</content>
+  <parentSubsystem>Subsystem.StandardSubsystems.Subsystem.SaaSOperations</parentSubsystem>
+</mdclass:Subsystem>

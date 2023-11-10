@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9da27139-0bed-47b0-aef6-246929968502">
+  <name>CreateSubjectNote</name>
+  <synonym>
+    <key>en</key>
+    <value>Create note</value>
+  </synonym>
+  <group>CommandGroup.Organizer</group>
+  <commandParameterType>
+    <types>DefinedType.NotesSubject</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Note</picture>
+  </picture>
+</mdclass:CommonCommand>

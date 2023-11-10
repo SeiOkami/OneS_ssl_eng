@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOptionsParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c849fb09-7833-49c8-9461-98426dc6c0af">
+  <name>AdditionalReportsAndDataProcessorsRelatedObject</name>
+  <synonym>
+    <key>en</key>
+    <value>Additional reports and data processors related object</value>
+  </synonym>
+  <use>InformationRegister.AdditionalDataProcessorsPurposes.Dimension.RelatedObject</use>
+</mdclass:FunctionalOptionsParameter>

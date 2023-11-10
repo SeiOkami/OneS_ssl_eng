@@ -1,0 +1,452 @@
+#Area ParametersArea
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//
+//
+//
+// https://creativecommons.org/licenses/by/4.0/legalcode
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//
+var now = new Date()
+var outFileName = 'log' + now.valueOf() + '.txt' //
+var v8exe = [NameOfExecutableApplicationFile] //
+var infoBasePath = [InfobasePathParameter]
+var BaseFileName = [InfobaseFilePathString]
+var connectionString = [InfoBaseConnectionString] + ';UC=[UnlockCode1]'
+var adminName = [AdministratorName] //
+var backupFileName = [BackupDirectory] + '.zip' //
+var UseRestore = [RestoreInfobase] //
+var createBackup = [CreateDataBackup] //
+var eventLogID = [EventLogEvent]
+var comConnectorName = [COMConnectorName] //
+var useComConnector = [UseCOMConnector] //
+var OnExit = [ExecuteOnExit] //
+var tempLogFileName = 'templog.txt'
+var runAppAdditionalParams = [OneCEnterpriseStartupParameters] //
+#EndRegion
+
+#Area BackupArea
+
+if (useComConnector) {
+  var comConnectorCached = new ActiveXObject(comConnectorName) //
+}
+
+var oFileSystemObject = new ActiveXObject('Scripting.FileSystemObject')
+
+var thisFileName
+var thisFileDir
+var InfoBasePassword
+
+thisFileName = eval('oHTA.commandLine')
+thisFileDir = thisFileName.substr(1, thisFileName.lastIndexOf('\\') - 1)
+InfoBasePassword = thisFileName.substr(thisFileName.indexOf('[p1]') + 4, thisFileName.indexOf('[/p1]') - thisFileName.indexOf('[p1]') - 4)
+thisFileName = thisFileName.substr(1, thisFileName.indexOf('[p1]') - 3)
+
+adminName = adminName.replace(/"/g, '""')
+InfoBasePassword = fromUnicode(InfoBasePassword)
+var infoBaseAuthorization = format('/N"{0}" /P"{1}" /WA-', adminName, InfoBasePassword)
+connectionString = format(connectionString, adminName, InfoBasePassword)
+
+var oShell = new ActiveXObject('WScript.Shell')
+var oShellApplication = new ActiveXObject('Shell.Application')
+oShell.CurrentDirectory = thisFileDir
+
+var errorMarker = '{ERR}'
+var successMarker = '{OK }'
+
+var FileSize = 0
+var CheckCount = 0
+
+//
+var logging1C = false
+var ComConnection = null
+
+//
+function runApp (sFilePath, sFileArgs, show, bWaitOnReturn) {
+  if (bWaitOnReturn === undefined) {
+    bWaitOnReturn = false
+  }
+  if (show === undefined) {
+    show = SW_SHOW
+  }
+  if (sFileArgs === undefined) {
+    sFileArgs = ''
+  }
+  var ret = 1
+  log(format('[TheStartOfStartupMessage]',
+    sFilePath, sFileArgs, SWtoString(show), bWaitOnReturn))
+  if (oFileSystemObject.FileExists(sFilePath)) {
+    try {
+      ret = oShell.Run(format('"{0}" {1}', sFilePath, sFileArgs), show, bWaitOnReturn)
+    } catch (e) {
+      log(format('[ExceptionDetailsMessage]', e.name, e.message), true)
+      return 1
+    }
+    log(format('[MessageLaunchResult]', ret), ret !== 0)
+    return ret
+  } else {
+    log(format('[StartupFailureMessage]', sFilePath), true)
+  }
+  return ret
+}
+
+function clearLogFile () {
+  var outFile = oFileSystemObject.OpenTextFile(outFileName, ForWriting, true, TristateTrue)
+  outFile.Close()
+}
+
+//
+function log (text, failed) {
+  if (failed === undefined) {
+    failed = false
+  }
+  logFile(text, failed)
+}
+
+//
+function logFile (text, failed) {
+  var now = new Date()
+  var f
+  try {
+    f = oFileSystemObject.OpenTextFile(outFileName, ForAppending, true, TristateTrue)
+  } catch (e) { return }
+  try {
+    var status = (failed === false ? successMarker : errorMarker)
+    f.WriteLine(format('{0} {1} {2}', now, status, text))
+  } finally {
+    try {
+      f.Close()
+    } catch (e) { }
+  }
+}
+
+//
+function appendLog () {
+  var f
+  var outf
+  var text
+  try {
+    f = oFileSystemObject.OpenTextFile(tempLogFileName, ForReading, false, TristateFalse)
+    outf = oFileSystemObject.OpenTextFile(outFileName, ForAppending, true, TristateTrue)
+  } catch (e) { return }
+  try {
+    var oldAtEndOfStream = f.AtEndOfStream
+    if (!oldAtEndOfStream) {
+      text = f.ReadAll()
+      outf.WriteLine(text)
+    }
+  } finally {
+    try {
+      f.Close()
+      outf.Close()
+    } catch (e) { }
+  }
+}
+
+//
+function log1C (text, failed) {
+  if (logging1C) {
+    return
+  }
+  var connection = createConnection()
+  if (connection == null) {
+    return
+  }
+  try {
+    log1CInternal(connection, text, failed)
+  } finally {
+    connection = null
+  }
+}
+
+//
+function log1CInternal (connection, text, failed) {
+  if (logging1C) {
+    return
+  }
+  logging1C = true
+  try {
+    try {
+      var eventLogLevel = failed ? connection.EventLogLevel.Error : connection.EventLogLevel.Information
+      connection.WriteLogEvent(eventLogID, eventLogLevel, null, null, text,
+        connection.EventLogEntryTransactionMode.Independent)
+    } catch (e) {
+      log(format('[MessageLogging1S]', e.name, e.message), true)
+      return
+    }
+  } finally {
+    logging1C = false
+  }
+}
+
+// Initialization
+function initialize () {
+  clearLogFile()
+  appendLog()
+  log(format('[TheMessageIsThePathToTheScriptFile]', thisFileName))
+  log(format('[MessagePathToTheBackupFile]', backupFileName))
+  return 0
+}
+
+//
+function finalize (success) {
+  if (success === undefined) {
+    success = false
+  }
+
+  if (!(oFileSystemObject.FileExists(backupFileName))) {
+    log('[TheMessageFailureToCreateABackupCopyOfTheDatabase]')
+    success = false
+  } else {
+    var FileArchive = oFileSystemObject.GetFile(backupFileName)
+    if (FileArchive.size / 1024 < 5) {
+      log('[TheMessageFailureToCreateABackupCopyOfTheDatabase]')
+      success = false
+    } else {
+      log('[TheMessageIsTheResultOfCreatingABackupCopyOfTheDatabase]')
+    }
+  }
+
+  //
+  writeEventLog(success)
+
+  if (!success) {
+    allowConnections(false) //
+  }
+
+  write1CEventLog() //
+  setResult(success)
+
+  //
+  ComConnection = null
+}
+
+function createConnection () {
+  if (!useComConnector) {
+    return null
+  }
+
+  if (ComConnection != null) {
+    return ComConnection
+  }
+
+  try {
+    log('[TheMessageTheBeginningOfTheConnectionSessionWithTheDatabase]', false)
+    var logstep = 'new ActiveXObject COMConnector'
+    var ComConnector = new ActiveXObject(comConnectorName)
+    logstep = 'comConnector.Connect'
+    ComConnection = ComConnector.Connect(connectionString)
+    logstep = 'new SystemInfo'
+    var systemInfo = ComConnection.NewObject('SystemInfo')
+    logstep = 'SystemInfo.AppVersion'
+    var appVersion = systemInfo.AppVersion
+    logstep = 'SystemInfo.PlatformType'
+    var platformType = systemInfo.PlatformType
+    logstep = 'ComConnection.PlatformType'
+    var platformTypeString = '[MessageOSBitnessUndefined]'
+    if (platformType === ComConnection.PlatformType.Windows_x86) {
+      platformTypeString = '32 bit'
+    }
+    if (platformType === ComConnection.PlatformType.Windows_x86_64) {
+      platformTypeString = '64 bit'
+    }
+    log(format('[MessageCOMConnectorVersion]', appVersion, platformTypeString), false)
+    return ComConnection
+  } catch (e) {
+    log(format('[TheMessageConnectionFailureWithTheDatabase]', logstep, e.name, e.message), true)
+    return null
+  }
+}
+
+//
+function write1CEventLog () {
+  if (!oFileSystemObject.FileExists(outFileName)) {
+    return
+  }
+
+  var connection = createConnection()
+  if (connection == null) {
+    return
+  }
+  try {
+    var f = oFileSystemObject.OpenTextFile(outFileName, ForReading, false, TristateTrue)
+
+    var text
+    while (!f.AtEndOfStream) {
+      text = f.ReadLine()
+      while ((text.indexOf(successMarker) < 0) && (text.indexOf(errorMarker) < 0) && !f.AtEndOfStream) {
+        text += '\n' + f.ReadLine()
+      }
+
+      var failed = text.indexOf(errorMarker) > 0
+      log1CInternal(connection, text, failed)
+    }
+  } catch (e) {
+    log(format('[TheMessageLoggingFailure1S]', e.name, e.message), true)
+    return
+  } finally {
+    connection = null
+  }
+}
+
+function doSetResult (success) {
+  var connection = createConnection()
+  if (connection == null) {
+    return (useComConnector ? 1 : 0)
+  }
+  var res = 0
+  try {
+    connection.IBBackupServer.FinishBackup(success, backupFileName)
+  } catch (e) {
+    log(format('[TheMessageFailureWhenCallingCompleteBackup]', e.name, e.message), true)
+    res = 2
+  }
+  return res
+}
+
+//
+function setResult (success) {
+  var result = doSetResult(success)
+  CollectGarbage() //
+  return result
+}
+
+//
+function writeEventLog (success) {
+  try {
+    var eventKind = success ? EVENT_SUCCESS : EVENT_CRITICAL
+    var message
+    if (success) {
+      message = '[TheMessageDatabaseBackupResult]'
+    } else {
+      message = '[TheMessageDatabaseBackupFailure]'
+    }
+    message += format(' [TheMessageDatabaseParameters]', infoBasePath)
+    if (!success) {
+      message += ' [MessageBackupLogging1S]'
+    }
+    oShell.LogEvent(eventKind, message)
+  } catch (e) {
+    log(format('[LoggingFailureMessage]', e.name, e.message), true)
+  }
+}
+
+//
+function backupDB () {
+  var ret = 0
+  try {
+    var fileDBName = BaseFileName + '1Cv8.1CD'
+    var fileDB = oFileSystemObject.GetFile(fileDBName)
+    log(format('[MessageBackupFileSizeInMb]', fileDB.size / 1024 / 1024))
+
+    var backupPath = oFileSystemObject.GetAbsolutePathName(backupFileName)
+    if (fileDB.size / 1024 / 1024 > 2000) {
+      log('[TheMessageFailedToCompressTheBackupFileINZIP]')
+      backupFileName = backupFileName.replace('.zip', '')
+      backupPath = oFileSystemObject.GetAbsolutePathName(backupFileName)
+      oFileSystemObject.CreateFolder(backupPath)
+      backupFileName = backupPath + '\\1Cv8.1CD'
+    } else {
+      var NewTextFile = oFileSystemObject.CreateTextFile(backupFileName, false)
+      NewTextFile.Write(String.fromCharCode(80, 75, 5, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
+      NewTextFile.Close()
+    }
+
+    var destFolder = oShellApplication.NameSpace(backupPath)
+    var sourceFilePath = oFileSystemObject.GetAbsolutePathName(fileDBName)
+
+    if (!createBackup) {
+      return 0
+    }
+
+    destFolder.CopyHere(sourceFilePath)
+    log('[TheMessageTheBeginningOfCreatingABackupCopyOfTheDatabase]')
+  } catch (e) {
+    alert(e.message)
+    CollectGarbage() //
+    log(format('[TheMessageFailureToCreateABackupCopyOfTheDatabaseInDetail]', e.name, e.message), true)
+    ret = 1
+  }
+
+  return ret
+}
+
+//
+function WaitUntilFinish () {
+  try {
+    var FileArchive = oFileSystemObject.GetFile(backupFileName)
+  } catch (e) {
+    //
+    return -1
+  }
+  var nowSize = FileArchive.size
+  if (FileSize !== nowSize) {
+    FileSize = nowSize
+    return -1
+  }
+
+  //
+  if (nowSize / 1024 < 5) {
+
+    //
+    if (CheckCount > 60 * 3) {
+      log(format('[TheMessageAssumptionOfADatabaseBackupError]', nowSize), true)
+      return 1
+    }
+
+    CheckCount = CheckCount + 1
+    return -1
+  }
+
+  return 0
+}
+
+function doAllowConnections () {
+  var BlockFilePath = BaseFileName + '1Cv8.cdn'
+  if (oFileSystemObject.FileExists(BlockFilePath)) {
+    try {
+      oFileSystemObject.DeleteFile(BaseFileName + '1Cv8.cdn')
+    } catch (e) {
+      log(format('[MessageErrorDeletingTheLockFile]', e.name, e.message), true)
+      return 3
+    }
+  }
+  return 0
+}
+
+//
+//
+function allowConnections () {
+  var result = doAllowConnections()
+  CollectGarbage() //
+  return result
+}
+
+function fromUnicode (text) {
+  var str = ''
+  for (var i = 0; i < text.length / 4; i++) {
+    str = str + String.fromCharCode(text.slice(4 * i, 4 * i + 4))
+  }
+  str = str.replace(/"/g, '""')
+  return str
+}
+
+//
+function runEnterprise () {
+ if (OnExit === false) {
+    return runApp(
+      v8exe,
+      format(
+        'ENTERPRISE {0} {1} {2}',
+        infoBasePath,
+        infoBaseAuthorization,
+        runAppAdditionalParams),
+      SW_SHOW,
+      false)
+  }
+  return 0
+}
+
+#EndRegion

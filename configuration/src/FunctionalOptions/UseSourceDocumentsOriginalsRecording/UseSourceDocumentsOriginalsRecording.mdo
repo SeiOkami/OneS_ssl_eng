@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94928ba3-6bbf-4bd3-94cf-9c51b50e005f">
+  <name>UseSourceDocumentsOriginalsRecording</name>
+  <synonym>
+    <key>en</key>
+    <value>Enable source document tracking</value>
+  </synonym>
+  <location>Constant.UseSourceDocumentsOriginalsRecording</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.SourceDocumentsOriginalsStates</content>
+  <content>InformationRegister.SourceDocumentsOriginalsStates</content>
+  <content>Subsystem.StandardSubsystems.Subsystem.SourceDocumentsOriginalsRecording</content>
+  <content>CommonCommand.SourceDocumentsOriginalsRecordingJournal</content>
+</mdclass:FunctionalOption>

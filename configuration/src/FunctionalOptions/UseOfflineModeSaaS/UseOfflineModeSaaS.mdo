@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1e7d3c3-9fc1-4364-a8c3-b076080c7472">
+  <name>UseOfflineModeSaaS</name>
+  <synonym>
+    <key>en</key>
+    <value>Use standalone mode in SaaS</value>
+  </synonym>
+  <location>Constant.UseOfflineModeSaaS</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.StandaloneModeSaaS</content>
+  <content>CommonForm.StandaloneModeSaaS</content>
+</mdclass:FunctionalOption>

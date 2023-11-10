@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad09d1e6-5982-4e1c-864e-452ac5b2915a">
+  <name>UseDataSynchronizationInLocalMode</name>
+  <synonym>
+    <key>en</key>
+    <value>Use data synchronization in local mode</value>
+  </synonym>
+  <location>Constant.UseDataSynchronizationInLocalMode</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.SynchronizationScenarios</content>
+  <content>Subsystem.StandardSubsystems.Subsystem.DataExchange</content>
+  <content>CommonCommand.ConnectionSettings</content>
+  <content>Catalog.DataExchangeScenarios</content>
+  <content>CommonCommand.ReceivingEvents</content>
+  <content>CommonCommand.ImportObjectRegistrationRules</content>
+  <content>CommonCommand.ImportObjectConvertionRules</content>
+  <content>CommonCommand.Synchronize</content>
+  <content>CommonForm.SelectCorrespondentInfobaseObjects</content>
+  <content>CommonCommand.GetSynchronizationSettingsForOtherApplication</content>
+  <content>CommonCommand.SendingEvents</content>
+  <content>CommonCommand.SynchronizeWithAdditionalParameters</content>
+  <content>CommonForm.DataSyncSettings</content>
+  <content>CommonCommand.ImportRulesSet</content>
+</mdclass:FunctionalOption>

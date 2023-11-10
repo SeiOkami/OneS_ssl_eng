@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83c860a2-d0d7-4b7c-a127-78d86b155cfa">
+  <producedTypes>
+    <selectionType typeId="a1742c72-cd9d-4fc7-936b-75cd47c307d4" valueTypeId="6af81c72-ae7b-4632-b93d-7b1ac841da78"/>
+    <listType typeId="f725240a-2b03-44ca-a02f-0e3a8fd91a7d" valueTypeId="e134889c-ac38-4ec2-a0f8-7a60ebd28b8d"/>
+    <managerType typeId="a11d5916-8c1f-40f1-9157-21622706c9dc" valueTypeId="c57bdea1-31b6-440c-842f-a0bf3e857783"/>
+    <recordSetType typeId="133be4f8-18ee-4a09-81cf-d869fc3d5dce" valueTypeId="6bf380c8-fa8b-4704-876c-09949efd7ffe"/>
+    <recordKeyType typeId="bbb60afd-6e3f-4baf-852f-38e7215debc7" valueTypeId="707d16f4-e33c-4350-8f91-5ea94fd3ed4f"/>
+    <recordType typeId="c2738cc0-1e75-40c4-937b-88cbdd145480" valueTypeId="89455eab-b545-4b57-837c-ebc0b4802694"/>
+    <recordManagerType typeId="cbb16795-5a0a-4135-a20a-f27285b046db" valueTypeId="3f3b6b70-b5fd-447c-a5e6-a52ec3ca7ae2"/>
+  </producedTypes>
+  <name>DataExchangeTransportSettings</name>
+  <synonym>
+    <key>en</key>
+    <value>Data exchange transport settings</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.DataExchangeTransportSettings.Form.RecordForm</defaultRecordForm>
+  <defaultListForm>InformationRegister.DataExchangeTransportSettings.Form.ListForm</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="06e45039-8bc4-44dd-8a93-2cec34ad51ee">
+    <name>COMOperatingSystemAuthentication</name>
+    <synonym>
+      <key>en</key>
+      <value>Operating system authentication</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Indicates whether operating system authentication is used for external connection to the infobase.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="46e01647-cbdd-4387-affc-29b92ede8644">
+    <name>COMInfobaseOperatingMode</name>
+    <synonym>
+      <key>en</key>
+      <value>Infobase run mode</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Infobase run mode: 0 for file, 1 for client/server.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="faa44953-118b-4027-a913-c485bca7a93f">
+    <name>COM1CEnterpriseServerSideInfobaseName</name>
+    <synonym>
+      <key>en</key>
+      <value>Infobase name on 1C:Enterprise server</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="c9bd0dcd-98ec-4dc9-869a-e735fd269046">
+    <name>COMUserName</name>
+    <synonym>
+      <key>en</key>
+      <value>Username</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>An infobase user's name.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="d039bfa4-39a0-43d4-ab6a-0697f9d2b375">
+    <name>COM1CEnterpriseServerName</name>
+    <synonym>
+      <key>en</key>
+      <value>1C:Enterprise server name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="09072c75-75c7-4050-b674-9454558a1f87">
+    <name>COMInfobaseDirectory</name>
+    <synonym>
+      <key>en</key>
+      <value>Infobase directory</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Applicable for file mode</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="f0c8d2d2-d597-4f09-8257-0fa7524f1e44">
+    <name>EMAILMaxMessageSize</name>
+    <synonym>
+      <key>en</key>
+      <value>Attachment size limit</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The exchange message file size limit (KB).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3e2f75ab-4143-48ca-83db-3006cb2a8584">
+    <name>EMAILCompressOutgoingMessageFile</name>
+    <synonym>
+      <key>en</key>
+      <value>Compress outgoing data</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Compress data into an archive before sending.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="91a82492-5e27-46b6-b1a8-48e89a437715">
+    <name>EMAILAccount</name>
+    <synonym>
+      <key>en</key>
+      <value>Email account</value>
+    </synonym>
+    <type>
+      <types>DefinedType.DataExchangeEmailAccounts</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>A synchronization account.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="53bc7bfd-8786-464f-a615-ceae2971cbc9">
+    <name>EMAILTransliterateExchangeMessageFileNames</name>
+    <synonym>
+      <key>en</key>
+      <value>Transliterate file names of exchange messages</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Indicates whether names of exchange message files contain only Latin characters.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="aa77817b-bd2f-4757-99b0-5e67a1b032d3">
+    <name>FILEDataExchangeDirectory</name>
+    <synonym>
+      <key>en</key>
+      <value>Directory</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>A data synchronization directory on a network resource.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="8cc27936-976d-4f31-91c6-644d15b69c55">
+    <name>FILECompressOutgoingMessageFile</name>
+    <synonym>
+      <key>en</key>
+      <value>Compress outgoing data</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Compress data into an archive before sending.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cf9de063-89f4-4632-b7a1-0cfbea6df643">
+    <name>FILETransliterateExchangeMessageFileNames</name>
+    <synonym>
+      <key>en</key>
+      <value>Transliterate file names of exchange messages</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Indicates whether names of exchange message files contain only Latin characters.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ee3bab2c-bd6a-4a33-89a2-78b4dd89bb88">
+    <name>FTPCompressOutgoingMessageFile</name>
+    <synonym>
+      <key>en</key>
+      <value>Compress outgoing data</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Compress data into an archive before sending.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2478fb43-57a3-4348-b3d4-61f015e4e231">
+    <name>FTPConnectionMaxMessageSize</name>
+    <synonym>
+      <key>en</key>
+      <value>File size limit</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The exchange message file size limit (KB).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="daa99b45-b2d2-47bc-9d7e-2d21b1a3dfd8">
+    <name>FTPConnectionPassiveConnection</name>
+    <synonym>
+      <key>en</key>
+      <value>Passive connection</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>A passive connection flag.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0449c160-01e5-4fe4-8759-5b93c484b467">
+    <name>FTPConnectionUser</name>
+    <synonym>
+      <key>en</key>
+      <value>Username</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The username to access FTP resource.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="0684e4ba-28c7-4032-a43f-a3a4a37ec50b">
+    <name>FTPConnectionPort</name>
+    <synonym>
+      <key>en</key>
+      <value>Port</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The port to access FTP resource.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bcac012d-b4a9-49bb-9c54-722c741d183c">
+    <name>FTPConnectionPath</name>
+    <synonym>
+      <key>en</key>
+      <value>Directory path</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>FTP directory path</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="5370d079-975f-4f7c-95c3-7868147ecc76">
+    <name>FTPTransliterateExchangeMessageFileNames</name>
+    <synonym>
+      <key>en</key>
+      <value>Transliterate file names of exchange messages</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Indicates whether names of exchange message files contain only Latin characters.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4dd66f76-e4e0-4f84-9fad-bb922cd51503">
+    <name>WSWebServiceURL</name>
+    <synonym>
+      <key>en</key>
+      <value>URL</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>A web service URL.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="e76a411a-121b-4791-a785-dd54795eaa7f">
+    <name>WSRememberPassword</name>
+    <synonym>
+      <key>en</key>
+      <value>Remember password</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Indicates whether the password is stored in the application.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="66844ae3-f098-462c-aef8-1fd38c403760">
+    <name>WSUserName</name>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>165</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The username.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="be96718a-223d-4597-bccf-2fb7d16dbbcc">
+    <name>WSUseLargeVolumeDataTransfer</name>
+    <synonym>
+      <key>en</key>
+      <value>Use large data transfer</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Use large data transfer over the web service.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+  </resources>
+  <resources uuid="e59e9cfc-43b2-4bdf-a512-b6f87f781cee">
+    <name>WSCorrespondentDataArea</name>
+    <synonym>
+      <key>en</key>
+      <value>WS Peer infobase data area</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="eb551461-ae0d-41dd-89fa-2f6e7f3c4840">
+    <name>DefaultExchangeMessagesTransportKind</name>
+    <synonym>
+      <key>en</key>
+      <value>Default exchange message transport type</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ExchangeMessagesTransportTypes</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Default connection parameters.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="acec1961-a953-4f7b-b42b-baa1b8b3be14">
+    <name>DataExportTransactionItemsCount</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of items in a data export transaction</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The number of items in a data export transaction. If 0, all data is exported in a single transaction.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="eb6394d4-1679-4494-8d23-419f5a714cdc">
+    <name>DataImportTransactionItemCount</name>
+    <synonym>
+      <key>en</key>
+      <value>Number of items in a data import transaction</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The number of items in a data import transaction. If 0, all data is imported in a single transaction.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ffb3c2e4-bb9b-4d12-80bb-79e3c6d5700d">
+    <name>ExternalSystemConnectionParameters</name>
+    <synonym>
+      <key>en</key>
+      <value>External system connection parameters</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="178342fd-1ba5-422d-89d2-4f486e45dae9">
+    <name>WSCorrespondentEndpoint</name>
+    <synonym>
+      <key>en</key>
+      <value>WS Peer infobase endpoint</value>
+    </synonym>
+    <comment>Используется только в сервисе и только при автоматической настройки через внутреннюю публикацию</comment>
+    <type>
+      <types>DefinedType.MessagesQueueEndpoint</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7e9fadd6-d0ad-4856-a195-1058f00bf488">
+    <name>Peer</name>
+    <synonym>
+      <key>en</key>
+      <value>Peer</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The exchange plan node where transport settings are applied.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="76d0c5ee-5b85-4670-ba1c-8fdaa7ba872a">
+    <name>RecordForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Record form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="84f67d35-ca48-4fff-94e4-5f4beb7e3c08">
+    <name>SaaSConnectionSetup</name>
+    <synonym>
+      <key>en</key>
+      <value>Configure connection to service</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2972c142-0aac-4e36-b34e-4e73f18ba9cb">
+    <name>DataReSyncBeforeStart</name>
+    <synonym>
+      <key>en</key>
+      <value>Synchronize data before startup</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d6915227-4ede-4cd2-9e7c-d23dc409936e">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

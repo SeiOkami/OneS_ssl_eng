@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="584c81b9-f958-4488-a512-06fd8fd7f5f6">
+  <name>CurrenciesExchangeRatesClientServer</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с курсами валют клиент сервер</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Currency exchange rates operations client/server</value>
+  </synonym>
+  <comment>Obsolete. Please use CurrencyRateOperationsClientServer</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

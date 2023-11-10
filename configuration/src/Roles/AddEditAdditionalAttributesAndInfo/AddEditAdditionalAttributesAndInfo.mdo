@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4436b2cf-2d71-401f-99fd-012ff0c91fbd">
+  <name>AddEditAdditionalAttributesAndInfo</name>
+  <synonym>
+    <key>en</key>
+    <value>Add and edit additional attributes and information records</value>
+  </synonym>
+</mdclass:Role>

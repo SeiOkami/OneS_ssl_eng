@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3323ca68-1382-4710-a933-23fc56588935">
+  <name>FullTextSearch</name>
+  <synonym>
+    <key>en</key>
+    <value>Full-text search</value>
+  </synonym>
+  <content>CommonModule.FullTextSearchServer</content>
+  <content>ScheduledJob.FullTextSearchIndexUpdate</content>
+  <content>ScheduledJob.FullTextSearchMergeIndex</content>
+  <content>DataProcessor.FullTextSearchInData</content>
+  <content>Constant.UseFullTextSearch</content>
+  <content>FunctionalOption.UseFullTextSearch</content>
+  <content>CommonModule.FullTextSearchServerOverridable</content>
+  <content>CommonForm.SearchForm</content>
+  <content>CommonModule.FullTextSearchClient</content>
+  <content>CommonModule.FullTextSearchInternalServerCall</content>
+  <content>CommonModule.FullTextSearchInternalClient</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

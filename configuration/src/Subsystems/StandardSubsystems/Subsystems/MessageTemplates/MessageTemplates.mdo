@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98b67b5a-3550-4a64-9e07-07fcc9154c73">
+  <name>MessageTemplates</name>
+  <synonym>
+    <key>en</key>
+    <value>Message templates</value>
+  </synonym>
+  <content>CommonModule.MessagesTemplatesServer</content>
+  <content>FunctionalOption.UseMessageTemplates</content>
+  <content>Catalog.MessageTemplates</content>
+  <content>DefinedType.MessageTemplateSubject</content>
+  <content>CommonCommand.SendSMS</content>
+  <content>CommonCommand.SendMail</content>
+  <content>CommonModule.MessageTemplatesOverridable</content>
+  <content>CommonModule.MessageTemplates</content>
+  <content>CommonModule.MessageTemplatesInternal</content>
+  <content>Catalog.MessageTemplatesAttachedFiles</content>
+  <content>Constant.UseSMSMessagesSendingInMessageTemplates</content>
+  <content>Constant.UseEmailInMessageTemplates</content>
+  <content>FunctionalOption.UseSMSMessagesSendingInMessageTemplates</content>
+  <content>FunctionalOption.UseEmailInMessageTemplates</content>
+  <content>Constant.UseMessageTemplates</content>
+  <content>CommonPicture.IconCollectionMessageTemplateParameters</content>
+  <content>Role.AddEditMessageTemplates</content>
+  <content>CommonModule.MessageTemplatesClient</content>
+  <content>CommonModule.MessageTemplatesInternalCached</content>
+  <content>CommonModule.MessageTemplatesClientServer</content>
+  <content>CommonModule.MessageTemplatesServer</content>
+  <content>DefinedType.MessageTemplateOwner</content>
+  <content>Role.ReadMessageTemplates</content>
+  <content>Role.AddEditPersonalMessageTemplates</content>
+  <content>EventSubscription.DetermineAttachedFileFormMessageTemplates</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

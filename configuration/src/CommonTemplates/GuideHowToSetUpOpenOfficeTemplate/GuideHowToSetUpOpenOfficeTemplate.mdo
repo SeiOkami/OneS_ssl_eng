@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3002d5d8-1b7d-4252-9e5d-9a533bf03ca8">
+  <name>GuideHowToSetUpOpenOfficeTemplate</name>
+  <synonym>
+    <key>en</key>
+    <value>Instruction on how to set up Office Open template</value>
+  </synonym>
+  <comment>ACC:497 - содержание макета html-страница</comment>
+  <templateType>HTMLDocument</templateType>
+</mdclass:CommonTemplate>

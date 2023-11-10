@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be9144ce-5560-47bb-8c5e-9beefd15bfc3">
+  <name>UseDataSynchronization</name>
+  <synonym>
+    <key>en</key>
+    <value>Use data synchronization</value>
+  </synonym>
+  <location>Constant.UseDataSynchronization</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.DataSyncSettings</content>
+</mdclass:FunctionalOption>

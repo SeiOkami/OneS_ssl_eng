@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="003f2b4f-cdaa-4830-992d-9e376949a1b4">
+  <name>ControlSharedRecordSetsUponSavingDSL</name>
+  <synonym>
+    <key>en</key>
+    <value>Control shared record sets on save DSL</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.DataExchangeRules</types>
+    <types>InformationRegisterRecordSet.DataExchangeMessages</types>
+    <types>InformationRegisterRecordSet.DataAreasExchangeTransportSettings</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.SaaSOperationsSSL.CheckSharedRecordsSetsOnWrite</handler>
+</mdclass:EventSubscription>

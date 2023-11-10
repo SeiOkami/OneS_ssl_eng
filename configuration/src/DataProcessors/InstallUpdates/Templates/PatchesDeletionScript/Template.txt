@@ -1,0 +1,120 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//
+//
+//
+// https://creativecommons.org/licenses/by/4.0/legalcode
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+'use strict'
+
+// Example:
+//
+
+var fso = new ActiveXObject('Scripting.FileSystemObject')
+var ForWriting = 2 // Open a file for writing.
+var OpenAsASCII = 0
+var outf = null
+
+var ConnectionString
+var ConnectionStringArray
+var hiddenCS
+var COMConnectorName
+var fixFileNames
+var removeFixNames
+var Action
+var outFileName
+
+var COMConnector
+var connection
+
+var mainEvent = '[MessageMainEvent]'
+
+try {
+
+  ConnectionString = WScript.Arguments.Named.Item('ConnectionString')
+  COMConnectorName = WScript.Arguments.Named.Item('COMConnectorName')
+  fixFileNames = WScript.Arguments.Named.Item('FixFileNames')
+  removeFixNames = WScript.Arguments.Named.Item('RemoveFixNames')
+  Action = WScript.Arguments.Named.Item('Action')
+  outFileName = WScript.Arguments.Named.Item('Out')
+
+  outf = fso.OpenTextFile(outFileName, ForWriting, true, OpenAsASCII)
+
+} catch (ex) {
+
+  if (outf != null) {
+    outf.WriteLine(mainEvent + ": [InitializationFailureMessage]: " + ex.message)
+  }
+  WScript.Quit(1)
+
+}
+
+try {
+
+  if (outf != null) {
+    outf.WriteLine(mainEvent + ": [MessageCreatingACOMConnectorObject]")
+  }
+  COMConnector = new ActiveXObject(COMConnectorName)
+  
+} catch (ex) {
+
+  if (outf != null) {
+   outf.WriteLine(mainEvent + ": [MessageFailureToCreateACOMConnectorObject]: " + ex.message)
+  }
+  WScript.Quit(1)
+
+}
+
+try {
+    
+  ConnectionStringArray = ConnectionString.split(';')
+  
+  for (var i = 0; i < ConnectionStringArray.length; i++) {
+    if (ConnectionStringArray[i].slice(0,4) == "Pwd=") {
+      ConnectionStringArray[i] = "Pwd='******'"
+    }
+  }
+  
+  hiddenCS = ConnectionStringArray.join(';')
+
+  if (outf != null) {
+    outf.WriteLine(mainEvent + ": [TheMessageEstablishingAConnectionToTheDatabase]: " + hiddenCS)
+  }  
+  connection = COMConnector.Connect(ConnectionString)
+
+} catch (ex) {
+
+  if (outf != null) {
+    outf.WriteLine(mainEvent + ": [TheMessageConnectionFailureWithTheDatabaseIsGeneral] " + hiddenCS + ": " + ex.message)
+  }
+  WScript.Quit(1)
+
+}
+
+try {
+
+  if (Action == 'RemoveAll') {
+
+    if (outf != null) {
+      outf.WriteLine(mainEvent + ": [TheMessageIsACallToRemoveFixesFromTheScript]")
+    }
+    connection.ConfigurationUpdateServerCall.DeletePatchesFromScript();
+
+  } else {
+
+    if (outf != null) {
+      outf.WriteLine(mainEvent + ": [TheMessageIsACallToUpdateTheFixesFromTheScript]")
+    }
+    connection.ConfigurationUpdateServerCall.UpdatePatchesFromScript(fixFileNames, removeFixNames)
+
+  }
+
+} catch (ex) {
+
+  if (outf != null) {    
+    outf.WriteLine(mainEvent + ": [ErrorMessage_]" + ex.message)
+  }
+  WScript.Quit(1)
+
+}

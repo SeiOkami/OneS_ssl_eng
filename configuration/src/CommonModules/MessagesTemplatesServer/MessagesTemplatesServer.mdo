@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0533386-1652-4cd0-b4a8-761c7142466d">
+  <name>MessagesTemplatesServer</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны сообщений сервер</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Message Templates server</value>
+  </synonym>
+  <comment>Obsolete. Please use MessageTemplatesServer</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

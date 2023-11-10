@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d8acec9-f5a9-411e-921c-446ed0dd3332">
+  <name>EventLogAnalysis</name>
+  <synonym>
+    <key>en</key>
+    <value>Event log analysis</value>
+  </synonym>
+  <content>Report.EventLogAnalysis</content>
+  <content>CommonModule.EventLogAnalysisInternal</content>
+  <content>CommonModule.EventLogAnalysisClient</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7dcd391-3a0e-4aa9-9b53-467a1de67593">
+  <name>UsePeriodClosingDates</name>
+  <synonym>
+    <key>en</key>
+    <value>Use period-end closing dates</value>
+  </synonym>
+  <location>Constant.UsePeriodClosingDates</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.PeriodClosingDates.Command.PeriodEndClosingDates</content>
+  <content>Report.PeriodClosingDates</content>
+</mdclass:FunctionalOption>

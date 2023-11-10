@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4629308-42de-4ce8-8591-cf0c2399a9a2">
+  <name>WorkSchedules</name>
+  <synonym>
+    <key>en</key>
+    <value>Work schedules</value>
+  </synonym>
+  <content>CommonModule.WorkSchedules</content>
+  <content>StyleItem.ChangedScheduleDateBackground</content>
+  <content>Enum.WorkScheduleFillingMethods</content>
+  <content>InformationRegister.CalendarSchedules</content>
+  <content>InformationRegister.ManualWorkScheduleChanges</content>
+  <content>CommonModule.WorkSchedulesClient</content>
+  <content>Catalog.Calendars</content>
+  <content>Role.AddEditWorkSchedules</content>
+  <content>Role.ReadWorkSchedules</content>
+  <content>DefinedType.WorkScheduleOwner</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

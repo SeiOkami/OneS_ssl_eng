@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58037b76-b548-4f07-bd67-67e552a5c6e5">
+  <name>UseNotes</name>
+  <synonym>
+    <key>en</key>
+    <value>Use notes</value>
+  </synonym>
+  <location>Constant.UseNotes</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.StandardSubsystems.Subsystem.UserNotes</content>
+  <content>Catalog.Notes</content>
+  <content>Enum.NoteColors</content>
+  <content>CommonCommand.CreateSubjectNote</content>
+  <content>CommonCommand.MyNotesOnSubject</content>
+</mdclass:FunctionalOption>

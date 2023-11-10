@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="837f27c1-26d7-4f24-a691-55dd9ed04ec5">
+  <producedTypes>
+    <containerType typeId="c81d2036-ebba-4d71-9332-93abe6b40905" valueTypeId="21adbf59-043d-45b0-a511-0d736bb02ccb"/>
+  </producedTypes>
+  <name>AccessKeysValuesOwner</name>
+  <synonym>
+    <key>en</key>
+    <value>Access key values owner</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.EmailMessageFolders</types>
+    <types>BusinessProcessRef.Job</types>
+    <types>CatalogRef.Notes</types>
+    <types>DocumentRef.OutgoingEmail</types>
+    <types>DocumentRef.PlannedInteraction</types>
+    <types>CatalogRef.FilesFolders</types>
+    <types>CatalogRef.AccessGroups</types>
+    <types>CatalogRef.OutgoingEmailAttachedFiles</types>
+    <types>CatalogRef.ExternalUsers</types>
+    <types>DocumentRef.IncomingEmail</types>
+    <types>DocumentRef.PhoneCall</types>
+    <types>CatalogRef.IncomingEmailAttachedFiles</types>
+    <types>CatalogRef.ObjectPropertyValueHierarchy</types>
+    <types>TaskRef.PerformerTask</types>
+    <types>CatalogRef.UserReportSettings</types>
+    <types>CatalogRef.ObjectsPropertiesValues</types>
+    <types>CatalogRef.ExternalUsersGroups</types>
+    <types>CatalogRef.EmailProcessingRules</types>
+    <types>CatalogRef.PlannedInteractionAttachedFiles</types>
+    <types>DocumentRef.Meeting</types>
+    <types>CatalogRef.Files</types>
+    <types>CatalogRef.ReportMailings</types>
+    <types>ChartOfCharacteristicTypesRef.AdditionalAttributesAndInfo</types>
+    <types>CatalogRef.MessageTemplates</types>
+    <types>CatalogRef.AdditionalReportsAndDataProcessors</types>
+    <types>CatalogRef.SMSMessageAttachedFiles</types>
+    <types>CatalogRef.ReportsOptions</types>
+    <types>DocumentRef.SMSMessage</types>
+    <types>CatalogRef.Users</types>
+    <types>CatalogRef.EmailAccounts</types>
+    <types>CatalogRef.MeetingAttachedFiles</types>
+    <types>CatalogRef.FilesVersions</types>
+    <types>CatalogRef.AccessGroupProfiles</types>
+    <types>CatalogRef.PhoneCallAttachedFiles</types>
+    <types>CatalogRef.MessageTemplatesAttachedFiles</types>
+  </type>
+</mdclass:DefinedType>

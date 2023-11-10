@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a3eff9b-6598-4e11-9b8f-81249c53abec">
+  <name>RemoteODataAccess</name>
+  <synonym>
+    <key>en</key>
+    <value>Remote access: OData</value>
+  </synonym>
+  <comment>APK:164 do not check the right to delete; APK:375 rights to an outdated object; APK:229 changing the register of a subordinate registrar; APK:507 rights to objects of other subsystems</comment>
+</mdclass:Role>

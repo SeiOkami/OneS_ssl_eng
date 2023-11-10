@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f4408f5-460e-431b-9842-bc6875ccf0ae">
+  <name>DocumentMarkedForDeletionConnectorTopBottom</name>
+  <synonym>
+    <key>en</key>
+    <value>Document marked for deletion connector top bottom</value>
+  </synonym>
+</mdclass:CommonPicture>

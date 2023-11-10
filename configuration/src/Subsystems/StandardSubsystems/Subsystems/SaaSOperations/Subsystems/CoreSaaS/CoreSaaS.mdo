@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fd1287d-d96d-4480-baf7-8815ae5ffbfb">
+  <name>CoreSaaS</name>
+  <synonym>
+    <key>en</key>
+    <value>Core SaaS</value>
+  </synonym>
+  <content>SessionParameter.DataAreaValue</content>
+  <content>SessionParameter.DataAreaUsage</content>
+  <content>CommonAttribute.DataAreaMainData</content>
+  <content>CommonAttribute.DataAreaAuxiliaryData</content>
+  <content>XDTOPackage.Messages</content>
+  <content>XDTOPackage.DataDump_1_0_2_1</content>
+  <content>EventSubscription.CheckSharedRecordsSetsOnWrite</content>
+  <content>EventSubscription.CheckSharedObjectsOnWrite</content>
+  <content>CommonModule.SaaSOperationsSSL</content>
+  <parentSubsystem>Subsystem.StandardSubsystems.Subsystem.SaaSOperations</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b714d9c-26f4-46e8-ac79-471522b3853b">
+  <producedTypes>
+    <objectType typeId="01eb899c-278c-4c61-b8cd-6bd06f5103e6" valueTypeId="f4ac19ae-51a6-461c-8a02-45c5de42ae6a"/>
+    <managerType typeId="16dc66ab-0c9c-4396-8ba2-c8841893d9b6" valueTypeId="e36bb2ea-4aa3-4e35-9e90-34e0b87f2e16"/>
+  </producedTypes>
+  <name>RegisterChangesForDataExchange</name>
+  <synonym>
+    <key>en</key>
+    <value>Data registration manager</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.RegisterChangesForDataExchange.Form.Form</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <attributes uuid="411489de-f907-4d60-a776-64bb0aa12a0e">
+    <name>SequenceAutoRecordSetting</name>
+    <synonym>
+      <key>en</key>
+      <value>Autoregister sequences</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Autoregister document sequences</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="58d9ba60-a0c7-405d-a76e-0b0a796daaf3">
+    <name>RegisterRecordAutoRecordSetting</name>
+    <synonym>
+      <key>en</key>
+      <value>Autoregister records</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Autoregister document register records</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9c47670e-9eb9-49ec-876c-cd545aaa093c">
+    <name>QueryExternalDataProcessorAddressSetting</name>
+    <synonym>
+      <key>en</key>
+      <value>Address of external query data processor</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The full name of the external data processor that provides a query console.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f57e74e6-75e8-4136-911e-86793036a077">
+    <name>MessageNumberOptionSetting</name>
+    <synonym>
+      <key>en</key>
+      <value>Message numbering option</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Message numbering option.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8492ee20-3f15-45d8-b70d-19b5cd6f1ae3">
+    <name>ObjectExportControlSetting</name>
+    <synonym>
+      <key>en</key>
+      <value>Configuration can control object export</value>
+    </synonym>
+    <comment>When used as part of BSP 2.1.2 and older</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Configurations with SSL 2.1.2 or later can control object export.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3ba8c378-ef3d-4646-90b3-6d8078aa623e">
+    <name>ConfigurationSupportsSSL</name>
+    <synonym>
+      <key>en</key>
+      <value>Configuration supports SSL</value>
+    </synonym>
+    <comment>Calculated when reading settings, restricts settings options</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The configuration supports SSL features.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b96b2e45-8fb3-4d48-ab53-d3bbf6ef0284">
+    <name>RegisterWithSSLMethodsAvailable</name>
+    <synonym>
+      <key>en</key>
+      <value>Registration with SSL available</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Registration with SSL available</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5ac38b5a-92e5-47eb-b956-24d9f010cb9f">
+    <name>DIBModeAvailable</name>
+    <synonym>
+      <key>en</key>
+      <value>DIB available</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>DIB available.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d61ca454-505b-4fd6-be15-d7ed948a5ff6">
+    <name>AsynchronousRegistrationAvailable</name>
+    <synonym>
+      <key>en</key>
+      <value>Asynchronous registration available</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Registration in asynchronous mode available</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c0f5bbe1-3247-4bbe-a28e-8c55748e7d42">
+    <name>BatchRegistrationIsAvailable</name>
+    <synonym>
+      <key>en</key>
+      <value>Batch registration available</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2dd7eb87-8130-425a-be13-85235508cde6">
+    <name>SelectExchangePlanNode</name>
+    <synonym>
+      <key>en</key>
+      <value>Select exchange plan node</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8a62c997-4fda-4464-90bd-ab719161949f">
+    <name>Form</name>
+    <synonym>
+      <key>en</key>
+      <value>Data registration manager</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="28af52dd-3144-428b-956d-b6f27863ec4a">
+    <name>ExchangePlanNodeMessageNumbers</name>
+    <synonym>
+      <key>en</key>
+      <value>Node message numeration</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8ac94328-2300-4681-9c35-fd7e2f830310">
+    <name>SelectConstant</name>
+    <synonym>
+      <key>en</key>
+      <value>Select constant</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="da0ee165-1917-466b-ac5c-16c28e2318bb">
+    <name>SelectObjectsUsingFilter</name>
+    <synonym>
+      <key>en</key>
+      <value>Select objects (apply filter)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4868cb2e-0892-42bc-9de1-73cb8a15a96f">
+    <name>ObjectRegistrationNodes</name>
+    <synonym>
+      <key>en</key>
+      <value>Object registration nodes</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e8b80879-33b3-4c45-ad68-1acabcf91faf">
+    <name>Settings</name>
+    <synonym>
+      <key>en</key>
+      <value>Settings</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="4a87fafc-7ca7-478e-bb31-358c2b85fa92">
+    <name>RegisterChangesToSend</name>
+    <synonym>
+      <key>en</key>
+      <value>Register changes to send</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

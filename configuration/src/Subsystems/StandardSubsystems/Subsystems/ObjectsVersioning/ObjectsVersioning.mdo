@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8659e53-8c6b-4b0c-9736-fe93a91e4d69">
+  <name>ObjectsVersioning</name>
+  <synonym>
+    <key>en</key>
+    <value>Object versioning</value>
+  </synonym>
+  <content>CommonPicture.VersionsHistory</content>
+  <content>CommonModule.ObjectsVersioningEvents</content>
+  <content>Constant.UseObjectsVersioning</content>
+  <content>Enum.ObjectsVersioningOptions</content>
+  <content>InformationRegister.ObjectsVersions</content>
+  <content>CommonCommand.ChangeHistory</content>
+  <content>CommonModule.ObjectsVersioning</content>
+  <content>CommonModule.ObjectsVersioningClient</content>
+  <content>FunctionalOption.ObjectsVersioningOptions</content>
+  <content>FunctionalOption.UseObjectVersioning</content>
+  <content>FunctionalOption.UseObjectsVersioning</content>
+  <content>Role.ReadObjectVersions</content>
+  <content>FunctionalOptionsParameter.VersionizedObjectType</content>
+  <content>StyleItem.DeletedAttributeTitleBackground</content>
+  <content>Enum.ObjectVersionTypes</content>
+  <content>Role.ReadObjectVersionInfo</content>
+  <content>EventSubscription.ClearVersionAuthorInformation</content>
+  <content>Report.ObjectVersionsAnalysis</content>
+  <content>Enum.VersionsLifetimes</content>
+  <content>ScheduledJob.ClearingObsoleteObjectVersions</content>
+  <content>InformationRegister.ObjectVersioningSettings</content>
+  <content>DefinedType.VersionedData</content>
+  <content>DefinedType.VersionedDataObject</content>
+  <content>EventSubscription.WriteObjectVersion</content>
+  <content>CommonModule.ObjectsVersioningOverridable</content>
+  <content>SessionParameter.ObjectWritingInProgress</content>
+  <content>CommonModule.ObjectsVersioningInternalServerCall</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

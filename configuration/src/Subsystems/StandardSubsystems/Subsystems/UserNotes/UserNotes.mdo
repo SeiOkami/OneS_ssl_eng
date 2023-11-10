@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b93b8760-6200-40ee-8bdc-875ba80a6155">
+  <name>UserNotes</name>
+  <synonym>
+    <key>en</key>
+    <value>Notes</value>
+  </synonym>
+  <content>Catalog.Notes</content>
+  <content>Enum.NoteColors</content>
+  <content>CommonCommand.MyNotesOnSubject</content>
+  <content>CommonCommand.CreateSubjectNote</content>
+  <content>CommonPicture.Note</content>
+  <content>CommonPicture.NotesCollection</content>
+  <content>FunctionalOption.UseNotes</content>
+  <content>Constant.UseNotes</content>
+  <content>Role.AddEditNotes</content>
+  <content>CommonModule.UserNotesInternal</content>
+  <content>CommonModule.UserNotes</content>
+  <content>DefinedType.NotesSubject</content>
+  <content>DefinedType.NotesSubjectObject</content>
+  <content>EventSubscription.SetClearNotesDeletionMark</content>
+  <content>EventSubscription.SetUserDeletionNoteChangeStatus</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

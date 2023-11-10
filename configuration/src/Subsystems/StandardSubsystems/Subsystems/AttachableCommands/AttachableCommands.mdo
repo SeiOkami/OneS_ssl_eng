@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a4b10be-3cd7-4755-905f-7b4d02ff6a22">
+  <name>AttachableCommands</name>
+  <synonym>
+    <key>en</key>
+    <value>Attachable commands</value>
+  </synonym>
+  <content>CommonModule.AttachableCommands</content>
+  <content>CommonModule.AttachableCommandsServerCall</content>
+  <content>CommonModule.AttachableCommandsClient</content>
+  <content>CommonModule.AttachableCommandsClientCached</content>
+  <content>CommonModule.AttachableCommandsClientServer</content>
+  <content>CommonModule.AttachableCommandsCached</content>
+  <content>CommonModule.AttachableCommandsOverridable</content>
+  <content>CommonModule.GenerateFrom</content>
+  <content>CommonModule.GenerateFromOverridable</content>
+  <content>CommonModule.GenerateFromCached</content>
+  <content>CommonModule.ObjectsFilling</content>
+  <content>CommonModule.ObjectsFillingOverridable</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46e0522b-b88b-43b2-9067-a5359e90994b">
+  <name>ORMCachedValuesLatestUpdate</name>
+  <synonym>
+    <key>en</key>
+    <value>Cached ORM values are up-to-date</value>
+  </synonym>
+  <location>Constant.ORMCachedValuesRefreshDate</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

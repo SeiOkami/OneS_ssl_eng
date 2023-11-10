@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c11d967b-1250-4345-90b0-011a96c5ae5e">
+  <name>SetAttachedFilesDeletionMarks</name>
+  <synonym>
+    <key>en</key>
+    <value>Set deletion mark to attachments</value>
+  </synonym>
+  <source>
+    <types>DefinedType.AttachedFilesOwnerObject</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.FilesOperations.SetAttachedFilesDeletionMarks</handler>
+</mdclass:EventSubscription>

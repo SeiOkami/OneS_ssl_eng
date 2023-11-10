@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8b248d9-9049-456a-9c7d-7a0462cc67ab">
+  <name>ObjectAttributesLock</name>
+  <synonym>
+    <key>en</key>
+    <value>Object attribute lock</value>
+  </synonym>
+  <content>Role.EditObjectAttributes</content>
+  <content>CommonModule.ObjectAttributesLockClient</content>
+  <content>Subsystem.StandardSubsystems.Subsystem.ObjectAttributesLock</content>
+  <content>CommonPicture.AllowObjectAttributeEdit</content>
+  <content>CommonModule.ObjectAttributesLock</content>
+  <content>CommonModule.ObjectAttributesLockInternalClient</content>
+  <content>CommonModule.ObjectAttributesLockOverridable</content>
+  <content>CommonModule.ObjectAttributesLockInternal</content>
+  <content>CommonForm.AttributeUnlocking</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f0bda80-2246-43be-95f8-ae8480682cd5">
+  <producedTypes>
+    <objectType typeId="33c2cf15-dfa7-4431-bffa-3a2ad1f3b539" valueTypeId="af15681b-ebc3-4340-b57d-faf78e83949e"/>
+    <managerType typeId="9b2f070e-eeb2-48f8-8c8c-b71a588371c6" valueTypeId="bd613d79-12c7-459c-8733-88d75924d342"/>
+  </producedTypes>
+  <name>ImportDataFromFile</name>
+  <synonym>
+    <key>en</key>
+    <value>Import data from spreadsheets</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ImportDataFromFile.Form.ImportDataFromFile</defaultForm>
+  <explanation>
+    <key>en</key>
+    <value>Import master data from spreadsheet files to the application catalogs.</value>
+  </explanation>
+  <forms uuid="ac4fa2a4-93a1-4aa6-986a-5f576457fc8a">
+    <name>ImportDataFromFile</name>
+    <synonym>
+      <key>en</key>
+      <value>Import data from spreadsheets</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6f683f46-9eef-4e78-bc2f-7174238bf53c">
+    <name>SelectColumns</name>
+    <synonym>
+      <key>en</key>
+      <value>Select columns</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7d1ed38b-98cf-4a0e-a605-680bb580d904">
+    <name>ResolveConflicts</name>
+    <synonym>
+      <key>en</key>
+      <value>Resolve conflicts</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b769eda0-11de-401c-a68b-4fce4555d4fc">
+    <name>FileExtention</name>
+    <synonym>
+      <key>en</key>
+      <value>File extension</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fd7a668f-3099-4e15-956a-92c6295dd4d5">
+    <name>EditTemplate1</name>
+    <synonym>
+      <key>en</key>
+      <value>Edit template</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="afcbd830-ec5f-4865-a176-ea3014dff908">
+    <name>SimpleTemplate</name>
+    <synonym>
+      <key>en</key>
+      <value>Template</value>
+    </synonym>
+  </templates>
+  <commands uuid="dc5fc801-14e4-42e8-b396-76eb30b69eea">
+    <name>ImportDataFromFile</name>
+    <synonym>
+      <key>en</key>
+      <value>Import data from spreadsheet</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>en</key>
+      <value>Import master data from spreadsheet files to the application catalogs.</value>
+    </toolTip>
+  </commands>
+</mdclass:DataProcessor>

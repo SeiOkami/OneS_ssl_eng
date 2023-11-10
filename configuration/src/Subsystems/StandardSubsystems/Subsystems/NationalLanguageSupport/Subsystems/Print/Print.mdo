@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51d06532-f61a-4ed5-afaa-cc4563633e0c">
+  <name>Print</name>
+  <synonym>
+    <key>en</key>
+    <value>Print</value>
+  </synonym>
+  <content>Catalog.PrintFormsLanguages</content>
+  <content>CommonModule.PrintManagementNationalLanguageSupport</content>
+  <content>CommonModule.PrintManagementNationalLanguageSupportClient</content>
+  <content>CommonModule.PrintManagementNationalLanguageSupportOverridable</content>
+  <content>CommonPicture.TextTranslation</content>
+  <parentSubsystem>Subsystem.StandardSubsystems.Subsystem.NationalLanguageSupport</parentSubsystem>
+</mdclass:Subsystem>

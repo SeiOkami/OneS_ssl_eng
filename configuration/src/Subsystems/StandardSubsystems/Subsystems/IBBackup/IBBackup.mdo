@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5a0e7c2-6186-43a3-a1c5-1f16990602a4">
+  <name>IBBackup</name>
+  <synonym>
+    <key>en</key>
+    <value>Infobase backup</value>
+  </synonym>
+  <comment>APK:566 work in the web client is not provided</comment>
+  <content>CommonModule.IBBackupClient</content>
+  <content>CommonModule.IBBackupServer</content>
+  <content>CommonModule.IBBackupGlobal</content>
+  <content>DataProcessor.IBBackupSetup</content>
+  <content>DataProcessor.IBBackup</content>
+  <content>CommonModule.IBBackupServerCall</content>
+  <content>CommonCommand.ShowBackupResult</content>
+  <content>CommonModule.IBBackupClientOverridable</content>
+  <content>Constant.BackupParameters</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

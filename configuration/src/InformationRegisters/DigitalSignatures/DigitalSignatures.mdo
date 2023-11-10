@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b50f3157-3c3a-4553-a16a-7fcd660e2824">
+  <producedTypes>
+    <selectionType typeId="bb7b2f9d-de7a-48a2-8d50-d4525a31489c" valueTypeId="f7d4b2b9-02c0-4516-bdfc-e24e0693722e"/>
+    <listType typeId="5f42bbf4-e467-4223-9fce-ab3e846da7db" valueTypeId="fa61b670-f905-417a-a623-860a527d9fe3"/>
+    <managerType typeId="45be91fc-b797-4412-b935-bbaa5d1e9696" valueTypeId="931d8ebf-be14-46f9-9d8f-c0ce365d0919"/>
+    <recordSetType typeId="ec47b57f-8466-429f-bbef-b494bc4e23af" valueTypeId="9945f2de-e5d9-40a4-b19d-29096aad35d8"/>
+    <recordKeyType typeId="50914923-ceaa-4485-bd20-9702d89a4ded" valueTypeId="77465cde-ffb1-40f7-bc75-6955a979e783"/>
+    <recordType typeId="a9a4f567-935c-4399-aa52-51e2ef6ecf91" valueTypeId="c11d7483-47b7-43ef-a5c6-b843b5a77030"/>
+    <recordManagerType typeId="03fdecc5-65e6-4c92-97e2-57ae8ee856e0" valueTypeId="018c2c38-65b1-42a0-a06d-813f70b9f158"/>
+  </producedTypes>
+  <name>DigitalSignatures</name>
+  <synonym>
+    <key>en</key>
+    <value>Digital signatures</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="895aea8f-4c4e-44e5-b720-0a2e683191b3">
+    <name>IsVerificationRequired</name>
+    <synonym>
+      <key>en</key>
+      <value>Verification required</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Cannot verify the signature due to external circumstances (no cryptographic service provider, no up-to-date revocation list, and so on)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a3b14a36-049d-4f94-bafc-cf7b874f9bf0">
+    <name>SignatureType</name>
+    <synonym>
+      <key>en</key>
+      <value>Signature type</value>
+    </synonym>
+    <type>
+      <types>EnumRef.CryptographySignatureTypes</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Cryptography signature type (CAdES-BES, CAdES-T, ...)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="6c954862-62d0-4901-8448-ea62a1174660">
+    <name>DateActionLastTimestamp</name>
+    <synonym>
+      <key>en</key>
+      <value>Validity period of the last timestamp</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Validity period of the last timestamp (For basic signature, signature certificate validity period)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="19858faf-2bc5-4cfb-b258-cb101ab66e87">
+    <name>SignatureValidationDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Date verified</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Date when the signature was last verified.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f779f4a1-1fab-46d4-8043-ac25c247d361">
+    <name>SignatureFileName</name>
+    <synonym>
+      <key>en</key>
+      <value>Signature file name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>260</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Name of the signature file. An internal field.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="308358bc-773a-43fa-adff-dcc5884a2bd4">
+    <name>Comment</name>
+    <synonym>
+      <key>en</key>
+      <value>Comment</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Free text about the signature.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="ed541a1c-a842-40a9-b357-612db71ec32c">
+    <name>CertificateOwner</name>
+    <synonym>
+      <key>en</key>
+      <value>Certificate owner</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Certificate owner details: full name, job title, etc.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="b0e37495-7d9e-41d0-8225-652f9ac328cf">
+    <name>Thumbprint</name>
+    <synonym>
+      <key>en</key>
+      <value>Thumbprint</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>28</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The certificate's thumbprint. An internal field.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="3bd2e1c8-9ef3-449b-acf6-397b90669c49">
+    <name>Signature</name>
+    <synonym>
+      <key>en</key>
+      <value>Signature</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Signature binary data. An internal field.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cb334191-2ff3-439e-bdaf-4b8fe6561c3b">
+    <name>SignatureCorrect</name>
+    <synonym>
+      <key>en</key>
+      <value>Is valid signature</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Flag that indicates whether the signature has passed the validation.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f9865a2a-50e3-4f9c-a509-319be62dc468">
+    <name>Certificate</name>
+    <synonym>
+      <key>en</key>
+      <value>Certificate</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Certificate binary data. An internal field.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5f3a30b0-1ba8-423c-9bc2-f9a87cafe818">
+    <name>SignatureDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Date signed</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Date when a user added the digital signature.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="766d8852-3bb4-4a6c-81c0-911722af4e8e">
+    <name>SignatureSetBy</name>
+    <synonym>
+      <key>en</key>
+      <value>Signed by</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Users</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>User who signed the file.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="54bfe81c-06b2-45a8-8bc1-bd22240cfe32">
+    <name>IsErrorOccurredDuringAutomaticRenewal</name>
+    <synonym>
+      <key>en</key>
+      <value>Automatic renewal error</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>An error occurred when executing a scheduled job. Process manually</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="46f71ecc-5cee-4b8d-9f6d-d38a86787a76">
+    <name>SkipUponRenewal</name>
+    <synonym>
+      <key>en</key>
+      <value>Skip upon renewal</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Exclude from the list of signatures that are subject to enhancement or timestamping</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b896cd10-5da4-4c90-b2cf-5b98bd173122">
+    <name>SignatureID</name>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="f6dae699-06eb-41ef-878b-3fdfe1b1f213">
+    <name>SignedObject</name>
+    <synonym>
+      <key>en</key>
+      <value>Signed object</value>
+    </synonym>
+    <type>
+      <types>DefinedType.SignedObject</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fe6de86a-54c9-4ae2-9f17-cfce38b7b560">
+    <name>SequenceNumber</name>
+    <synonym>
+      <key>en</key>
+      <value>Serial number</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

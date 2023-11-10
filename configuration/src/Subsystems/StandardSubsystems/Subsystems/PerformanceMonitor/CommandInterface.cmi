@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Constant.LastPerformanceMeasurementsExportDateUTC.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.MeasurementsCountInExportPackage.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.PerformanceMonitorRecordPeriod.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Constant.KeepMeasurementsPeriod.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.KeyOperations.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.DeleteTimeMeasurements3.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.TimeMeasurementsTechnological.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

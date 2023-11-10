@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="deb69010-80b0-4e28-acc7-8c50e8e6f873">
+  <producedTypes>
+    <containerType typeId="41968b9c-d92e-4941-8e71-2a4f890320d9" valueTypeId="43eb16d6-94f0-4f98-824b-dd3b6866131e"/>
+  </producedTypes>
+  <name>AttachedFilesOwner</name>
+  <synonym>
+    <key>en</key>
+    <value>Attachment owner</value>
+  </synonym>
+  <type>
+    <types>BusinessProcessRef.Job</types>
+    <types>DocumentRef.OutgoingEmail</types>
+    <types>DocumentRef.PlannedInteraction</types>
+    <types>CatalogRef.FilesFolders</types>
+    <types>DocumentRef.IncomingEmail</types>
+    <types>DocumentRef.PhoneCall</types>
+    <types>DocumentRef.Meeting</types>
+    <types>CatalogRef.MessageTemplates</types>
+    <types>DocumentRef.SMSMessage</types>
+    <types>CatalogRef.MetadataObjectIDs</types>
+  </type>
+</mdclass:DefinedType>

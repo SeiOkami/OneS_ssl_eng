@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38ac9a13-665a-4201-b5cc-687fe4a01130">
+  <name>CheckSharedRecordsSetsOnWrite</name>
+  <synonym>
+    <key>en</key>
+    <value>Control shared record sets on save</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.BusinessCalendarData</types>
+    <types>InformationRegisterRecordSet.DataExchangeRules</types>
+    <types>InformationRegisterRecordSet.RequestsForPermissionsToUseExternalResources</types>
+    <types>InformationRegisterRecordSet.PermissionsToUseExternalResources</types>
+    <types>InformationRegisterRecordSet.SubsystemsVersions</types>
+    <types>InformationRegisterRecordSet.DataExchangeMessages</types>
+    <types>InformationRegisterRecordSet.DeleteTimeMeasurements3</types>
+    <types>InformationRegisterRecordSet.CommonSuppliedPrintTemplates</types>
+    <types>InformationRegisterRecordSet.SafeDataStorage</types>
+    <types>InformationRegisterRecordSet.SharedUsers</types>
+    <types>InformationRegisterRecordSet.ExternalModulesAttachmentModes</types>
+    <types>InformationRegisterRecordSet.AccessRightsDependencies</types>
+    <types>InformationRegisterRecordSet.ApplicationRuntimeParameters</types>
+    <types>InformationRegisterRecordSet.InformationPackagesOnStart</types>
+    <types>InformationRegisterRecordSet.SharedDataUpdateHandlers</types>
+    <types>InformationRegisterRecordSet.DataAreasExchangeTransportSettings</types>
+    <types>InformationRegisterRecordSet.RolesRights</types>
+    <types>InformationRegisterRecordSet.CalendarNonWorkDaysPeriods</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.SaaSOperationsSSL.CheckSharedRecordsSetsOnWrite</handler>
+</mdclass:EventSubscription>

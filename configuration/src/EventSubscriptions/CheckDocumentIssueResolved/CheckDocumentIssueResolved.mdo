@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d18956cf-e449-48cc-a127-01b5dc910ea2">
+  <name>CheckDocumentIssueResolved</name>
+  <synonym>
+    <key>en</key>
+    <value>Check whether document issue is resolved</value>
+  </synonym>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.DataExchangeEvents.CheckTroubleshootingOfDocumentProcessingOfEvent</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b68d479-7880-44de-84e3-7f578b43f0dc">
+  <name>AddIns</name>
+  <synonym>
+    <key>en</key>
+    <value>Add-ins</value>
+  </synonym>
+  <content>CommonModule.AddInClient</content>
+  <content>Catalog.AddIns</content>
+  <content>CommonModule.AddInsClient</content>
+  <content>CommonModule.AddInsInternalServerCall</content>
+  <content>CommonModule.AddInsInternalClient</content>
+  <content>CommonModule.AddInsInternal</content>
+  <content>Enum.AddInUsageOptions</content>
+  <content>CommonForm.CannotInstallAddIn</content>
+  <content>CommonModule.AddInServerCall</content>
+  <content>CommonPicture.AddInsUpdateFromWebsite</content>
+  <content>CommonModule.AddInsServer</content>
+  <content>CommonPicture.AddInIsAvailable</content>
+  <content>CommonForm.SupportedClientApplications</content>
+  <content>CommonPicture.AddInNotAvailable</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

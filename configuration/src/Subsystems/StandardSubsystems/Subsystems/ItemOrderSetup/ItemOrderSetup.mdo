@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e43d69c8-b284-47da-b236-611bc94a15b6">
+  <name>ItemOrderSetup</name>
+  <synonym>
+    <key>en</key>
+    <value>Item order</value>
+  </synonym>
+  <content>CommonModule.ItemOrderSetupInternal</content>
+  <content>CommonModule.ItemOrderSetup</content>
+  <content>DefinedType.ObjectWithCustomOrder</content>
+  <content>EventSubscription.FillOrderingAttributeValue</content>
+  <content>EventSubscription.ClearOrderAttributeValue</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

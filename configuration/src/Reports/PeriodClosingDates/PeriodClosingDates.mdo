@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf80ccc5-f907-4e7f-a007-6030c7ba682e">
+  <producedTypes>
+    <objectType typeId="ca6761bb-ca8b-4930-8aa7-da65bcd9e436" valueTypeId="7b5b5995-35a6-4ad0-8cae-be0c0fe51d4a"/>
+    <managerType typeId="c752a35b-844e-47b6-aba4-75b64f9a9547" valueTypeId="15b60e47-7bac-4cfb-baa7-f6fbf6c6406a"/>
+  </producedTypes>
+  <name>PeriodClosingDates</name>
+  <synonym>
+    <key>en</key>
+    <value>Period-end closing dates</value>
+  </synonym>
+  <defaultForm>CommonForm.ReportForm</defaultForm>
+  <mainDataCompositionSchema>Report.PeriodClosingDates.Template.MainDataCompositionSchema</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ReportSettingsForm</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ReportVariantForm</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ReportsVariantsStorage</variantsStorage>
+  <forms uuid="134bbd7c-cadd-4395-b7a4-0249dfe7d0b1">
+    <name>ReportForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Report form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="05f1f184-50cb-47c5-b3a8-62be6a9780c1">
+    <name>MainDataCompositionSchema</name>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition schema</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

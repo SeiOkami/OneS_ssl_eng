@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2071f210-dc13-43c0-a58e-b982821d6842">
+  <name>SendEmailsInHTMLFormat</name>
+  <synonym>
+    <key>en</key>
+    <value>HTML format by default</value>
+  </synonym>
+  <location>Constant.SendEmailsInHTMLFormat</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.EmailAccountSettings.Resource.NewMessageSignatureFormat</content>
+  <content>InformationRegister.EmailAccountSettings.Resource.SignatureForNewMessagesFormattedDocument</content>
+  <content>InformationRegister.EmailAccountSettings.Resource.ReplyForwardSignatureFormattedDocument</content>
+  <content>InformationRegister.EmailAccountSettings.Resource.ReplyForwardSignatureFormat</content>
+</mdclass:FunctionalOption>

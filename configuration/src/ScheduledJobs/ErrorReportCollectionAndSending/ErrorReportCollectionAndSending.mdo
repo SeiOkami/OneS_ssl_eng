@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3abaf8e-0230-43db-aaf0-716fc02047eb">
+  <name>ErrorReportCollectionAndSending</name>
+  <synonym>
+    <key>en</key>
+    <value>Collect and send error reports</value>
+  </synonym>
+  <methodName>CommonModule.MonitoringCenterInternal.CollectAndSendDumps</methodName>
+  <description>Collecting and sending error reports</description>
+  <key>584cfc82-81d9-4696-8afa-1189f883fcd0</key>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21d92c2f-6c78-43ce-b1f4-59d7845b5a91">
+  <name>DocumentRecordsReport</name>
+  <synonym>
+    <key>en</key>
+    <value>Document record history</value>
+  </synonym>
+  <content>Report.DocumentRegisterRecords</content>
+  <content>CommonModule.DocumentRecordsReportInternalClient</content>
+  <content>CommonModule.DocumentRecordsReportOverridable</content>
+  <content>Role.ViewDocumentRecordsReport</content>
+  <content>StyleItem.DocumentRecordsReportGroupHeadingFont</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

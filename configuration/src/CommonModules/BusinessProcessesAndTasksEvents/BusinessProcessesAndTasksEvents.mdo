@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e8d8078-8b32-4c24-b26e-89a92bf60160">
+  <name>BusinessProcessesAndTasksEvents</name>
+  <synonym>
+    <key>en</key>
+    <value>Business processes and tasks events</value>
+  </synonym>
+  <comment>Event subscription handlers</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

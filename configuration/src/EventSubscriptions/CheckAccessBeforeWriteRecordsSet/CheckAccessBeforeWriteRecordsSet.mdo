@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="350a7b29-4ba3-43c4-b77d-47085f53d760">
+  <name>CheckAccessBeforeWriteRecordsSet</name>
+  <synonym>
+    <key>en</key>
+    <value>Check access before saving record set</value>
+  </synonym>
+  <source>
+    <types>DefinedType.AccessKeysValuesOwnerRecordSet</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.AccessManagementInternal.CheckAccessBeforeWriteRecordsSet</handler>
+</mdclass:EventSubscription>

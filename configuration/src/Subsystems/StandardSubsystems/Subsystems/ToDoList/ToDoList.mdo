@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f3b124f-bf85-4307-8f0c-47be1fb5c8b0">
+  <name>ToDoList</name>
+  <synonym>
+    <key>en</key>
+    <value>To-do list</value>
+  </synonym>
+  <content>CommonModule.ToDoListInternal</content>
+  <content>DataProcessor.ToDoList</content>
+  <content>StyleItem.ToDoListTitleColor</content>
+  <content>CommonModule.ToDoListOverridable</content>
+  <content>CommonModule.ToDoListInternalCached</content>
+  <content>Role.UseCurrentToDosProcessor</content>
+  <content>CommonPicture.RedRightArrow</content>
+  <content>CommonModule.ToDoListServer</content>
+  <content>StyleItem.ToDoListChildToDoTitle</content>
+  <content>StyleItem.ToDoListSectionTitleFont</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

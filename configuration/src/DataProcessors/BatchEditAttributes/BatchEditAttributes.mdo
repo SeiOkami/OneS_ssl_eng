@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1b94dcf-ec37-4b2d-a7af-120eeee40944">
+  <producedTypes>
+    <objectType typeId="f06540d8-044b-4f8c-99c2-22070273fd43" valueTypeId="e4b23ce6-eec6-4dfb-9dcf-82cb128cee0c"/>
+    <managerType typeId="06559a1a-2dff-4161-9fbf-77334a8e5426" valueTypeId="625e752b-9e2e-4173-9661-94c8bc893610"/>
+  </producedTypes>
+  <name>BatchEditAttributes</name>
+  <synonym>
+    <key>en</key>
+    <value>Bulk attribute edit</value>
+  </synonym>
+  <defaultForm>DataProcessor.BatchEditAttributes.Form.Form</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <attributes uuid="7d2a37b1-a1a0-435a-846a-95e255655044">
+    <name>ChangeInTransaction</name>
+    <synonym>
+      <key>en</key>
+      <value>Edit in transaction</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>If edit in transaction fails, all changes are discarded.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="109db64c-00dc-490e-99a5-4430d9344e99">
+    <name>InterruptOnError</name>
+    <synonym>
+      <key>en</key>
+      <value>Abort on error</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Notify when edit errors occur.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="85837a55-fed5-4b7b-a622-30d728b9a677">
+    <name>AdditionalAttributesUsed</name>
+    <synonym>
+      <key>en</key>
+      <value>Have additional attributes</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Objects that are subject to bulk modification have additional attributes.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0fd79cdb-dc7a-40ca-a3bc-2c7a7b4691bb">
+    <name>AdditionalInfoUsed</name>
+    <synonym>
+      <key>en</key>
+      <value>Have additional information</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Objects that are subject to bulk modification have additional information records.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6ede8b5c-7df0-44a5-9136-8109bbd8b5a9">
+    <name>ShowInternalAttributes</name>
+    <synonym>
+      <key>en</key>
+      <value>Show service attributes</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Show service attributes in the list of common attributes.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="325bacdd-793f-47d8-b987-57e9d5f2782b">
+    <name>DeveloperMode</name>
+    <synonym>
+      <key>en</key>
+      <value>Developer mode</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Write objects with DataExchange.Import = True.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="80395d47-70d7-4d8d-9b18-93283fba80c2">
+    <name>OperationType</name>
+    <synonym>
+      <key>en</key>
+      <value>Operation type</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The method of processing selected items.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8b621ec9-24c9-4166-90ce-29c5ad30f78b">
+    <name>ExecutionMode</name>
+    <synonym>
+      <key>en</key>
+      <value>Edit mode</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Attribute edit mode: manually or custom algorithm.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cc98670a-7b18-4973-b211-90261c5c8c10">
+    <name>ObjectWriteOption</name>
+    <synonym>
+      <key>en</key>
+      <value>Object saving option</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Sets when the object is written: after algorithm is executed or specified by developer in the algorithm code.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5921c2e6-4b25-40d4-b871-9654c2ce89bb">
+    <name>ExternalDataProcessorBinaryDataAddress</name>
+    <synonym>
+      <key>en</key>
+      <value>Address of binary data of external data processor</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="da9821c3-4b16-48b7-9088-d3cf8ac536a6">
+    <name>Form</name>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fb36c775-1124-4ba6-8af8-133bf66fcb54">
+    <name>SelectedItems</name>
+    <synonym>
+      <key>en</key>
+      <value>Selected items</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="51f9aff4-71da-4b1b-b48b-04122a17d855">
+    <name>SelectObjectsKind</name>
+    <synonym>
+      <key>en</key>
+      <value>Select object kind</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d5142574-a040-4dd0-a482-cdc61c1d86ab">
+    <name>AdditionalParameters</name>
+    <synonym>
+      <key>en</key>
+      <value>Additional parameters</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="62957889-503f-4923-a372-29776dc3b5e5">
+    <name>FormulaEdit</name>
+    <synonym>
+      <key>en</key>
+      <value>Edit formula</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="90385850-d37b-4b2e-ac87-95c17f32197c">
+    <name>BatchEditAttributes</name>
+    <synonym>
+      <key>en</key>
+      <value>Bulk attribute edit</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>en</key>
+      <value>Bulk edit of attributes and tables.</value>
+    </toolTip>
+  </commands>
+</mdclass:DataProcessor>

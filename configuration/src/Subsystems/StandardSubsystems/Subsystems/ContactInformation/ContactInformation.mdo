@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af8bd73a-d8e8-487d-8f36-d835ab10ea3a">
+  <name>ContactInformation</name>
+  <synonym>
+    <key>en</key>
+    <value>Contact information</value>
+  </synonym>
+  <content>CommonPicture.ContactInformation</content>
+  <content>CommonModule.ContactsManagerClient</content>
+  <content>CommonModule.ContactsManager</content>
+  <content>Catalog.ContactInformationKinds</content>
+  <content>Catalog.WorldCountries</content>
+  <content>Enum.ContactInformationTypes</content>
+  <content>Subsystem.StandardSubsystems.Subsystem.ContactInformation</content>
+  <content>EventSubscription.FillContactInformation</content>
+  <content>CommonModule.ContactsManagerClientServer</content>
+  <content>StyleItem.ContactInformationEditedInDialogColor</content>
+  <content>CommonPicture.ContactInformationGoToURL</content>
+  <content>CommonModule.ContactsManagerInternal</content>
+  <content>DataProcessor.ContactInformationInput</content>
+  <content>CommonPicture.Popup</content>
+  <content>CommonPicture.ContactInformationObsolete</content>
+  <content>CommonModule.ContactsManagerInternalServerCall</content>
+  <content>CommonModule.ContactsManagerInternalCached</content>
+  <content>CommonPicture.Skype</content>
+  <content>CommonPicture.SendSMS</content>
+  <content>CommonPicture.CallOrSendSMS</content>
+  <content>CommonPicture.Call</content>
+  <content>DefinedType.ContactInformationOwner</content>
+  <content>EventSubscription.UpdateContactInformation</content>
+  <content>Role.AddEditContactInfoKind</content>
+  <content>CommonPicture.ContactInformationKinds</content>
+  <content>CommonPicture.YandexMaps</content>
+  <content>CommonPicture.GoogleMaps</content>
+  <content>CommonPicture.ChangeHistory</content>
+  <content>CommonPicture.MenuAdditionalFunctions</content>
+  <content>CommonPicture.EditWebsiteAddress</content>
+  <content>CommonModule.ContactsManagerOverridable</content>
+  <content>SessionParameter.ContactInformationFillingInteractiveCheck</content>
+  <content>EventSubscription.ContactInformationValidationProcessing</content>
+  <content>ScheduledJob.ObsoleteAddressesCorrection</content>
+  <content>CommonPicture.Address</content>
+  <content>CommonPicture.Email</content>
+  <content>CommonPicture.WebPage</content>
+  <content>CommonPicture.ShowOnMap</content>
+  <content>CommonPicture.Other</content>
+  <content>CommonPicture.Fax</content>
+  <content>CommonPicture.ContactInformationSendEmail</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

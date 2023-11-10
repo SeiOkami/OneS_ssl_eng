@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75666bb9-f6d3-4dd6-8220-427a81f23fc9">
+  <name>RelatedObjectsCreation</name>
+  <synonym>
+    <key>en</key>
+    <value>Create related objects…</value>
+  </synonym>
+  <group>FormCommandBarCreateBasedOn</group>
+  <commandParameterType>
+    <types>DefinedType.ObjectWithAdditionalCommands</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <modifiesData>true</modifiesData>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>en</key>
+    <value>To create related objects, go to the list of additional data processors</value>
+  </toolTip>
+</mdclass:CommonCommand>

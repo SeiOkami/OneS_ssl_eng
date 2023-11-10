@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7da57c89-af2c-445a-96f7-39250f70306f">
+  <producedTypes>
+    <selectionType typeId="29e689f7-03af-49a8-a510-3dd42cdef072" valueTypeId="a45ce3e6-618a-4dc6-9d44-60d5683a5178"/>
+    <listType typeId="48c68b2d-9396-49a2-ae4d-2f6668b7835e" valueTypeId="17f32078-8827-405b-af43-f3bb5b1cef41"/>
+    <managerType typeId="bf9e5423-5b02-45c5-b7f3-be06621dfde9" valueTypeId="41e2db16-bf58-4d26-92bf-07502e3801e4"/>
+  </producedTypes>
+  <name>Interactions</name>
+  <synonym>
+    <key>en</key>
+    <value>Business interactions</value>
+  </synonym>
+  <defaultForm>DocumentJournal.Interactions.Form.ListForm</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.Meeting</registeredDocuments>
+  <registeredDocuments>Document.PhoneCall</registeredDocuments>
+  <registeredDocuments>Document.IncomingEmail</registeredDocuments>
+  <registeredDocuments>Document.OutgoingEmail</registeredDocuments>
+  <registeredDocuments>Document.PlannedInteraction</registeredDocuments>
+  <registeredDocuments>Document.SMSMessage</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <toolTip>
+      <key>en</key>
+      <value>Reference to a logged document.</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="b5b94d94-25f7-4cfa-b1e9-6009fb848763">
+    <name>Author</name>
+    <synonym>
+      <key>en</key>
+      <value>Author</value>
+    </synonym>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <references>Document.Meeting.Attribute.Author</references>
+    <references>Document.PhoneCall.Attribute.Author</references>
+    <references>Document.PlannedInteraction.Attribute.Author</references>
+    <references>Document.OutgoingEmail.Attribute.Author</references>
+    <references>Document.SMSMessage.Attribute.Author</references>
+  </columns>
+  <columns uuid="a2accf54-5966-42e8-ab2e-e56e415963ee">
+    <name>Incoming</name>
+    <synonym>
+      <key>en</key>
+      <value>Incoming</value>
+    </synonym>
+    <references>Document.PhoneCall.Attribute.Incoming</references>
+  </columns>
+  <columns uuid="d8eb5329-5900-4b5d-b45e-458513dddfef">
+    <name>EmployeeResponsible</name>
+    <synonym>
+      <key>en</key>
+      <value>Assigned to</value>
+    </synonym>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <references>Document.PhoneCall.Attribute.EmployeeResponsible</references>
+    <references>Document.Meeting.Attribute.EmployeeResponsible</references>
+    <references>Document.IncomingEmail.Attribute.EmployeeResponsible</references>
+    <references>Document.OutgoingEmail.Attribute.EmployeeResponsible</references>
+    <references>Document.PlannedInteraction.Attribute.EmployeeResponsible</references>
+    <references>Document.SMSMessage.Attribute.EmployeeResponsible</references>
+  </columns>
+  <columns uuid="6d521e58-24a3-4f19-b4b0-dff84f7ca86b">
+    <name>Subject</name>
+    <synonym>
+      <key>en</key>
+      <value>Subject</value>
+    </synonym>
+    <references>Document.IncomingEmail.Attribute.Subject</references>
+    <references>Document.OutgoingEmail.Attribute.Subject</references>
+    <references>Document.Meeting.Attribute.Subject</references>
+    <references>Document.PlannedInteraction.Attribute.Subject</references>
+    <references>Document.PhoneCall.Attribute.Subject</references>
+    <references>Document.SMSMessage.Attribute.Subject</references>
+  </columns>
+  <columns uuid="8c413fa5-9e24-4b81-aa55-0e78c5e3e20f">
+    <name>Attendees</name>
+    <synonym>
+      <key>en</key>
+      <value>Participants</value>
+    </synonym>
+    <references>Document.Meeting.Attribute.ParticipantsList</references>
+    <references>Document.PhoneCall.Attribute.SubscriberPresentation</references>
+    <references>Document.OutgoingEmail.Attribute.EmailRecipientsList</references>
+    <references>Document.IncomingEmail.Attribute.SenderPresentation</references>
+    <references>Document.PlannedInteraction.Attribute.ParticipantsList</references>
+    <references>Document.SMSMessage.Attribute.ParticipantsList</references>
+  </columns>
+  <columns uuid="a4322f22-7de0-4018-8e06-9f1aa7cf0c07">
+    <name>OutgoingEmailStatus</name>
+    <synonym>
+      <key>en</key>
+      <value>Outgoing mail status</value>
+    </synonym>
+    <references>Document.OutgoingEmail.Attribute.EmailStatus</references>
+    <references>Document.SMSMessage.Attribute.State</references>
+  </columns>
+  <columns uuid="eaaed107-69d4-4963-be83-74519e331715">
+    <name>Account</name>
+    <synonym>
+      <key>en</key>
+      <value>Email account</value>
+    </synonym>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <references>Document.IncomingEmail.Attribute.Account</references>
+    <references>Document.OutgoingEmail.Attribute.Account</references>
+  </columns>
+  <columns uuid="38cddf96-8703-4396-8c73-47fb22828a48">
+    <name>HasAttachments</name>
+    <synonym>
+      <key>en</key>
+      <value>Has attachments</value>
+    </synonym>
+    <references>Document.IncomingEmail.Attribute.HasAttachments</references>
+    <references>Document.OutgoingEmail.Attribute.HasAttachments</references>
+  </columns>
+  <columns uuid="2c2cb793-0177-4983-91ca-9c292c5b10f1">
+    <name>InteractionBasis</name>
+    <synonym>
+      <key>en</key>
+      <value>Reference interaction</value>
+    </synonym>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <references>Document.Meeting.Attribute.InteractionBasis</references>
+    <references>Document.PlannedInteraction.Attribute.InteractionBasis</references>
+    <references>Document.PhoneCall.Attribute.InteractionBasis</references>
+    <references>Document.IncomingEmail.Attribute.InteractionBasis</references>
+    <references>Document.OutgoingEmail.Attribute.InteractionBasis</references>
+    <references>Document.SMSMessage.Attribute.InteractionBasis</references>
+  </columns>
+  <columns uuid="2a2e7f51-a4e5-48ec-b969-b1fca18ba9b5">
+    <name>SentReceived</name>
+    <synonym>
+      <key>en</key>
+      <value>Received/Sent</value>
+    </synonym>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <references>Document.IncomingEmail.Attribute.DateReceived</references>
+    <references>Document.OutgoingEmail.Attribute.PostingDate</references>
+  </columns>
+  <columns uuid="221fa473-3327-44e6-a033-6fdfd2be713c">
+    <name>Size</name>
+    <synonym>
+      <key>en</key>
+      <value>Size</value>
+    </synonym>
+    <references>Document.IncomingEmail.Attribute.Size</references>
+    <references>Document.OutgoingEmail.Attribute.Size</references>
+  </columns>
+  <columns uuid="7a5973f0-7e29-44af-8e7b-70af71f704a4">
+    <name>Importance</name>
+    <synonym>
+      <key>en</key>
+      <value>Importance</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.Meeting.Attribute.Importance</references>
+    <references>Document.PlannedInteraction.Attribute.Importance</references>
+    <references>Document.PhoneCall.Attribute.Importance</references>
+    <references>Document.IncomingEmail.Attribute.Importance</references>
+    <references>Document.OutgoingEmail.Attribute.Importance</references>
+    <references>Document.SMSMessage.Attribute.Importance</references>
+  </columns>
+  <columns uuid="2b2bf0f7-0946-4492-bba0-27f007a70e64">
+    <name>DateToSendEmail</name>
+    <synonym>
+      <key>en</key>
+      <value>Schedule send</value>
+    </synonym>
+    <references>Document.SMSMessage.Attribute.DateToSendEmail</references>
+    <references>Document.OutgoingEmail.Attribute.DateToSendEmail</references>
+  </columns>
+  <columns uuid="22c9a703-5ed3-4156-8fa6-476b1c1452f1">
+    <name>EmailSendingRelevanceDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Messaging deadline</value>
+    </synonym>
+    <references>Document.SMSMessage.Attribute.EmailSendingRelevanceDate</references>
+    <references>Document.OutgoingEmail.Attribute.EmailSendingRelevanceDate</references>
+  </columns>
+  <columns uuid="8be10d88-8c37-4444-9c89-6cbbe9913bda">
+    <name>MessageID</name>
+    <synonym>
+      <key>en</key>
+      <value>Message ID</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.IncomingEmail.Attribute.MessageID</references>
+    <references>Document.OutgoingEmail.Attribute.MessageID</references>
+  </columns>
+  <forms uuid="27089e8e-2c75-431c-b808-5d4dcba3cdca">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9ab3980e-a480-4f90-a8cc-bde99d5ace35">
+    <name>ParametricListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Parameterized list form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ec928563-6e35-4b84-b477-90d2481cec1c">
+    <name>PrintEmail</name>
+    <synonym>
+      <key>en</key>
+      <value>Print mail</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5d3e9678-20fe-4128-867a-3f7addaa7831">
+    <name>EmailMessageParameters</name>
+    <synonym>
+      <key>en</key>
+      <value>Mail message parameters</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bb878f73-8a0f-459a-9076-ce57fe7957dc">
+    <name>EmailOperationSettings</name>
+    <synonym>
+      <key>en</key>
+      <value>Account settings</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cb1d4a41-20a9-4d76-8798-d47d8858bff1">
+    <name>SelectSubjectType</name>
+    <synonym>
+      <key>en</key>
+      <value>Select topic category</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a2b4110b-4d9c-40fd-ab46-bfa08d2eb993">
+    <name>SchemaInteractionsFilter</name>
+    <synonym>
+      <key>en</key>
+      <value>Scheme filter interaction</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="4f262b7f-927e-45f2-ad90-9d5e1b3155d1">
+    <name>InteractionsHierarchySubject</name>
+    <synonym>
+      <key>en</key>
+      <value>Interactions topic hierarchy</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="9f4b8e36-83ff-4694-8540-b5f47b18395f">
+    <name>InteractionsHierarchyContact</name>
+    <synonym>
+      <key>en</key>
+      <value>Interactions hierarchy contact</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="b4c026eb-4271-4366-b529-1cdfe2874563">
+    <name>SchemaFilterInteractionsContact</name>
+    <synonym>
+      <key>en</key>
+      <value>Scheme filter interaction contact</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="314b0da2-24d3-48cc-8532-d36c45eb3bf8">
+    <name>InteractionsByContact</name>
+    <synonym>
+      <key>en</key>
+      <value>Interactions</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>DefinedType.InteractionContact</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>en</key>
+      <value>View the list of interactions with the contact.</value>
+    </toolTip>
+  </commands>
+  <commands uuid="2e3ac3fb-9f0e-463f-95c2-9f661ce2e015">
+    <name>InteractionsBySubject</name>
+    <synonym>
+      <key>en</key>
+      <value>Interactions</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>DefinedType.InteractionSubject</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>en</key>
+      <value>View the list of interactions on the topic.</value>
+    </toolTip>
+  </commands>
+  <commands uuid="4077e700-ec20-4afa-8155-bf7e516a70cb">
+    <name>PlanInteractionByContact</name>
+    <synonym>
+      <key>en</key>
+      <value>Schedule interaction</value>
+    </synonym>
+    <group>CommandGroup.Interactions</group>
+    <commandParameterType>
+      <types>DefinedType.InteractionContact</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.PlannedInteraction</picture>
+    </picture>
+  </commands>
+  <commands uuid="5198c6db-2100-4902-82c8-85c8ea555e78">
+    <name>PlanInteractionBySubject</name>
+    <synonym>
+      <key>en</key>
+      <value>Schedule interaction</value>
+    </synonym>
+    <group>CommandGroup.Interactions</group>
+    <commandParameterType>
+      <types>DefinedType.InteractionSubject</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.PlannedInteraction</picture>
+    </picture>
+  </commands>
+  <commands uuid="b99f2a63-54e8-490b-a0a4-1941fbc38b3f">
+    <name>PlanMeetingByContact</name>
+    <synonym>
+      <key>en</key>
+      <value>Schedule appointment</value>
+    </synonym>
+    <group>CommandGroup.Interactions</group>
+    <commandParameterType>
+      <types>DefinedType.InteractionContact</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Meeting</picture>
+    </picture>
+  </commands>
+  <commands uuid="f0b1e9f4-2e07-44e6-88d2-c11457135781">
+    <name>PlanMeetingBySubject</name>
+    <synonym>
+      <key>en</key>
+      <value>Schedule appointment</value>
+    </synonym>
+    <group>CommandGroup.Interactions</group>
+    <commandParameterType>
+      <types>DefinedType.InteractionSubject</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Meeting</picture>
+    </picture>
+  </commands>
+  <commands uuid="e010c0f9-f770-4fdc-8607-50838c0262ef">
+    <name>WriteSMSMessageByContact</name>
+    <synonym>
+      <key>en</key>
+      <value>Compose text message</value>
+    </synonym>
+    <group>CommandGroup.Interactions</group>
+    <commandParameterType>
+      <types>DefinedType.InteractionContact</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.WriteSMS</picture>
+    </picture>
+  </commands>
+  <commands uuid="f935399f-3554-4c08-b0a6-eba13074e1b7">
+    <name>WriteSMSMessageBySubject</name>
+    <synonym>
+      <key>en</key>
+      <value>Compose text message</value>
+    </synonym>
+    <group>CommandGroup.Interactions</group>
+    <commandParameterType>
+      <types>DefinedType.InteractionSubject</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.WriteSMS</picture>
+    </picture>
+  </commands>
+  <commands uuid="10008125-3aeb-4912-8ad6-d92d283ea09a">
+    <name>WriteEmailByContact</name>
+    <synonym>
+      <key>en</key>
+      <value>Compose mail</value>
+    </synonym>
+    <group>CommandGroup.Interactions</group>
+    <commandParameterType>
+      <types>DefinedType.InteractionContact</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.OutgoingEmail</picture>
+    </picture>
+  </commands>
+  <commands uuid="765f9584-fefa-4695-b130-dd54c3b0d79d">
+    <name>WriteEmailBySubject</name>
+    <synonym>
+      <key>en</key>
+      <value>Compose mail</value>
+    </synonym>
+    <group>CommandGroup.Interactions</group>
+    <commandParameterType>
+      <types>DefinedType.InteractionSubject</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.OutgoingEmail</picture>
+    </picture>
+  </commands>
+  <commands uuid="dd050ca0-8335-4654-ab5c-7babcb4824ef">
+    <name>EmailOperationSettings</name>
+    <synonym>
+      <key>en</key>
+      <value>Account settings</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="706cbf55-626d-4cab-b589-a2464368f6c1">
+    <name>PrintEmail</name>
+    <synonym>
+      <key>en</key>
+      <value>Print</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.OutgoingEmail</types>
+      <types>DocumentRef.IncomingEmail</types>
+    </commandParameterType>
+    <representation>Picture</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+  <commands uuid="d22a0a50-220d-459e-a23a-39730a1e67c4">
+    <name>CallByContact</name>
+    <synonym>
+      <key>en</key>
+      <value>Create phone call</value>
+    </synonym>
+    <group>CommandGroup.Interactions</group>
+    <commandParameterType>
+      <types>DefinedType.InteractionContact</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.PhoneCall</picture>
+    </picture>
+  </commands>
+  <commands uuid="2c1c9284-ba8b-4282-a89c-429f02ea41f6">
+    <name>CallBySubject</name>
+    <synonym>
+      <key>en</key>
+      <value>Create phone call</value>
+    </synonym>
+    <group>CommandGroup.Interactions</group>
+    <commandParameterType>
+      <types>DefinedType.InteractionSubject</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.PhoneCall</picture>
+    </picture>
+  </commands>
+  <commands uuid="8c241467-76f7-4161-a8a1-5da4a6576b75">
+    <name>SaveEmailToHardDrive</name>
+    <synonym>
+      <key>en</key>
+      <value>Save as</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.OutgoingEmail</types>
+      <types>DocumentRef.IncomingEmail</types>
+    </commandParameterType>
+    <representation>PictureAndText</representation>
+    <toolTip>
+      <key>en</key>
+      <value>Save the mail message as EML</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.SaveFileAs</picture>
+    </picture>
+    <shortcut>Ctrl+Shift+S</shortcut>
+  </commands>
+</mdclass:DocumentJournal>

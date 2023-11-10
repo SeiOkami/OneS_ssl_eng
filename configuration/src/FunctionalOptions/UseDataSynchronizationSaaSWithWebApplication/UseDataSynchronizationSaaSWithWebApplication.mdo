@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7de19812-ed6c-41b5-82aa-b9a8e6d808f2">
+  <name>UseDataSynchronizationSaaSWithWebApplication</name>
+  <synonym>
+    <key>en</key>
+    <value>Use SaaS data synchronization with web application</value>
+  </synonym>
+  <location>Constant.UseDataSynchronizationSaaSWithWebApplication</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.DataSynchronizationSettingsSaaS</content>
+  <content>CommonCommand.MigrationToExchangeOverInternetWizardInternalPublication</content>
+</mdclass:FunctionalOption>

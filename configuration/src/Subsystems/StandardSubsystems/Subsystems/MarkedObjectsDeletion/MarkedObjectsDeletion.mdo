@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e15c3525-3453-4b62-834e-7c69f9efea51">
+  <name>MarkedObjectsDeletion</name>
+  <synonym>
+    <key>en</key>
+    <value>Marked object deletion</value>
+  </synonym>
+  <content>DataProcessor.MarkedObjectsDeletion</content>
+  <content>ScheduledJob.MarkedObjectsDeletion</content>
+  <content>CommonModule.MarkedObjectsDeletionInternal</content>
+  <content>CommonModule.MarkedObjectsDeletionOverridable</content>
+  <content>Constant.UseMarkedObjectsDeletion</content>
+  <content>FunctionalOption.UseMarkedObjectsDeletion</content>
+  <content>CommonModule.MarkedObjectsDeletion</content>
+  <content>CommonModule.MarkedObjectsDeletionClient</content>
+  <content>CommonModule.MarkedObjectsDeletionInternalServerCall</content>
+  <content>Constant.CheckIfObjectsToDeleteAreUsed</content>
+  <content>InformationRegister.ObjectsToDelete</content>
+  <content>EventSubscription.ProhibitUsageOfObjectsToDeleteInObjects</content>
+  <content>EventSubscription.ProhibitUsageOfObjectsToDeleteInRecordSets</content>
+  <content>EventSubscription.ProhibitUsageOfObjectsToDeleteInCalculationRegistersSets</content>
+  <content>EventSubscription.ProhibitUsageOfObjectsToDeleteInConstants</content>
+  <content>ScheduledJob.MarkedObjectsDeletionControl</content>
+  <content>InformationRegister.NotDeletedObjects</content>
+  <content>CommonModule.MarkedObjectsDeletionInternalClientServer</content>
+  <content>CommonModule.MarkedObjectsDeletionCached</content>
+  <content>StyleItem.ActionInListColumnFont</content>
+  <content>SessionParameter.ObjectsDeletionInProgress</content>
+  <content>EventSubscription.ProhibitUsageOfObjectsToDeleteInDocuments</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

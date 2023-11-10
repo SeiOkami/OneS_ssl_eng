@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0093680b-c8bc-472d-8b0d-2e6565fc6c22">
+  <name>ExtensionStatesWillBeConnected</name>
+  <synonym>
+    <key>en</key>
+    <value>Extension state: will be attached</value>
+  </synonym>
+</mdclass:CommonPicture>

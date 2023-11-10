@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de7ed8f7-3c02-47e0-aea8-4747ac68a5d5">
+  <name>ImportDataFromFile</name>
+  <synonym>
+    <key>en</key>
+    <value>Import data from spreadsheets</value>
+  </synonym>
+  <content>DataProcessor.ImportDataFromFile</content>
+  <content>CommonModule.ImportDataFromFileClient</content>
+  <content>CommonModule.ImportDataFromFileOverridable</content>
+  <content>CommonModule.ImportDataFromFile</content>
+  <content>CommonModule.ImportDataFromFileClientServer</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

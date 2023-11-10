@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0722315c-9217-4ecf-80ff-d1ee89f84a53">
+  <name>DetermineAttachedFileFormMessageTemplates</name>
+  <synonym>
+    <key>en</key>
+    <value>Define attachment form (Message templates)</value>
+  </synonym>
+  <comment>APK: 256-handler in the server module</comment>
+  <source>
+    <types>CatalogManager.MessageTemplatesAttachedFiles</types>
+  </source>
+  <event>FormGetProcessing</event>
+  <handler>CommonModule.MessageTemplatesClientServer.DetermineAttachedFileForm</handler>
+</mdclass:EventSubscription>

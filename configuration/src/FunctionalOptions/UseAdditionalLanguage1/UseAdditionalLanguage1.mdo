@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0248a6c4-7ce5-4898-bb1d-9ad9509e6795">
+  <name>UseAdditionalLanguage1</name>
+  <synonym>
+    <key>en</key>
+    <value>Use additional language1</value>
+  </synonym>
+  <location>Constant.UseAdditionalLanguage1</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonAttribute.DescriptionLanguage1</content>
+  <content>CommonAttribute.CommentLanguage1</content>
+  <content>Catalog.ReportsOptions.Attribute.LongDescLanguage1</content>
+  <content>Catalog.PredefinedReportsOptions.Attribute.LongDescLanguage1</content>
+  <content>Catalog.PredefinedExtensionsReportsOptions.Attribute.LongDescLanguage1</content>
+  <content>ChartOfCharacteristicTypes.AdditionalAttributesAndInfo.Attribute.ValueChoiceFormTitleLanguage1</content>
+  <content>ChartOfCharacteristicTypes.AdditionalAttributesAndInfo.Attribute.ToolTipLanguage1</content>
+  <content>ChartOfCharacteristicTypes.AdditionalAttributesAndInfo.Attribute.TitleLanguage1</content>
+  <content>ChartOfCharacteristicTypes.AdditionalAttributesAndInfo.Attribute.ValueFormTitleLanguage1</content>
+</mdclass:FunctionalOption>

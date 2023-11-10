@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68f19104-5fa3-4f28-a84b-bf68c3bed49b">
+  <name>UseUserReminders</name>
+  <synonym>
+    <key>en</key>
+    <value>Use reminders</value>
+  </synonym>
+  <location>Constant.UseUserReminders</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.StandardSubsystems.Subsystem.UserReminders</content>
+  <content>InformationRegister.UserReminders</content>
+  <content>Enum.ReminderTimeSettingMethods</content>
+  <content>CommonCommand.Remind</content>
+</mdclass:FunctionalOption>

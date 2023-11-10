@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f36d26e-aa71-44d5-ac27-9aaa643555c3">
+  <name>EnableScheduledJobOnChangeFunctionalOption</name>
+  <synonym>
+    <key>en</key>
+    <value>Enable scheduled job upon changing functional option</value>
+  </synonym>
+  <source>
+    <types>DefinedType.FunctionalOptionsStorage</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ScheduledJobsInternal.EnableScheduledJobOnChangeFunctionalOption</handler>
+</mdclass:EventSubscription>

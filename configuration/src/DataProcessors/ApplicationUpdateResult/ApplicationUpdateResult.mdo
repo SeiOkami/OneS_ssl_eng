@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb74ebf0-a9c6-4c4c-b279-5a46f40ea0d3">
+  <producedTypes>
+    <objectType typeId="adf77f5f-2488-4158-abed-c692629e3b05" valueTypeId="eb4f67ca-689f-48f4-bcec-8cbcb185602e"/>
+    <managerType typeId="3b3485f7-0144-47c6-82d0-d9b0e1b34e85" valueTypeId="2cfa277b-6a32-4485-bc14-94f5256aba47"/>
+  </producedTypes>
+  <name>ApplicationUpdateResult</name>
+  <synonym>
+    <key>en</key>
+    <value>Application update results</value>
+  </synonym>
+  <comment>APK:a 78-off-for calling up the different upgrade steps</comment>
+  <defaultForm>DataProcessor.ApplicationUpdateResult.Form.ApplicationUpdateResult</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <forms uuid="d5e1806b-9827-40ab-9cfa-23c22456d137">
+    <name>ApplicationUpdateResult</name>
+    <synonym>
+      <key>en</key>
+      <value>Application update results</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b57b186a-ec1e-46a2-87ae-6ba27793ebf6">
+    <name>DeferredHandlers</name>
+    <synonym>
+      <key>en</key>
+      <value>Deferred handlers</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d24170d7-5477-4ec8-acd2-0de8bd2067d6">
+    <name>ApplicationVersionUpdate</name>
+    <synonym>
+      <key>en</key>
+      <value>Application update</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f047da82-7574-4da4-b54e-480195280a11">
+    <name>FailedUpdateMessage</name>
+    <synonym>
+      <key>en</key>
+      <value>Update failed message</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a469f018-da26-485f-87c3-f580321a34f0">
+    <name>DeferredUpdateNotCompleted</name>
+    <synonym>
+      <key>en</key>
+      <value>Deferred update pending</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="adcb0dca-d810-461e-8f45-1d3cd6ffad4d">
+    <name>SecurityWarning</name>
+    <synonym>
+      <key>en</key>
+      <value>Security warning</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="388f7571-8f1b-45c5-a8b8-45d648f2f5dd">
+    <name>MessageToLimitedAccessUser</name>
+    <synonym>
+      <key>en</key>
+      <value>Message to a limited access user</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="886df9ab-09b4-4c7a-bd44-6afeab68d831">
+    <name>ClearObsoleteData</name>
+    <synonym>
+      <key>en</key>
+      <value>Clear obsolete data</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

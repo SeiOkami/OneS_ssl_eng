@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30be8d71-a9dd-4dd3-8fb4-ea0c8de86358">
+  <name>UseScenariosInSaaS</name>
+  <synonym>
+    <key>en</key>
+    <value>Use scenarios in SaaS</value>
+  </synonym>
+  <location>InformationRegister.CommonInfobasesNodesSettings.Resource.UseScenariosInSaaS</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.SynchronizationScenarios</content>
+</mdclass:FunctionalOption>

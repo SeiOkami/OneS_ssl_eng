@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f415296e-fceb-4835-abe9-17bb17a5d5e5">
+  <name>VerifyDigitalSignaturesOnTheServer</name>
+  <synonym>
+    <key>en</key>
+    <value>Verify digital signatures on server</value>
+  </synonym>
+  <location>Constant.VerifyDigitalSignaturesOnTheServer</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.PathsToDigitalSignatureAndEncryptionApplicationsOnLinuxServers.Command.PathToApplicationOnLinuxServers</content>
+</mdclass:FunctionalOption>

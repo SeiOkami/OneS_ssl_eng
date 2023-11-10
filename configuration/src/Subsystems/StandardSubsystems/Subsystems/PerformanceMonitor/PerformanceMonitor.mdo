@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1c379be-43d3-4e02-83bb-d2e7de2d4ae3">
+  <name>PerformanceMonitor</name>
+  <synonym>
+    <key>en</key>
+    <value>Performance monitor</value>
+  </synonym>
+  <content>CommonModule.PerformanceMonitorGlobal</content>
+  <content>CommonModule.PerformanceMonitorClientServer</content>
+  <content>Role.PerformanceSetupAndMonitoring</content>
+  <content>DataProcessor.PerformanceMonitor</content>
+  <content>ScheduledJob.PerformanceMonitorDataExport</content>
+  <content>XDTOPackage.ApdexExport</content>
+  <content>Enum.PerformanceLevels</content>
+  <content>CommonModule.PerformanceMonitorClient</content>
+  <content>Constant.RunPerformanceMeasurements</content>
+  <content>Catalog.KeyOperations</content>
+  <content>CommonModule.PerformanceMonitorServerCallCached</content>
+  <content>Constant.LastPerformanceMeasurementsExportDateUTC</content>
+  <content>Constant.PerformanceMonitorRecordPeriod</content>
+  <content>CommonModule.PerformanceMonitorInternal</content>
+  <content>SessionParameter.TimeMeasurementComment</content>
+  <content>CommonModule.PerformanceMonitor</content>
+  <content>CommonModule.PerformanceMonitorServerCall</content>
+  <content>InformationRegister.DeleteTimeMeasurements3</content>
+  <content>InformationRegister.TimeMeasurementsTechnological</content>
+  <content>XDTOPackage.ApdexExport_1_0_0_2</content>
+  <content>Constant.MeasurementsCountInExportPackage</content>
+  <content>Constant.KeepMeasurementsPeriod</content>
+  <content>ScheduledJob.ClearTimeMeasurements</content>
+  <content>CommonModule.PerformanceMonitorCached</content>
+  <content>Catalog.KeyOperationProfiles</content>
+  <content>Report.PerformanceMonitor</content>
+  <content>XDTOPackage.ApdexExport_1_0_0_3</content>
+  <content>InformationRegister.TimeMeasurements</content>
+  <content>XDTOPackage.ApdexExport_1_0_0_4</content>
+  <content>FunctionalOption.RunPerformanceMeasurements</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

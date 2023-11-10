@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1731708f-53cb-4b00-b90e-f581b4baa845">
+  <producedTypes>
+    <selectionType typeId="cb513551-1a0e-4407-9c92-3c4b6c198a1a" valueTypeId="a4944e08-368b-482e-b718-8dec932a78ac"/>
+    <listType typeId="1f353ee5-baee-451f-ad60-946729470cb1" valueTypeId="0320311d-4c8b-4776-b7e1-f9b6b1f9abe0"/>
+    <managerType typeId="70c73692-84c7-47da-95bc-d3df3ff605de" valueTypeId="1c688986-62b0-4b96-8867-810d44d47837"/>
+    <recordSetType typeId="971aeb80-3c44-4df0-b99b-5777638a8353" valueTypeId="eb2d81cb-4967-4443-bd01-3d3c9b84fee4"/>
+    <recordKeyType typeId="6d651942-0110-440e-b16e-5eedd5e8ca51" valueTypeId="a39dbb67-95d8-4580-81b5-03050eb97f1a"/>
+    <recordType typeId="55cda8f7-1e3f-4207-81cc-d8e7c9fb52d3" valueTypeId="f0a3eaa1-7b0a-459c-a0cd-ec0bf9849a24"/>
+    <recordManagerType typeId="1e3f11d8-9689-48a9-88d3-afd6e15f79cf" valueTypeId="91a5c0b5-7f41-4a1b-ab58-36991ffdceb5"/>
+  </producedTypes>
+  <name>EmailAccountSettings</name>
+  <synonym>
+    <key>en</key>
+    <value>Email account settings</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.EmailAccountSettings.Form.RecordForm</defaultRecordForm>
+  <defaultListForm>InformationRegister.EmailAccountSettings.Form.ListForm</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d4b0feca-c00a-4d48-9f23-d92277ea6483">
+    <name>AddSignatureForNewMessages</name>
+    <synonym>
+      <key>en</key>
+      <value>Include signature on new messages</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Automatically include signature when composing a new message.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+  </resources>
+  <resources uuid="00b2a0b3-6af8-4ea4-aa38-d1e078d5cbff">
+    <name>NewMessageSignatureFormat</name>
+    <synonym>
+      <key>en</key>
+      <value>Signature format on new message</value>
+    </synonym>
+    <type>
+      <types>EnumRef.EmailEditingMethods</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Format of signature included on new messages: HTML or Plain text.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.EmailEditingMethods.EnumValue.NormalText</value>
+    </fillValue>
+  </resources>
+  <resources uuid="20f7fdd2-30f6-4a52-a63b-7d2c326c0e83">
+    <name>SignatureForNewMessagesPlainText</name>
+    <synonym>
+      <key>en</key>
+      <value>Plain text signature on new messages</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Plain text signature on new messages</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="23cb5bc2-9638-4d1c-b4bc-d5297e271570">
+    <name>SignatureForNewMessagesFormattedDocument</name>
+    <synonym>
+      <key>en</key>
+      <value>HTML signature on new messages</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>HTML signature on new messages</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6e547ccb-6d5a-4f7c-aaf0-568c22d2c276">
+    <name>AddSignatureOnReplyForward</name>
+    <synonym>
+      <key>en</key>
+      <value>Include signature on replies and forwards</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Automatically include signature when replying to or forwarding a message.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+  </resources>
+  <resources uuid="04b7389d-697d-4b0d-a239-ac8c674cc46f">
+    <name>ReplyForwardSignatureFormat</name>
+    <synonym>
+      <key>en</key>
+      <value>Signature format on reply or forward</value>
+    </synonym>
+    <type>
+      <types>EnumRef.EmailEditingMethods</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Format of signature included on replies and forwards: HTML or Plain text.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.EmailEditingMethods.EnumValue.NormalText</value>
+    </fillValue>
+  </resources>
+  <resources uuid="a1cf5173-2e86-4ed7-9a0b-1bd5e578326a">
+    <name>ReplyForwardSignaturePlainText</name>
+    <synonym>
+      <key>en</key>
+      <value>Plain text signature on replies and forwards</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Plain text signature on replies and forwards</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="864cad61-8280-415d-8fe1-bcb39d56670a">
+    <name>ReplyForwardSignatureFormattedDocument</name>
+    <synonym>
+      <key>en</key>
+      <value>HTML signature on replies and forwards</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>HTML signature on replies and forwards</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b106bd29-5dc7-44d7-94d0-00f61499392e">
+    <name>DeletePersonalAccount</name>
+    <synonym>
+      <key>en</key>
+      <value>(not used) Private account</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Indicates whether this is a private account. The user assigned to a private account is responsible for handling its messages and managing its folders.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a4febff8-0566-4977-bf55-1d574568fe9f">
+    <name>EmployeeResponsibleForProcessingEmails</name>
+    <synonym>
+      <key>en</key>
+      <value>Responsible for handling messages</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Users</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The user assigned to handle messages by default</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5199cc65-bed1-40b9-96fe-cf6d855a8b91">
+    <name>EmployeeResponsibleForFoldersMaintenance</name>
+    <synonym>
+      <key>en</key>
+      <value>Responsible for managing folders</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Users</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>The user assigned to manage mailbox folders</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f518add9-5c26-4dac-ab2e-b30fe3fbd347">
+    <name>DeleteEmailsAfterSend</name>
+    <synonym>
+      <key>en</key>
+      <value>Delete sent messages</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>When you send a message, it is automatically deleted from the infobase.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="23f53317-7aa8-4816-8a69-3d39d5e76da0">
+    <name>PutEmailInBaseEmailFolder</name>
+    <synonym>
+      <key>en</key>
+      <value>Save message in the same folder as the original message</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>If the original message is stored in a custom folder, its replies and forwards will be saved to the same folder.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9ade5155-fa6d-4999-b019-a5e7e235a158">
+    <name>NotUseInDefaultEmailClient</name>
+    <synonym>
+      <key>en</key>
+      <value>Not added to System Email Client</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Indicates whether this account is set up with System Email Client</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="8b302c5e-b255-4cb5-94d9-0dfef4250097">
+    <name>IncludeUsernameInPresentation</name>
+    <synonym>
+      <key>en</key>
+      <value>Add sender's name to email account presentation</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>This only affects how the app users see your email account.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue"/>
+  </resources>
+  <resources uuid="08eb74b6-1e1c-4004-a0f8-b6f1fdfc68ef">
+    <name>MailHandlingInOtherMailClient</name>
+    <synonym>
+      <key>en</key>
+      <value>Mail is handled by a third-party email client</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>&quot;Read&quot; flag is not synced. All received messages are marked as Reviewed.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="d4eb3e9a-feb5-42d9-841b-ff20288228b6">
+    <name>DateOfLastUse</name>
+    <synonym>
+      <key>en</key>
+      <value>Last used</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="49d713b8-6a61-4bd1-9650-0de1869967d2">
+    <name>EmailAccount</name>
+    <synonym>
+      <key>en</key>
+      <value>Email account</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.EmailAccounts</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Email account</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="4738ffd0-3c3b-4e5f-8773-0c9a80efdfbf">
+    <name>RecordForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Record form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bd0e4aeb-19f9-48fc-b838-38d785004360">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="3d1bae2a-4dfd-48e5-bfe9-b7e30c8475f6">
+    <name>AdditionalSettings</name>
+    <synonym>
+      <key>en</key>
+      <value>Additional settings</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.EmailAccounts</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>en</key>
+      <value>Private account settings</value>
+    </toolTip>
+  </commands>
+</mdclass:InformationRegister>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43c18cae-21a9-413b-a350-d5cf826980f0">
+  <name>GetInteractionPresentation</name>
+  <synonym>
+    <key>en</key>
+    <value>Obtain interaction presentation</value>
+  </synonym>
+  <source>
+    <types>DocumentManager.SMSMessage</types>
+    <types>DocumentManager.Meeting</types>
+    <types>DocumentManager.PlannedInteraction</types>
+    <types>DocumentManager.OutgoingEmail</types>
+    <types>DocumentManager.IncomingEmail</types>
+    <types>DocumentManager.PhoneCall</types>
+  </source>
+  <event>PresentationGetProcessing</event>
+  <handler>CommonModule.InteractionsClientServer.PresentationGetProcessing</handler>
+</mdclass:EventSubscription>

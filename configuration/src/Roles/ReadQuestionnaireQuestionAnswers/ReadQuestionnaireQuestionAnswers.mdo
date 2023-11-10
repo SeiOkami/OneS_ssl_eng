@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35c938f4-065f-47f5-a75b-637ed0080725">
+  <name>ReadQuestionnaireQuestionAnswers</name>
+  <synonym>
+    <key>en</key>
+    <value>Read questionnaire responses</value>
+  </synonym>
+  <comment>ACC:291 ACC:290 Только право чтения без просмотра для документа НазначениеОпросов</comment>
+</mdclass:Role>

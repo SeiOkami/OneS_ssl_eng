@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1cafd62-5d25-4359-9934-9872fed70fe2">
+  <name>EventLogOperations</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал регистрации</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Event Log</value>
+  </synonym>
+  <comment>Obsolete. Please use EventLog</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

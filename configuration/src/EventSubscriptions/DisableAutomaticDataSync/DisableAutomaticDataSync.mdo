@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b82bcff8-49c9-44a9-8a9f-4428b0cc54a5">
+  <name>DisableAutomaticDataSync</name>
+  <synonym>
+    <key>en</key>
+    <value>Disable automatic data synchronization</value>
+  </synonym>
+  <comment>Checks whether automatic data synchronization is disabled</comment>
+  <source>
+    <types>InformationRegisterRecordSet.DeleteExchangeTransportSettings</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.DataExchangeEvents.DisableAutomaticDataSynchronizationDuringRecording</handler>
+</mdclass:EventSubscription>

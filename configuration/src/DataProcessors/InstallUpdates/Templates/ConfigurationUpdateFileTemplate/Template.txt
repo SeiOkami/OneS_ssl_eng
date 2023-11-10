@@ -1,0 +1,1066 @@
+#Area ParametersArea
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//
+//
+//
+// https://creativecommons.org/licenses/by/4.0/legalcode
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//
+var now = new Date()
+var outFileName = 'log' + now.valueOf() + '.txt' //
+var cfgFileNames = [UpdateFilesNames] //
+var fixFileNames = [PatchesFilesNames] //
+var removeFixNames = [DeletedChangesNames] //
+var v8conf = [DesignerExecutableFileName] //
+var v8client = [ClientExecutableFileName] //
+var v8comcntr = [COMConnectorPath] //
+var v8logEncoding = '[EncodingOfTheLogFile]'
+
+var infoBasePath = [InfobasePathParameter]
+var BaseFileName = [InfobaseFilePathString]
+var unlockCode = '[UnlockCode1]'
+var connectionString = [InfoBaseConnectionString] + ';UC=[UnlockCode1]'
+
+var backupFileName = [BackupDirectory] + '1Cv8' + now.valueOf() + '.1CD' //
+var UseRestore = [RestoreInfobase] //
+var createBackup = [CreateDataBackup] //
+
+var eventLogID = [EventLogEvent]
+var emailAddress = [Email] //
+var adminName = [UpdateAdministratorName] //
+
+var doBlockUsers = [BlockIBConnections] //
+var comConnectorName = [COMConnectorName] //
+var useComConnector = [UseCOMConnector] //
+
+var startEnterprise = [StartSessionAfterUpdate] //
+var makeCompression = [CompressIBTables] //
+var executeDeferredHandlers = [ExecuteDeferredHandlers] //
+
+var tempLogFileName = 'templog.txt' //
+var errorFileName = 'error.txt' //
+
+var taskNameScheduleService = [TaskSchedulerTaskName] //
+var runAppAdditionalParams = [OneCEnterpriseStartupParameters] //
+var updateConfiguration = [PerformAConfigurationUpdate]
+var loadExtentions = [DownloadExtensions]
+
+#EndRegion
+
+#Area ConfigurationUpdateArea
+
+var thisFileName
+var thisFileDir
+var InfoBasePassword
+var ClusterPassword
+
+//
+var backupCreated = false
+var connectionsDenied = false
+
+//
+var ComConnection = null
+
+//
+var disconnectionStep = 0
+var disconnectionInterval
+var disconnectionStartDateTime
+
+//
+function runApp (sFilePath, sFileArgs, show, bWaitOnReturn) {
+  if (bWaitOnReturn === undefined) {
+    bWaitOnReturn = false
+  }
+  if (show === undefined) {
+    show = SW_SHOW
+  }
+  if (sFileArgs === undefined) {
+    sFileArgs = ''
+  }
+  var ret = 1
+  log(format('[TheStartOfStartupMessage]',
+      sFilePath,
+      hidePass(sFileArgs),
+      SWtoString(show),
+      bWaitOnReturn))
+  try {
+    ret = oShell.Run(format('"{0}" {1}', sFilePath, sFileArgs), show, bWaitOnReturn)
+  } catch (e) {
+    log(format('[ExceptionDetailsMessage]', e.name, e.message), true)
+    return 1
+  }
+  log(format('[MessageLaunchResult]', ret), ret !== 0)
+  return ret
+}
+
+function hidePass (text) {
+  return text
+    .replace('/P"' + InfoBasePassword + '"', '/P"******"')
+    .replace('/P"' + ClusterPassword + '"', '/P"******"')
+    .replace('Pwd=\'' + InfoBasePassword + '\'', 'Pwd=\'******\'')
+}
+
+function clearLogFile () {
+  var outFile = oFileSystemObject.OpenTextFile(outFileName, ForWriting, true, TristateTrue)
+  outFile.Close()
+}
+
+//
+function log (text, failed) {
+  if (failed === undefined) {
+    failed = false
+  }
+  logFile(text, failed)
+}
+
+//
+function logFile (text, failed) {
+  var date = new Date()
+  var now = ('0' + date.getDate()).slice(-2) + '.' + ('0' + (date.getMonth() + 1)).slice(-2) + '.' + date.getFullYear() + ' ' + ('0' + date.getHours()).slice(-2) + ':' + ('0' + date.getMinutes()).slice(-2) + ':' + ('0' + date.getSeconds()).slice(-2)
+  var f
+  try {
+    f = oFileSystemObject.OpenTextFile(outFileName, ForAppending, true, TristateTrue)
+  } catch (e) { return }
+  try {
+    var status = (failed === false ? '{OK}' : '{ERR}')
+    f.WriteLine(format('{0} {1} {2}', now, status, text))
+  } finally {
+    try {
+      f.Close()
+    } catch (e) { }
+  }
+}
+
+//
+function appendLog (logEncoding) {
+  if (logEncoding == 'ASCII' || v8logEncoding == 'ASCII') { 
+    return appendLogASCII()
+  } else {
+    return appendLogUTF8()
+  }
+}
+
+function appendLogASCII () {
+  var f = null
+  var outf
+  var text
+  try {
+    f = oFileSystemObject.OpenTextFile(tempLogFileName, ForReading, false, TristateFalse)
+    outf = oFileSystemObject.OpenTextFile(outFileName, ForAppending, true, TristateTrue)
+  } catch (e) { return }
+  try {
+    if (!f.AtEndOfStream) {
+      text = f.ReadAll()
+      outf.WriteLine('')
+      outf.WriteLine(text)
+      outf.WriteLine('')
+    }
+  } finally {
+    try {
+      f.Close()
+      outf.Close()
+    } catch (e) { return }
+  }
+  return (text && text.length > 0)
+}
+
+function appendLogUTF8 () {
+  try {
+    oADODBStream.Open()
+    oADODBStream.LoadFromFile(tempLogFileName)
+    text = oADODBStream.ReadText()
+  } finally {
+    try {
+      oADODBStream.Close()
+    } catch (e) { return } 
+  }
+  try { 
+    outf = oFileSystemObject.OpenTextFile(outFileName, ForAppending, true, TristateTrue)
+    outf.WriteLine('')
+    outf.WriteLine(text)
+    outf.WriteLine('')
+    } finally {
+    try {
+      outf.Close()
+    } catch (e) { return } 
+  }
+  return (text && text.length > 0)
+}
+
+// Initialization
+function initialize () {
+  log(format('[TheMessageIsThePathToTheScriptFile]', thisFileName))
+  log(format('[UpdateFileCounterMessage]', cfgFileNames.length))
+  for (var i = 0; i < cfgFileNames.length; i++) {
+    var fileInfo = GetRequired(cfgFileNames[i], null)
+    var required = fileInfo.requiredVersion ? '([MessageImportance])' : '';
+    log(format('{0}. {1} {2}', i + 1, fileInfo.filePath, required))
+  }
+  return 0
+}
+
+//
+function finalize (success) {
+  if (success === undefined) {
+    success = false
+  }
+
+  deleteScheduleTask()
+
+  //
+  writeEventLog(success)
+
+  if (!success) {
+    if (UseRestore && backupCreated) {
+      log('[TheMessageRestoringTheDatabase]')
+      restoreDB()
+    }
+    allowConnections() //
+  }
+
+  setResult(success)
+
+  //
+  ComConnection = null
+}
+
+function deleteScheduleTask () {
+  if (taskNameScheduleService !== '') {
+    log(format('[MessageDeletingASchedulerTask]', taskNameScheduleService))
+    try {
+      var schedule = new ActiveXObject('Schedule.Service')
+      schedule.Connect()
+
+      var root = schedule.GetFolder('\\')
+      root.DeleteTask(taskNameScheduleService, 0)
+    } catch (ex) {
+      log(format('[TheSchedulerTaskDeletionFailureMessage]', ex.message), true)
+    }
+  }
+}
+
+function createConnection () {
+  if (!useComConnector) {
+    return null
+  }
+  if (ComConnection != null) {
+    return ComConnection
+  }
+  try {
+    log('[TheMessageTheBeginningOfTheConnectionSessionWithTheDatabase]', false)
+    var ComConnector = new ActiveXObject(comConnectorName)
+    ComConnection = ComConnector.Connect(connectionString)
+    return ComConnection
+  } catch (e) {
+    log(format('[TheMessageConnectionFailureWithTheDatabase]', e.name, e.message), true)
+    return null
+  }
+}
+
+function doSetResult (success) {
+  if (useComConnector) {
+    var connection = createConnection()
+    if (connection == null) {
+      return 1
+    }
+    var res = 0
+    try {
+      log(format('[TheMessageIsACallToCompleteTheUpdate]', success, emailAddress, adminName))
+      connection.ConfigurationUpdate.CompleteUpdate(success, emailAddress, adminName)
+    } catch (e) {
+      log(format('[FailureMessageWhenCallingToCompleteTheUpdate]', e.name, e.message), true)
+      res = 2
+    }
+  }
+  if (success) {
+    log('[TheMessageDatabaseUpdateResult]', false)
+  } else {
+    log('[DatabaseUpdateFailureMessage]', true)
+  }
+  return res
+}
+
+//
+function setResult (success) {
+  var result = doSetResult(success)
+  CollectGarbage()
+  return result
+}
+
+//
+function writeEventLog (success) {
+  try {
+    var eventKind = success ? EVENT_SUCCESS : EVENT_CRITICAL
+    var message
+    if (success) {
+      message = '[TheMessageDatabaseUpdateResult]';
+    } else {
+      message = '[DatabaseUpdateFailureMessage]';
+    }
+    message += format(' [TheMessageDatabaseParameters]', infoBasePath)
+    if (!success) {
+      message += ' [MessageUpdateLogging1S]';
+    }
+    oShell.LogEvent(eventKind, message)
+  } catch (e) {
+    log(format('[LoggingFailureMessage]', e.name, e.message), true)
+  }
+}
+
+//
+function backupDB () {
+  if (!createBackup) {
+    return 0
+  }
+  var ret = 0
+  log(format('[TheMessageCopyingTheDatabase]', BaseFileName, backupFileName))
+  
+  try {
+    
+    if (!oFileSystemObject.FileExists(BaseFileName)) {
+      throw new Error(format('[TheMessageDatabaseFileDoesNotExist]', BaseFileName))
+    }
+    
+    if (!oFileSystemObject.FolderExists(oFileSystemObject.GetParentFolderName(backupFileName))) {
+      throw new Error(format('[TheMessageDatabaseBackupDirectoryDoesNotExist]', backupFileName))
+    }
+    
+    if (oFileSystemObject.FileExists(backupFileName)) {
+      var ThisFile = oFileSystemObject.GetFile(backupFileName)
+      throw new Error(
+        format('[MessageBackupFileParameters]',
+          backupFileName,
+          ThisFile.DateCreated,
+          ThisFile.DateLastAccessed,
+          ThisFile.DateLastModified,
+          ThisFile.Size,
+          ThisFile.Type,
+          AttributesPresentation(ThisFile.Attributes)
+        )
+      )
+    }
+    
+    try {
+      var drive = oFileSystemObject.GetDrive(oFileSystemObject.GetDriveName(backupFileName))
+    } catch (ex2) {
+      throw new Error(
+        format('[TheMessageDiskDoesNotExist]',
+          backupFileName,
+          ex2.name,
+          ex2.message
+        )
+      )
+    }
+    
+    if (!drive.IsReady) {
+      throw new Error(format('[TheMessageDiskIsUnavailable]', backupFileName))
+    }
+    
+    var waitBaseFile = true
+    while (waitBaseFile) {
+      try {
+        var oFile = oFileSystemObject.OpenTextFile(BaseFileName, ForAppending, true, TristateFalse)
+      } catch (ex) {
+        if (oHTA != null) {
+          return -1
+        } else {
+          WScript.Echo(ex.message) 
+          WScript.Sleep(18 * 1000) //
+        }
+        continue;
+      }
+      oFile.Close()
+      waitBaseFile = false
+    }
+
+    var fileDB = oFileSystemObject.GetFile(BaseFileName)
+    var requiredFreeSize = fileDB.size * 2
+    if (drive.FreeSpace < requiredFreeSize) {
+      throw new Error(
+       format('[MessageDiskSpaceIsInsufficient]',
+          requiredFreeSize / 1024 / 1024,
+          drive.DriveLetter,
+          drive.FreeSpace / 1024 / 1024,
+          fileDB.size / 1024 / 1024,
+          DriveTypeName(drive.DriveType)
+        )
+      )
+    } else {
+      log(format('[MessageEnoughDiskSpace]',
+          drive.DriveLetter,
+          drive.FreeSpace / 1024 / 1024,
+          fileDB.size / 1024 / 1024,
+          DriveTypeName(drive.DriveType)
+        ), 
+        false)
+    }
+    
+    oFileSystemObject.CopyFile(BaseFileName, backupFileName, true)
+    log('[TheMessageIsTheResultOfCreatingABackupCopyOfTheDatabase]', false)
+    
+  } catch (e) {
+    CollectGarbage()
+    log(
+      format(
+        '[TheMessageFailureToCreateABackupCopyOfTheDatabaseInDetail]',
+        e.name,
+        e.message
+      ),
+      true
+    )
+    ret = 1
+  }
+  if (ret === 0) {
+    backupCreated = true
+  }
+  return ret
+}
+
+function DriveTypeName (DriveType) {
+  switch (DriveType) {
+    case 0:
+      return 'Unknown'
+    case 1:
+      return 'Removable'
+    case 2:
+      return 'Fixed'
+    case 3:
+      return 'Network'
+    case 4:
+      return 'CD-ROM'
+    case 5:
+      return 'RAM Disk'
+    default:
+      return 'Undefined'
+  }
+}
+
+function AttributesPresentation (value) {
+  var log = ''
+  if (value & 1) {
+    log += 'Readonly\n'
+  }
+  if (value & 2) {
+    log += 'Hidden\n'
+  }
+  if (value & 4) {
+    log += 'System\n'
+  }
+  if (value & 16) {
+    log += 'Directory\n'
+  }
+  if (value & 32) {
+    log += 'Archive\n'
+  }
+  if (value & 128) {
+    log += 'Normal\n'
+  }
+  if (value & 256) {
+    log += 'Temporary\n'
+  }
+  if (value & 1024) {
+    log += 'Alias\n'
+  }
+  if (value & 2048) {
+    log += 'Compressed\n'
+  }
+  return log
+}
+
+//
+function restoreDB () {
+  if (!backupCreated) {
+    return 0
+  }
+  var ret = 0
+  try {
+    oFileSystemObject.CopyFile(backupFileName, BaseFileName, true)
+    log(format('[TheMessageDatabaseRecoveryResult]', ret), ret !== 0)
+  } catch (e) {
+    log(format('[TheMessageDatabaseRecoveryFailureInDetail]', e.name, e.message), true)
+    ret = -1
+  }
+  return ret
+}
+
+function doAllowConnections () {
+  if (connectionsDenied) {
+    var connection = createConnection()
+    if (connection == null) {
+      return (useComConnector ? 1 : 0)
+    }
+    try {
+      log('[TheMessageChallengeAllowUsersToWork]')
+      connection.IBConnections.AllowUserAuthorization()
+      connectionsDenied = false
+      connection = null
+      CollectGarbage()
+    } catch (e) {
+      connection = null
+      CollectGarbage()
+      log(format('[MessageCallRefusalToAllowUsersToWork]', e.name, e.message), true)
+      return 3
+    }
+  }
+  return 0
+}
+
+//
+function allowConnections () {
+  var result = doAllowConnections()
+  ComConnection = null
+  CollectGarbage()
+  return result
+}
+
+function doExecuteUpdate (lastVersion) {
+  if (useComConnector && lastVersion) {
+    try {
+      if (addDeletePatches() != 0) {
+        throw new Error('[TheErrorMessageUpdatesFixes]')
+      }
+    } catch (e) {
+      log(format('[CallFailureMessageUpdateFixesFromScript]', e.name, e.message), true)
+      return 2
+    }
+  }
+  if (useComConnector && doBlockUsers) {
+    var connection = createConnection()
+    if (connection == null) {
+      return 1
+    }
+    try {
+      log(format('[MessageCallToUpdateTheInformationBase]', !lastVersion))
+      connection.InfobaseUpdateServerCall.UpdateInfobase(!lastVersion)
+      connection = null
+      CollectGarbage()
+    } catch (e) {
+      connection = null
+      CollectGarbage()
+      log(format('[MessageCallFailureToUpdateTheInformationBase]', e.name, e.message), true)
+      return 2
+    }
+    return 0
+  } else {
+    var result = runApp(
+      v8client,
+      format(
+        'ENTERPRISE {0} {1} /AllowExecuteScheduledJobs -Off /C"UpdateAndExit;ScheduledJobsDisabled2"',
+        infoBasePath,
+        infoBaseAuthorization),
+      SW_SHOW,
+      true)
+    if (result === 0 && oFileSystemObject.FileExists(errorFileName)) {
+      log('[TheMessageDatabaseUpdateFailureIsGeneral]', true)
+      appendLog('ASCII')
+      result = 1
+    }
+    return result
+  }
+}
+
+//
+function executeUpdate (lastVersion) {
+  var result = doExecuteUpdate(lastVersion)
+  ComConnection = null
+  CollectGarbage()
+  return result
+}
+
+function doDisconnectAndBlockUsersHTA (connection) {
+  if (connection == null) {
+    return 1
+  }
+  var result = 0
+  try {
+    while (true) {
+      switch (disconnectionStep) {
+        case 0:
+        {
+          log('IBConnections.SetConnectionLock()')
+          connection.IBConnections.SetConnectionLock('[TheMessageBlockingTheDatabase]', unlockCode)
+          disconnectionInterval = connection.IBConnections.SessionLockParameters().SessionTerminationTimeout * 1000
+          disconnectionStartDateTime = connection.IBConnections.SessionLockParameters().Begin
+          if (connection.ValueIsFilled(disconnectionStartDateTime)) {
+            disconnectionStep++
+          } else {
+            disconnectionStep += 2
+          }
+          break
+        }
+        case 1:
+        {
+          if (!connection.IBConnections.ConnectionsLocked() ||
+            connection.IBConnections.InfobaseSessionsCount(false) <= 1) {
+            disconnectionStep++
+            break
+          }
+          var now = new Date()
+          //
+          if (now - disconnectionInterval <= disconnectionStartDateTime) {
+            return -1
+          }
+          disconnectionStep++
+          break
+        }
+        case 2:
+        {
+          if (!connection.IBConnections.ConnectionsLocked()) {
+            log('[UserShutdownFailureMessage]', true)
+            return 3
+          }
+
+          if (connection.IBConnections.InfobaseSessionsCount(false) <= 1) {
+            return 0
+          }
+          //
+          //
+          doDisconnectConnections(connection)
+          if (connection.IBConnections.InfobaseSessionsCount(false) > 1) {
+            connection.IBConnections.AllowUserAuthorization()
+
+            var message = connection.IBConnections.ActiveSessionsMessage()
+            log(message, true)
+            return 3
+          }
+          return 0
+        }
+      }
+    }
+  } catch (e) {
+    CollectGarbage()
+    log(format('[TheMessageCancelingTheBlockingOfUsersWork]', e.name, e.message), true)
+    result = 2
+  }
+  return result
+}
+
+//
+//
+//
+//
+//
+//
+function disconnectAndBlockUsersHTA () {
+  if (!doBlockUsers) {
+    connectionsDenied = true
+    return 0
+  }
+  var connection = createConnection()
+  if (connection == null && useComConnector) {
+    return 1
+  }
+  var result = -1
+  if (useComConnector) {
+    try {
+      result = doDisconnectAndBlockUsersHTA(connection)
+    } finally {
+      if (result !== -1) {
+        connection = null
+        ComConnection = null
+        CollectGarbage()
+        log('[MessageEndOfDatabaseConnectionSession]', false)
+      }
+    }
+  } else {
+    result = 0
+  }
+  if (result === 0) {
+    connectionsDenied = true
+  }
+  return result
+}
+
+function doDisconnectAndBlockUsers () {
+  var connection = createConnection()
+  if (connection == null) {
+    return (useComConnector ? 1 : 0)
+  }
+  try {
+    log('[TheMessageBlockingTheWorkOfUsersLogging]')
+    connection.IBConnections.SetConnectionLock('[TheMessageBlockingTheWorkOfUsers]', unlockCode)
+
+    var interval = connection.IBConnections.SessionLockParameters().SessionTerminationTimeout * 1000
+
+    var startDateTime = connection.GetSessionsLock().Begin
+    var now = new Date()
+
+    if (connection.ValueIsFilled(startDateTime)) {
+      while (now - interval <= startDateTime) {
+        if (!connection.GetSessionsLock().Use) {
+          break
+        }
+        connectionsNum = connection.IBConnections.InfobaseSessionsCount(false)
+        log(format('[MessageDatabaseSessionCounter]', connectionsNum))
+        if (connectionsNum <= 1) {
+          break
+        }
+        WScript.Sleep(18 * 1000) //
+        now = new Date()
+      }
+    }
+
+    var locked = connection.GetSessionsLock().Use
+    log(format('[TheMessageIsTheResultOfBlockingSessions]', locked))
+    if (!connection.GetSessionsLock().Use) {
+      log('[UserShutdownFailureMessage]', true)
+      return 3
+    }
+
+    //
+    //
+    doDisconnectConnections(connection)
+    connectionsNum = connection.IBConnections.InfobaseSessionsCount(false);
+    log(format('[MessageDatabaseSessionCounter]', connectionsNum))
+    if (connectionsNum > 1) {
+      connection.IBConnections.AllowUserAuthorization()
+      var message = connection.IBConnections.ActiveSessionsMessage()
+      log(message, true)
+      return 3
+    }
+  } catch (e) {
+    CollectGarbage()
+    log(
+      format(
+        '[TheMessageCancelingTheBlockingOfUsersWork]',
+        e.name,
+        e.message),
+      true)
+    return 2
+  }
+  return 0
+}
+
+function doDisconnectConnections (connection) {
+  var adminParams = connection.StandardSubsystemsServer.AdministrationParameters()
+  adminParams.InfobaseAdministratorPassword = InfoBasePassword
+  adminParams.ClusterAdministratorPassword = ClusterPassword
+
+  connection.IBConnectionsClientServer.DeleteAllSessionsExceptCurrent(adminParams)
+
+  WScript.Sleep(15 * 1000) //
+  
+  retry = 3;
+  while (retry > 0) {
+    connectionsNum = connection.IBConnections.InfobaseSessionsCount(false);
+    if (connectionsNum <= 1) {
+      break
+    }
+    log(format('[TheMessageTheCounterOfTheHungSessionsOfTheDatabase]', connectionsNum, retry))
+    WScript.Sleep(15 * 1000) //
+    retry = retry - 1
+  }
+}
+
+//
+function disconnectAndBlockUsers () {
+  var result = 0
+  if (doBlockUsers) {
+    result = doDisconnectAndBlockUsers()
+  }
+
+  ComConnection = null
+  CollectGarbage()
+  WScript.Sleep(1000) //
+
+  if (result === 0 && doBlockUsers) {
+    connectionsDenied = true
+  }
+  return result
+}
+
+//
+function loadCfg (fileName) {
+  //
+  var ret = runApp(
+    v8conf,
+    format(
+      'CONFIG {0} {1} /LoadCfg "{2}" /Out "{3}" /UC{4} /DisableStartupMessages /DisableStartupDialogs',
+      infoBasePath,
+      infoBaseAuthorization,
+      fileName,
+      tempLogFileName,
+      unlockCode),
+    SW_SHOW,
+    true)
+  appendLog()
+  return ret
+}
+
+//
+function updateCfg (fileName) {
+  //
+  var ret = runApp(
+    v8conf,
+    format(
+      'CONFIG {0} {1} /UpdateCfg "{2}" /Out "{3}" /UC{4} /DisableStartupMessages /DisableStartupDialogs',
+      infoBasePath,
+      infoBaseAuthorization,
+      fileName,
+      tempLogFileName,
+      unlockCode),
+    SW_SHOW,
+    true)
+  appendLog()
+  return ret
+}
+
+//
+function updateDbCfg () {
+  //
+  var ret = runApp(
+    v8conf,
+    format(
+      'CONFIG {0} {1} /UpdateDBCfg -server /Out "{2}" /UC{3} /DisableStartupMessages /DisableStartupDialogs',
+      infoBasePath,
+      infoBaseAuthorization,
+      tempLogFileName,
+      unlockCode),
+    SW_SHOW,
+    true)
+  appendLog()
+  return ret
+}
+
+//
+function compressDB () {
+  if (!makeCompression) {
+    return 0
+  }
+
+  var ret = runApp(
+    v8conf, 
+    format(
+      'CONFIG {0} {1} /IBCheckAndRepair -IBCompression /Out "{2}" /UC{3} /DisableStartupMessages /DisableStartupDialogs',
+      infoBasePath,
+      infoBaseAuthorization,
+      tempLogFileName,
+      unlockCode),
+    SW_SHOW,
+    true)
+  appendLog()
+  return ret
+}
+
+function doDeferredHandlers () {
+  if (!executeDeferredHandlers) {
+    return 0
+  }
+
+  var connection = createConnection()
+  if (connection == null) {
+    return (useComConnector ? 1 : 0) //
+  }
+
+  try {
+    log('[TheMessageIsACallToPerformADeferredUpdateNow]')
+    connection.InfobaseUpdateInternal.ExecuteDeferredUpdateNow()
+    connection = null
+    CollectGarbage()
+  } catch (e) {
+    connection = null
+    CollectGarbage()
+    log(
+      format(
+        '[MessageCallFailureToPerformADelayedUpdateNow]',
+        e.name,
+        e.message),
+      true)
+    return 2
+  }
+  return 0
+}
+
+//
+function runDeferredHandlers () {
+  var result = doDeferredHandlers()
+  connection = null
+  ComConnection = null
+  CollectGarbage()
+  return result
+}
+
+//
+function GetRequired (filePath) {
+  var fileProperties = Object()
+  fileProperties.filePath = filePath
+  fileProperties.requiredVersion = filePath.substr(0, 1) === '+'
+  if (fileProperties.requiredVersion) {
+    fileProperties.filePath = filePath.substr(1)
+  }
+  return fileProperties
+}
+
+function fromUnicode (text) {
+  var str = '';
+  if (typeof text !== 'string') {
+    return str
+  }
+  for (var i = 0; i < text.length / 4; i++) {
+    str = str + String.fromCharCode(text.slice(4 * i, 4 * i + 4))
+  }
+  str = str.replace(/"/g, '""')
+  return str
+}
+
+//
+function runEnterprise () {
+  if (startEnterprise) {
+    return runApp(
+      v8client,
+      format(
+        'ENTERPRISE {0} {1} {2}',
+        infoBasePath,
+        infoBaseAuthorization,
+        runAppAdditionalParams),
+      SW_SHOW,
+      false)
+  }
+  return 0
+}
+
+function addDeletePatches() {
+  var fixFileNamesString = fixFileNames.join('\n')
+  var removeFixNamesString = removeFixNames.join('\n')
+
+  registerCOM()
+  
+  var result = runApp('wscript.exe',
+    format('"{0}\\add-delete-patches.js" /ConnectionString:"{1}" /COMConnectorName:"{2}" /FixFileNames:"{3}" /RemoveFixNames:"{4}" /Out:"{5}\\{6}"',
+      thisFileDir,
+      connectionString.replace(/"/g, '\''),
+      comConnectorName,
+      fixFileNamesString,
+      removeFixNamesString,
+      thisFileDir,
+      tempLogFileName
+    ),
+    SW_HIDE, true)
+  appendLog('ASCII')
+  return result
+}
+
+function DeletePatches() {
+ 
+ if (!useComConnector) {
+    return 0
+  }
+ 
+ var Action = 'RemoveAll'
+ 
+ registerCOM()
+ 
+ try {
+   var result = runApp('wscript.exe',
+      format('"{0}\\add-delete-patches.js" /ConnectionString:"{1}" /COMConnectorName:"{2}" /Action:"{3}" /Out:"{4}\\{5}"',
+        thisFileDir,
+        connectionString.replace(/"/g, '\''),
+        comConnectorName,
+        Action,
+        thisFileDir,
+        tempLogFileName
+      ),
+      SW_HIDE, true)
+    appendLog('ASCII')
+
+  } catch (e) {
+    log(format('[CallFailureMessageRemoveFixesFromScript]', e.name, e.message), true)
+    result = 2;
+  }
+  
+  if (result != 0) {
+    log('[TheMessageFailureToDeleteFixes]')
+  }
+  
+  return result
+}
+
+function registerCOM() {
+  isSchedule = (taskNameScheduleService !== '')
+  param = isSchedule ? format('/s "{0}"', v8comcntr) : format('/n /i:user /s "{0}"', v8comcntr)
+  return runApp('regsvr32.exe', param, SW_HIDE, true)
+}
+
+function executeLoadExt () {
+  var result = doExecuteLoadExt()
+  ComConnection = null
+  CollectGarbage()
+  return result
+}
+
+function doExecuteLoadExt() {
+
+  var result = runApp(
+    v8client,
+    format(
+      'ENTERPRISE {0} {1} /AllowExecuteScheduledJobs -Off /DisableStartupMessages /DisableStartupDialogs /C"DownloadExtensionsAndShutDown;ScheduledJobsDisabled2;AllowUserAuthorization" /UC {2}',
+      infoBasePath,
+      infoBaseAuthorization,
+      unlockCode),
+    SW_SHOW,
+    true)
+  
+  if (result === 0 && oFileSystemObject.FileExists(errorFileName)) {
+    log('[TheMessageDatabaseUpdateFailureIsGeneral]', true)
+    appendLog('ASCII')
+    result = 1
+  }  
+  
+  return result
+}
+
+
+function ClearTempFiles () {
+  var tempFiles = ['main.js', 'helpers.js', 'add-delete-patches.js', 'templog.txt', //
+    'addsheduletask.js', 'updater.js',                         //
+    'splash.png', 'splash.ico', 'progress.gif', 'splash.hta']; //
+  
+  for (var i = 0; i < tempFiles.length; i++) {
+    try {
+      if (oFileSystemObject.FileExists(thisFileDir + '\\' + tempFiles[i])) {
+        oFileSystemObject.DeleteFile(thisFileDir + '\\' + tempFiles[i])
+      }
+    } catch (e) { }
+  }
+}
+
+if (oHTA != null) {
+  thisFileName = eval('oHTA.commandLine')
+  thisFileDir = thisFileName.substr(1, thisFileName.lastIndexOf('\\') - 1)
+  InfoBasePassword = thisFileName.substr(thisFileName.indexOf('[p1]') + 4, thisFileName.indexOf('[/p1]') - thisFileName.indexOf('[p1]') - 4)
+  ClusterPassword = thisFileName.substr(thisFileName.indexOf('[p2]') + 4, thisFileName.indexOf('[/p2]') - thisFileName.indexOf('[p2]') - 4)
+  thisFileName = thisFileName.substr(1, thisFileName.indexOf('[p1]') - 4)
+} else {
+  thisFileName = eval('WScript.ScriptFullName')
+  thisFileDir = thisFileName.substr(0, thisFileName.lastIndexOf('\\') + 1)
+  InfoBasePassword = eval('WScript.Arguments').Named.Item('p1')
+  ClusterPassword = eval('WScript.Arguments').Named.Item('p2')
+}
+
+var oShell = new ActiveXObject('WScript.Shell')
+oShell.CurrentDirectory = thisFileDir
+
+var oFileSystemObject = new ActiveXObject('Scripting.FileSystemObject')
+var oADODBStream = new ActiveXObject('ADODB.Stream')
+oADODBStream.CharSet = 'utf-8'
+
+clearLogFile()
+appendLog('ASCII')
+
+log(format('[MessageCOMConnectorParameters]', useComConnector))
+
+if (useComConnector) {
+  registerCOM()
+  var comConnectorCached = new ActiveXObject(comConnectorName) //
+}
+
+adminName = adminName.replace(/"/g, '""')
+InfoBasePassword = fromUnicode(InfoBasePassword)
+ClusterPassword = fromUnicode(ClusterPassword)
+var infoBaseAuthorization = format('/N"{0}" /P"{1}" /WA-', adminName, InfoBasePassword)
+connectionString = format(connectionString, adminName, InfoBasePassword)
+
+#EndRegion

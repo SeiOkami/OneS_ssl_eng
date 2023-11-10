@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb2d414c-ba68-47c6-b74b-c8566987b824">
+  <name>LabelRed</name>
+  <synonym>
+    <key>en</key>
+    <value>Label red</value>
+  </synonym>
+</mdclass:CommonPicture>

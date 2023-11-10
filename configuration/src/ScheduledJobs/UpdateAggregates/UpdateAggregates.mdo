@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="798bd34c-d0ee-4590-9b1d-8bc47e42ca8c">
+  <name>UpdateAggregates</name>
+  <synonym>
+    <key>en</key>
+    <value>Update aggregates</value>
+  </synonym>
+  <methodName>CommonModule.TotalsAndAggregatesManagementInternal.UpdateAggregatesJobHandler</methodName>
+  <key>UpdateAggregates</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="153e11ac-f898-46a5-98c6-734adb933ca2">
+  <name>FormulasConstructor</name>
+  <synonym>
+    <key>en</key>
+    <value>Formula editor</value>
+  </synonym>
+  <content>CommonModule.FormulasConstructor</content>
+  <content>CommonModule.FormulasConstructorClient</content>
+  <content>CommonModule.FormulasConstructorClientServer</content>
+  <content>CommonModule.FormulasConstructorInternal</content>
+  <content>DataProcessor.FormulasConstructor</content>
+  <content>CommonModule.FormulasConstructorCached</content>
+  <content>CommonModule.FormulasConstructorServerCall</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="240bec31-cd59-477b-8459-8e3278da22dc">
+  <name>ReportMailing</name>
+  <synonym>
+    <key>en</key>
+    <value>Report distribution</value>
+  </synonym>
+  <comment>APK:454 is a routine task with a schedule that is obviously different in different data areas.</comment>
+  <methodName>CommonModule.ReportMailing.ExecuteScheduledMailing</methodName>
+  <description>Sending reports</description>
+</mdclass:ScheduledJob>

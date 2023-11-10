@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9416a741-5106-454e-b953-81f3d99d5e71">
+  <name>CompareSpreadsheetDocuments</name>
+  <synonym>
+    <key>en</key>
+    <value>Compare spreadsheet documents</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

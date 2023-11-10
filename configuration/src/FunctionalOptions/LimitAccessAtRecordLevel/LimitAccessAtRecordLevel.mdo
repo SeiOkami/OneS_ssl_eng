@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2233ce53-b8a8-4c83-97a2-683c8575462a">
+  <name>LimitAccessAtRecordLevel</name>
+  <synonym>
+    <key>en</key>
+    <value>Restrict access at record level</value>
+  </synonym>
+  <location>Constant.LimitAccessAtRecordLevel</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.AccessGroupProfiles.TabularSection.AccessKinds</content>
+  <content>Catalog.AccessGroupProfiles.TabularSection.AccessKinds.Attribute.AccessKind</content>
+  <content>Catalog.AccessGroupProfiles.TabularSection.AccessKinds.Attribute.Predefined</content>
+  <content>Catalog.AccessGroupProfiles.TabularSection.AccessKinds.Attribute.AllAllowed</content>
+  <content>Catalog.AccessGroupProfiles.TabularSection.AccessValues</content>
+  <content>Catalog.AccessGroupProfiles.TabularSection.AccessValues.Attribute.AccessKind</content>
+  <content>Catalog.AccessGroupProfiles.TabularSection.AccessValues.Attribute.AccessValue</content>
+  <content>Catalog.AccessGroups.TabularSection.AccessKinds</content>
+  <content>Catalog.AccessGroups.TabularSection.AccessKinds.Attribute.AccessKind</content>
+  <content>Catalog.AccessGroups.TabularSection.AccessKinds.Attribute.AllAllowed</content>
+  <content>Catalog.AccessGroups.TabularSection.AccessValues</content>
+  <content>Catalog.AccessGroups.TabularSection.AccessValues.Attribute.AccessKind</content>
+  <content>Catalog.AccessGroups.TabularSection.AccessValues.Attribute.AccessValue</content>
+  <content>CommonCommand.SetRights</content>
+</mdclass:FunctionalOption>

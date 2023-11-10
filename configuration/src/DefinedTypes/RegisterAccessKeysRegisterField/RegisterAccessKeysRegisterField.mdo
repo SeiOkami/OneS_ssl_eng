@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89cb31da-a980-4207-a537-85cd47f08d32">
+  <producedTypes>
+    <containerType typeId="ad6387f3-d7fa-415e-a149-4739f68b6fa8" valueTypeId="70c41226-7cc2-43e4-8460-96ae141f8c7b"/>
+  </producedTypes>
+  <name>RegisterAccessKeysRegisterField</name>
+  <synonym>
+    <key>en</key>
+    <value>Register access keys register field</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ExternalUsers</types>
+    <types>CatalogRef.ExtensionObjectIDs</types>
+    <types>CatalogRef.ExternalUsersGroups</types>
+    <types>CatalogRef.UserGroups</types>
+    <types>EnumRef.AdditionalAccessValues</types>
+    <types>ChartOfCharacteristicTypesRef.AdditionalAttributesAndInfo</types>
+    <types>CatalogRef.ReportsOptions</types>
+    <types>CatalogRef.Users</types>
+    <types>EnumRef.PeriodClosingDatesPurposeTypes</types>
+    <types>CatalogRef.EmailAccounts</types>
+    <types>CatalogRef.MetadataObjectIDs</types>
+  </type>
+</mdclass:DefinedType>
