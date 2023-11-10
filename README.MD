@@ -2,9 +2,7 @@
 
 The repository is used as the main configuration for developing universal extensions
 
-Differences of the fork from the main project:
-1. Changed platform version in [file](https://github.com/SeiOkami/OneS_ssl_eng/blob/master/configuration/DT-INF/PROJECT.PMF)
-2. Added [extension](https://github.com/SeiOkami/OneS_ssl_eng/tree/master/configuration.StartEmptyBase) correcting the SSL to be able to create IS from the project itself
+Added [extension](https://github.com/SeiOkami/OneS_ssl_eng/tree/master/configuration.StartEmptyBase) correcting the SSL to be able to create IS from the project itself
 
 To use the repository you need to:
 
