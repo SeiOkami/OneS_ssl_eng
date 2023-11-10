@@ -1,8 +1,10 @@
 # OneS SSL World Edition
 
-The repository is used as the main configuration for developing universal extensions
+The repository is used as the main configuration for developing universal extension
 
-Added [extension](https://github.com/SeiOkami/OneS_ssl_eng/tree/master/configuration.StartEmptyBase) correcting the SSL to be able to create IS from the project itself
+[Source](https://1c-dn.com/developer_tools/1c_subsystems_library/)  
+
+Added [extension](https://github.com/SeiOkami/OneS_ssl_eng/tree/master/configuration.StartEmptyBase) correcting the SSL to be able to create database from the project itself
 
 To use the repository you need to:
 
