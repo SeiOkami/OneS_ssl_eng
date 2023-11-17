@@ -61,6 +61,14 @@
     </synonym>
     <languageCode>en</languageCode>
   </languages>
+  <languages uuid="db4a9ccb-9ef5-4b3c-8577-b6fe5db1b62e">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
   <subsystems>Subsystem.Administration</subsystems>
   <subsystems>Subsystem.AttachableReportsAndDataProcessors</subsystems>
   <subsystems>Subsystem.StandardSubsystems</subsystems>
