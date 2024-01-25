@@ -818,7 +818,6 @@ To refine the role, you can specify main and additional business objects.</value
     <name>FillCheckProcessingAtServer</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

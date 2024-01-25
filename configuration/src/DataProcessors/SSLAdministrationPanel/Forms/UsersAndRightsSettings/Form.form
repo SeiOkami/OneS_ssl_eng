@@ -1943,7 +1943,6 @@ will speed up viewing lists and generating reports compared to the standard mode
   <excludedCommands>Write</excludedCommands>
   <excludedCommands>WriteAndClose</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

@@ -194,7 +194,6 @@ Use a &lt;link about:blank>supported client application&lt;/> or contact the add
     <name>OnOpen</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

@@ -2333,7 +2333,6 @@ the purpose description is used instead of the certificate presentation, for exa
   </handlers>
   <excludedCommands>Copy</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

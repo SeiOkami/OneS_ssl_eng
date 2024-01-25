@@ -1642,7 +1642,6 @@
     <name>OnCreateAtServer</name>
   </handlers>
   <width>130</width>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

@@ -3289,7 +3289,6 @@
     <name>OnClose</name>
   </handlers>
   <excludedCommands>CustomizeForm</excludedCommands>
-  <saveWindowSettings>true</saveWindowSettings>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>

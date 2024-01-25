@@ -2275,7 +2275,6 @@ You can export the data later from the list of configured data synchronizations.
     <event>OnClose</event>
     <name>OnClose</name>
   </handlers>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

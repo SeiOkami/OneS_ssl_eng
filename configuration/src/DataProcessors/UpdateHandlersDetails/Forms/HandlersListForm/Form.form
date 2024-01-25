@@ -3360,7 +3360,6 @@ or other handlers modify objects readable by this handler.</value>
     <name>BeforeLoadDataFromSettingsAtServer</name>
   </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

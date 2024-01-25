@@ -334,7 +334,6 @@ Anonymous statistics will help us improve the application and understand what fe
     <name>OnClose</name>
   </handlers>
   <windowOpeningMode>LockWholeInterface</windowOpeningMode>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

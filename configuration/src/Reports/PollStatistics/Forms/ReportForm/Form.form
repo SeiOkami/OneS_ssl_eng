@@ -287,7 +287,6 @@
   <excludedCommands>SaveReportSettings</excludedCommands>
   <excludedCommands>SaveVariant</excludedCommands>
   <excludedCommands>StandardSettings</excludedCommands>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

@@ -1450,7 +1450,6 @@ To perform the task, go to special task form.</value>
   <excludedCommands>Execute</excludedCommands>
   <excludedCommands>ExecuteAndClose</excludedCommands>
   <excludedCommands>SetDeletionMark</excludedCommands>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

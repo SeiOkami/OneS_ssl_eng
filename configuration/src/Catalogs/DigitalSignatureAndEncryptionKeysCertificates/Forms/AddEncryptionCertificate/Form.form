@@ -2021,7 +2021,6 @@ the purpose description is used instead of the certificate presentation, for exa
     <name>FillCheckProcessingAtServer</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

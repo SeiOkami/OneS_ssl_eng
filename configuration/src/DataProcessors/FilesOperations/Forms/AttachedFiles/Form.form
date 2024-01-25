@@ -4432,7 +4432,6 @@
     <name>OnCreateAtServer</name>
   </handlers>
   <excludedCommands>Refresh</excludedCommands>
-  <saveWindowSettings>true</saveWindowSettings>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>

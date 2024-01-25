@@ -3806,7 +3806,6 @@ Also, you can save skipped lines to a file, revise them, and import them later.<
   <height>35</height>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveDataInSettings>UseList</saveDataInSettings>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

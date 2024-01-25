@@ -1231,7 +1231,6 @@
     <event>OnCreateAtServer</event>
     <name>OnCreateAtServer</name>
   </handlers>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

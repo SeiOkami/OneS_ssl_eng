@@ -2334,7 +2334,6 @@ Extension changes for data area users will be applied next time they log in to t
     <event>OnCreateAtServer</event>
     <name>OnCreateAtServer</name>
   </handlers>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

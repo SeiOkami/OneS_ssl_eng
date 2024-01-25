@@ -1028,7 +1028,6 @@ For details, see the &lt;link v8config://3cb7df0b-dc9c-4ab0-8981-61aa499325da/Op
     <event>URLProcessing</event>
     <name>URLProcessing</name>
   </handlers>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

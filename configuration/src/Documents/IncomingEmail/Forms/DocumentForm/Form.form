@@ -2416,7 +2416,6 @@
     <event>FillCheckProcessingAtServer</event>
     <name>FillCheckProcessingAtServer</name>
   </handlers>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>HorizontalIfPossible</group>
   <childItemsWidth>LeftWide</childItemsWidth>

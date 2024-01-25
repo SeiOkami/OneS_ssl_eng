@@ -669,7 +669,6 @@
   <excludedCommands>CustomizeForm</excludedCommands>
   <width>100</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

@@ -422,7 +422,6 @@ Current version: %3.</value>
     <name>OnClose</name>
   </handlers>
   <windowOpeningMode>LockWholeInterface</windowOpeningMode>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

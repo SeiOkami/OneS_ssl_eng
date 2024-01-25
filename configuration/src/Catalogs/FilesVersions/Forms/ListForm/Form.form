@@ -1189,7 +1189,6 @@
   <excludedCommands>Copy</excludedCommands>
   <excludedCommands>Create</excludedCommands>
   <excludedCommands>Delete</excludedCommands>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

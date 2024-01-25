@@ -719,7 +719,6 @@ Do you want to check for add-in updates and import them?</value>
   </handlers>
   <excludedCommands>Help</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

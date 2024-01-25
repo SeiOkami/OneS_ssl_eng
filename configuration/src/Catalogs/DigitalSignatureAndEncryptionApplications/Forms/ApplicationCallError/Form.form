@@ -630,7 +630,6 @@ If you cannot find a solution, contact 1C support team and provide &lt;link %2>t
   <width>55</width>
   <height>20</height>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

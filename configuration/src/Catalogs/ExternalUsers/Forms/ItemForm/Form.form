@@ -3062,7 +3062,6 @@ It is widely used by many public digital services.</value>
   </handlers>
   <excludedCommands>WriteAndClose</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

@@ -1756,7 +1756,6 @@
   <excludedCommands>Execute</excludedCommands>
   <excludedCommands>ExecuteAndClose</excludedCommands>
   <excludedCommands>SetDeletionMark</excludedCommands>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

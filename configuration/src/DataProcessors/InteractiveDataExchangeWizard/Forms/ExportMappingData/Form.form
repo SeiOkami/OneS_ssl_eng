@@ -3007,7 +3007,6 @@ Data export is canceled.</value>
     <event>OnClose</event>
     <name>OnClose</name>
   </handlers>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

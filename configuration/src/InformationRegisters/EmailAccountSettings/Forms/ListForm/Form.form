@@ -502,7 +502,6 @@
   </autoCommandBar>
   <excludedCommands>Copy</excludedCommands>
   <excludedCommands>Create</excludedCommands>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

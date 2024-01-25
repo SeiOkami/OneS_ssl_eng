@@ -509,7 +509,6 @@ You can release the lock later in &lt;b>Administration&lt;/>&lt;b> — &lt;/>&lt
     <name>OnCreateAtServer</name>
   </handlers>
   <windowOpeningMode>LockWholeInterface</windowOpeningMode>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

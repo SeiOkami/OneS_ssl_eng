@@ -1144,7 +1144,6 @@
   <excludedCommands>Refresh</excludedCommands>
   <excludedCommands>SetDeletionMark</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

@@ -289,7 +289,6 @@ For more details, see &lt;link https://kb.1ci.com/1C_Enterprise_Platform/Guides/
     <name>OnCreateAtServer</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

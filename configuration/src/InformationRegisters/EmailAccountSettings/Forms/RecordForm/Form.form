@@ -1702,7 +1702,6 @@
   <excludedCommands>Reread</excludedCommands>
   <excludedCommands>WriteAndClose</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

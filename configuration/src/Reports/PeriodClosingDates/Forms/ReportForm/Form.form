@@ -240,7 +240,6 @@
   <excludedCommands>ChangeVariant</excludedCommands>
   <excludedCommands>LoadVariant</excludedCommands>
   <excludedCommands>SaveVariant</excludedCommands>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

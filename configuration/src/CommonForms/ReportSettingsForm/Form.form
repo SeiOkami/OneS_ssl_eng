@@ -12658,7 +12658,6 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
     <name>OnClose</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
-  <saveWindowSettings>true</saveWindowSettings>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>

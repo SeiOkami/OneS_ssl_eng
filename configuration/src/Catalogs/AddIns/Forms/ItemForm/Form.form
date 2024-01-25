@@ -906,7 +906,6 @@
   <excludedCommands>ShowInList</excludedCommands>
   <width>75</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

@@ -5992,7 +5992,6 @@ Unless specified, the name is generated automatically. </value>
     <name>OnCreateAtServer</name>
   </handlers>
   <excludedCommands>SetDeletionMark</excludedCommands>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

@@ -121,7 +121,6 @@ Please wait…</value>
     <event>OnCreateAtServer</event>
     <name>OnCreateAtServer</name>
   </handlers>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>HorizontalIfPossible</group>
   <autoFillCheck>true</autoFillCheck>

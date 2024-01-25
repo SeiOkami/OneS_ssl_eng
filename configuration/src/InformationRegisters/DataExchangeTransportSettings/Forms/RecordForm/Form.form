@@ -2838,7 +2838,6 @@ If you select the check box, also select it in the peer application.</value>
   <excludedCommands>Delete</excludedCommands>
   <excludedCommands>WriteAndClose</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

@@ -610,7 +610,6 @@ no exceptions</value>
     <name>OnCreateAtServer</name>
   </handlers>
   <excludedCommands>Copy</excludedCommands>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

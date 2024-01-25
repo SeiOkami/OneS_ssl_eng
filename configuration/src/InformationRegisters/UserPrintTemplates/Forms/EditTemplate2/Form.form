@@ -1038,7 +1038,6 @@ If the editor is not installed yet, we recommend that you install %2.</value>
   <excludedCommands>Yes</excludedCommands>
   <width>55</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

@@ -3105,7 +3105,6 @@ that are allowed to access the infobase.</value>
   </handlers>
   <excludedCommands>CustomizeForm</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
-  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
