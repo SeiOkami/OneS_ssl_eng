@@ -1656,7 +1656,7 @@ select the file that contains the data.</value>
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>ExportRulesTableSearchString</source>
+              <source>ExportRulesTable</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1695,7 +1695,7 @@ select the file that contains the data.</value>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>ExportRulesTableViewStatus</source>
+              <source>ExportRulesTable</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1734,7 +1734,7 @@ select the file that contains the data.</value>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>ExportRulesTableSearchControl</source>
+              <source>ExportRulesTable</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>

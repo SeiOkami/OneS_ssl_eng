@@ -171,7 +171,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>RespondentsSearchString</source>
+      <source>Respondents</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -210,7 +210,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>RespondentsViewStatus</source>
+      <source>Respondents</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -249,7 +249,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>RespondentsSearchControl</source>
+      <source>Respondents</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

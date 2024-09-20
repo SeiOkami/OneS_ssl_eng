@@ -432,7 +432,7 @@ Remember to specify bot details and picture as described at: &lt;link https://tl
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>AttendeesSearchString</source>
+      <source>Attendees</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -471,7 +471,7 @@ Remember to specify bot details and picture as described at: &lt;link https://tl
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>AttendeesViewStatus</source>
+      <source>Attendees</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -510,7 +510,7 @@ Remember to specify bot details and picture as described at: &lt;link https://tl
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>AttendeesSearchControl</source>
+      <source>Attendees</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

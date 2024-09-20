@@ -117,7 +117,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>EncodingsListSearchString</source>
+      <source>EncodingsList</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -156,7 +156,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>EncodingsListViewStatus</source>
+      <source>EncodingsList</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -195,7 +195,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>EncodingsListSearchControl</source>
+      <source>EncodingsList</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

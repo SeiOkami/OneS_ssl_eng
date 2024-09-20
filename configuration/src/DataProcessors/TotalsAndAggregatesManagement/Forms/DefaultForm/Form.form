@@ -1597,7 +1597,7 @@ For accounting registers - %2.</value>
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>TotalsListSearchString</source>
+              <source>TotalsList</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1636,7 +1636,7 @@ For accounting registers - %2.</value>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>TotalsListViewStatus</source>
+              <source>TotalsList</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1675,7 +1675,7 @@ For accounting registers - %2.</value>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>TotalsListSearchControl</source>
+              <source>TotalsList</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2846,7 +2846,7 @@ For accounting registers - %2.</value>
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>AggregatesByRegistersSearchString</source>
+              <source>AggregatesByRegisters</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2885,7 +2885,7 @@ For accounting registers - %2.</value>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>AggregatesByRegistersViewStatus</source>
+              <source>AggregatesByRegisters</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2924,7 +2924,7 @@ For accounting registers - %2.</value>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>AggregatesByRegistersSearchControl</source>
+              <source>AggregatesByRegisters</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3502,7 +3502,7 @@ For accounting registers - %2.</value>
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>AggregatesListSearchString</source>
+              <source>AggregatesList</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3541,7 +3541,7 @@ For accounting registers - %2.</value>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>AggregatesListViewStatus</source>
+              <source>AggregatesList</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3580,7 +3580,7 @@ For accounting registers - %2.</value>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>AggregatesListSearchControl</source>
+              <source>AggregatesList</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>

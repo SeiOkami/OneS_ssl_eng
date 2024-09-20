@@ -68,7 +68,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>SettingsComposerSettingsSearchString</source>
+      <source>SettingSettingsComposer</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -107,7 +107,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>SettingsComposerSettingsViewStatus</source>
+      <source>SettingSettingsComposer</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -146,7 +146,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>SettingsComposerSettingsSearchControl</source>
+      <source>SettingSettingsComposer</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -265,7 +265,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>SettingsComposerSettingsDataParametersSearchString</source>
+          <source>SettingsComposerSettingsDataParameters</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -304,7 +304,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>SettingsComposerSettingsDataParametersViewStatus</source>
+          <source>SettingsComposerSettingsDataParameters</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -343,7 +343,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>SettingsComposerSettingsDataParametersSearchControl</source>
+          <source>SettingsComposerSettingsDataParameters</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -490,7 +490,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>SettingsComposerSettingsUserFieldsSearchString</source>
+          <source>SettingsComposerSettingsUserFields</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -529,7 +529,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>SettingsComposerSettingsUserFieldsViewStatus</source>
+          <source>SettingsComposerSettingsUserFields</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -568,7 +568,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>SettingsComposerSettingsUserFieldsSearchControl</source>
+          <source>SettingsComposerSettingsUserFields</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -721,7 +721,7 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>SettingsComposerSettingsGroupFieldsGroupFieldsAvailableFieldsSearchString</source>
+              <source>SettingsComposerSettingsGroupFieldsAvailableGroupFieldsFields</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -760,7 +760,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>SettingsComposerSettingsGroupFieldsGroupFieldsAvailableFieldsViewStatus</source>
+              <source>SettingsComposerSettingsGroupFieldsAvailableGroupFieldsFields</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -799,7 +799,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>SettingsComposerSettingsGroupFieldsGroupFieldsAvailableFieldsSearchControl</source>
+              <source>SettingsComposerSettingsGroupFieldsAvailableGroupFieldsFields</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -911,7 +911,7 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>SettingsComposerSettingsGroupFieldsSearchString</source>
+              <source>SettingsComposerSettingsGroupFields</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -950,7 +950,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>SettingsComposerSettingsGroupFieldsViewStatus</source>
+              <source>SettingsComposerSettingsGroupFields</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -989,7 +989,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>SettingsComposerSettingsGroupFieldsSearchControl</source>
+              <source>SettingsComposerSettingsGroupFields</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1332,7 +1332,7 @@ Browse the structure tree and select a grouping to view or edit grouping field s
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>SettingsComposerSettingsSelectionSelectionAvailableFieldsSearchString</source>
+              <source>SettingsComposerSettingsSelectionAvailableSelectionFields</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1371,7 +1371,7 @@ Browse the structure tree and select a grouping to view or edit grouping field s
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>SettingsComposerSettingsSelectionSelectionAvailableFieldsViewStatus</source>
+              <source>SettingsComposerSettingsSelectionAvailableSelectionFields</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1410,7 +1410,7 @@ Browse the structure tree and select a grouping to view or edit grouping field s
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>SettingsComposerSettingsSelectionSelectionAvailableFieldsSearchControl</source>
+              <source>SettingsComposerSettingsSelectionAvailableSelectionFields</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1521,7 +1521,7 @@ Browse the structure tree and select a grouping to view or edit grouping field s
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>SettingsComposerSettingsSelectionSearchString</source>
+              <source>SettingsComposerSettingsSelection</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1560,7 +1560,7 @@ Browse the structure tree and select a grouping to view or edit grouping field s
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>SettingsComposerSettingsSelectionViewStatus</source>
+              <source>SettingsComposerSettingsSelection</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1599,7 +1599,7 @@ Browse the structure tree and select a grouping to view or edit grouping field s
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>SettingsComposerSettingsSelectionSearchControl</source>
+              <source>SettingsComposerSettingsSelection</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2117,7 +2117,7 @@ In the report structure tree, select the item and then select required fields.</
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>SettingsComposerSettingsFilterFilterAvailableFieldsSearchString</source>
+              <source>SettingsComposerSettingsFilterAvailableFilterFields</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2156,7 +2156,7 @@ In the report structure tree, select the item and then select required fields.</
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>SettingsComposerSettingsFilterFilterAvailableFieldsViewStatus</source>
+              <source>SettingsComposerSettingsFilterAvailableFilterFields</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2195,7 +2195,7 @@ In the report structure tree, select the item and then select required fields.</
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>SettingsComposerSettingsFilterFilterAvailableFieldsSearchControl</source>
+              <source>SettingsComposerSettingsFilterAvailableFilterFields</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2306,7 +2306,7 @@ In the report structure tree, select the item and then select required fields.</
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>SettingsComposerSettingsFilterSearchString_SSLy</source>
+              <source>SettingsComposerSettingsFilter</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2345,7 +2345,7 @@ In the report structure tree, select the item and then select required fields.</
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>SettingsComposerSettingsFilterViewStatus_SSLy</source>
+              <source>SettingsComposerSettingsFilter</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2384,7 +2384,7 @@ In the report structure tree, select the item and then select required fields.</
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>SettingsComposerSettingsFilterSearchControl_SSLy</source>
+              <source>SettingsComposerSettingsFilter</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2904,7 +2904,7 @@ In the structure tree, select the report and edit report filters.</value>
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>SettingsComposerSettingsOrderOrderAvailableFieldsSearchString</source>
+              <source>SettingsComposerSettingsOrderAvailableOrderFields</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2943,7 +2943,7 @@ In the structure tree, select the report and edit report filters.</value>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>SettingsComposerSettingsOrderOrderAvailableFieldsViewStatus</source>
+              <source>SettingsComposerSettingsOrderAvailableOrderFields</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2982,7 +2982,7 @@ In the structure tree, select the report and edit report filters.</value>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>SettingsComposerSettingsOrderOrderAvailableFieldsSearchControl</source>
+              <source>SettingsComposerSettingsOrderAvailableOrderFields</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3093,7 +3093,7 @@ In the structure tree, select the report and edit report filters.</value>
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>SettingsComposerSettingsOrderSearchString</source>
+              <source>SettingsComposerSettingsOrder</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3132,7 +3132,7 @@ In the structure tree, select the report and edit report filters.</value>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>SettingsComposerSettingsOrderViewStatus</source>
+              <source>SettingsComposerSettingsOrder</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3171,7 +3171,7 @@ In the structure tree, select the report and edit report filters.</value>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>SettingsComposerSettingsOrderSearchControl</source>
+              <source>SettingsComposerSettingsOrder</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3687,7 +3687,7 @@ In the structure tree, select the report and edit report sorts.</value>
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>SettingsComposerSettingsConditionalAppearanceSearchString</source>
+              <source>SettingsComposerSettingsConditionalAppearance</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3726,7 +3726,7 @@ In the structure tree, select the report and edit report sorts.</value>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>SettingsComposerSettingsConditionalAppearanceViewStatus</source>
+              <source>SettingsComposerSettingsConditionalAppearance</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3765,7 +3765,7 @@ In the structure tree, select the report and edit report sorts.</value>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>SettingsComposerSettingsConditionalAppearanceSearchControl</source>
+              <source>SettingsComposerSettingsConditionalAppearance</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -4285,7 +4285,7 @@ In the structure tree, select the report and edit report conditional appearance.
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>SettingsComposerSettingsOutputParametersSearchString</source>
+              <source>SettingsComposerSettingsOutputParameters</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -4324,7 +4324,7 @@ In the structure tree, select the report and edit report conditional appearance.
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>SettingsComposerSettingsOutputParametersViewStatus</source>
+              <source>SettingsComposerSettingsOutputParameters</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -4363,7 +4363,7 @@ In the structure tree, select the report and edit report conditional appearance.
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>SettingsComposerSettingsOutputParametersSearchControl</source>
+              <source>SettingsComposerSettingsOutputParameters</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>

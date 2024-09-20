@@ -243,7 +243,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>VisibilityConditionsSearchString</source>
+      <source>VisibilityConditions</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -282,7 +282,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>VisibilityConditionsViewStatus</source>
+      <source>VisibilityConditions</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -321,7 +321,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>VisibilityConditionsSearchControl</source>
+      <source>VisibilityConditions</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

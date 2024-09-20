@@ -512,7 +512,7 @@ Select the item that matches the spreadsheet data.</value>
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>SelectionOptionsSearchString</source>
+      <source>SelectionOptions</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -551,7 +551,7 @@ Select the item that matches the spreadsheet data.</value>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>SelectionOptionsViewStatus</source>
+      <source>SelectionOptions</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -590,7 +590,7 @@ Select the item that matches the spreadsheet data.</value>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>SelectionOptionsSearchControl</source>
+      <source>SelectionOptions</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -889,7 +889,7 @@ Select the item that matches the spreadsheet data.</value>
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>CatalogItemsSearchString</source>
+      <source>CatalogItems</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -928,7 +928,7 @@ Select the item that matches the spreadsheet data.</value>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>CatalogItemsViewStatus</source>
+      <source>CatalogItems</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -967,7 +967,7 @@ Select the item that matches the spreadsheet data.</value>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>CatalogItemsSearchControl</source>
+      <source>CatalogItems</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

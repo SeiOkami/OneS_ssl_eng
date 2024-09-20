@@ -173,7 +173,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>WorkScheduleSearchString</source>
+      <source>WorkSchedule</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -212,7 +212,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>WorkScheduleViewStatus</source>
+      <source>WorkSchedule</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -251,7 +251,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>WorkScheduleSearchControl</source>
+      <source>WorkSchedule</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

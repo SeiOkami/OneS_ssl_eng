@@ -354,7 +354,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>AccessGroupsSearchString</source>
+            <source>AccessGroups</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -407,7 +407,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>AccessGroupsSearchString</source>
+          <source>AccessGroups</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -446,7 +446,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>AccessGroupsViewStatus</source>
+          <source>AccessGroups</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -485,7 +485,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>AccessGroupsSearchControl</source>
+          <source>AccessGroups</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1044,7 +1044,7 @@ due to insufficient access rights.
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>RolesSearchString_SSLy</source>
+            <source>Roles</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1089,7 +1089,7 @@ due to insufficient access rights.
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>RolesSearchString_SSLy</source>
+          <source>Roles</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1128,7 +1128,7 @@ due to insufficient access rights.
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>RolesViewStatus_SSLy</source>
+          <source>Roles</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1167,7 +1167,7 @@ due to insufficient access rights.
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>RolesSearchControl_SSLy</source>
+          <source>Roles</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

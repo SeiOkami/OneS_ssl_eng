@@ -1675,7 +1675,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>HintsRangeSearchString</source>
+            <source>HintsRange</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1714,7 +1714,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>HintsRangeViewStatus</source>
+            <source>HintsRange</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1753,7 +1753,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>HintsRangeSearchControl</source>
+            <source>HintsRange</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -2351,7 +2351,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>TableAnswersOptionsSearchString</source>
+          <source>TableAnswersOptions</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2390,7 +2390,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>TableAnswersOptionsViewStatus</source>
+          <source>TableAnswersOptions</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2429,7 +2429,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>TableAnswersOptionsSearchControl</source>
+          <source>TableAnswersOptions</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

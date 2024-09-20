@@ -1713,7 +1713,7 @@ If you have no stable Internet connection (for example, in a business trip), you
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>StandaloneWorkstationsListSearchString</source>
+          <source>StandaloneWorkstationsList</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1752,7 +1752,7 @@ If you have no stable Internet connection (for example, in a business trip), you
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>StandaloneWorkstationsListViewStatus</source>
+          <source>StandaloneWorkstationsList</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1791,7 +1791,7 @@ If you have no stable Internet connection (for example, in a business trip), you
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>StandaloneWorkstationsListSearchControl</source>
+          <source>StandaloneWorkstationsList</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

@@ -427,7 +427,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>DependencyTreeSearchString</source>
+      <source>DependencyTree</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -466,7 +466,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>DependencyTreeViewStatus</source>
+      <source>DependencyTree</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -505,7 +505,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>DependencyTreeSearchControl</source>
+      <source>DependencyTree</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

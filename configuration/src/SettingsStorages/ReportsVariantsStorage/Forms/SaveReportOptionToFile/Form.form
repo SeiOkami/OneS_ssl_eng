@@ -326,7 +326,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>UserSettingsSearchString</source>
+          <source>UserSettings</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -365,7 +365,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>UserSettingsViewStatus</source>
+          <source>UserSettings</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -404,7 +404,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>UserSettingsSearchControl</source>
+          <source>UserSettings</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -729,7 +729,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>DescriptionOfReportOptionsSearchString</source>
+          <source>ReportsOptionsDetails</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -768,7 +768,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>DescriptionOfReportOptionsViewStatus</source>
+          <source>ReportsOptionsDetails</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -807,7 +807,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>DescriptionOfReportOptionsSearchControl</source>
+          <source>ReportsOptionsDetails</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

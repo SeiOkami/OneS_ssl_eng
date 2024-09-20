@@ -176,7 +176,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>AccessGroupsSearchString</source>
+      <source>AccessGroups</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -215,7 +215,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>AccessGroupsViewStatus</source>
+      <source>AccessGroups</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -254,7 +254,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>AccessGroupsSearchControl</source>
+      <source>AccessGroups</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -433,7 +433,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>AccessGroupsSearchString</source>
+      <source>AccessGroups</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

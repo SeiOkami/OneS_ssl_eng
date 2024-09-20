@@ -140,7 +140,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>SearchSectionsTreeSearchString</source>
+      <source>SearchSectionsTree</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -613,7 +613,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>SearchSectionsTreeSearchString</source>
+      <source>SearchSectionsTree</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -652,7 +652,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>SearchSectionsTreeViewStatus</source>
+      <source>SearchSectionsTree</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -691,7 +691,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>SearchSectionsTreeSearchControl</source>
+      <source>SearchSectionsTree</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

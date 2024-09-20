@@ -134,7 +134,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>FilesTable1SearchString</source>
+        <source>TableOfFiles</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -173,7 +173,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>FilesTable1ViewStatus</source>
+        <source>TableOfFiles</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -212,7 +212,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>FilesTable1SearchControl</source>
+        <source>TableOfFiles</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>

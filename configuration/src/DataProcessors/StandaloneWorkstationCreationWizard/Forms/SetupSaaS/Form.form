@@ -305,7 +305,7 @@ Note that the data added by the extensions will be permanently deleted along wit
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ExtensionsThatChangeTheDataStructureSearchString</source>
+          <source>ExtensionsThatChangeDataStructure</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -344,7 +344,7 @@ Note that the data added by the extensions will be permanently deleted along wit
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ExtensionsThatChangeTheDataStructureViewStatus</source>
+          <source>ExtensionsThatChangeDataStructure</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -383,7 +383,7 @@ Note that the data added by the extensions will be permanently deleted along wit
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ExtensionsThatChangeTheDataStructureSearchControl</source>
+          <source>ExtensionsThatChangeDataStructure</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1174,7 +1174,7 @@ Note that the data added by the extensions will be permanently deleted along wit
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>SynchronizationUsersSearchString</source>
+              <source>SynchronizationUsers</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1213,7 +1213,7 @@ Note that the data added by the extensions will be permanently deleted along wit
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>SynchronizationUsersViewStatus</source>
+              <source>SynchronizationUsers</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1252,7 +1252,7 @@ Note that the data added by the extensions will be permanently deleted along wit
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>SynchronizationUsersSearchControl</source>
+              <source>SynchronizationUsers</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>

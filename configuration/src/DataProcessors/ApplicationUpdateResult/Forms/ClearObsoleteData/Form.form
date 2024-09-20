@@ -1030,7 +1030,7 @@ data</value>
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ObsoleteDataSearchString</source>
+          <source>ObsoleteData</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1069,7 +1069,7 @@ data</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ObsoleteDataViewStatus</source>
+          <source>ObsoleteData</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1108,7 +1108,7 @@ data</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ObsoleteDataSearchControl</source>
+          <source>ObsoleteData</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

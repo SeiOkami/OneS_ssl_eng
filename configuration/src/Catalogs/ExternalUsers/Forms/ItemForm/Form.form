@@ -2471,7 +2471,7 @@ It is widely used by many public digital services.</value>
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>RolesSearchString</source>
+              <source>Roles</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2516,7 +2516,7 @@ It is widely used by many public digital services.</value>
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>RolesSearchString</source>
+            <source>Roles</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -2555,7 +2555,7 @@ It is widely used by many public digital services.</value>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>RolesViewStatus</source>
+            <source>Roles</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -2594,7 +2594,7 @@ It is widely used by many public digital services.</value>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>RolesSearchControl</source>
+            <source>Roles</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>

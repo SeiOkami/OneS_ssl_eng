@@ -182,7 +182,7 @@ You can paste the data from the clipboard or upload a spreadsheet file.</value>
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>DataImportKindSearchString</source>
+              <source>DataImportKind</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -234,7 +234,7 @@ You can paste the data from the clipboard or upload a spreadsheet file.</value>
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>DataImportKindSearchString</source>
+            <source>DataImportKind</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -273,7 +273,7 @@ You can paste the data from the clipboard or upload a spreadsheet file.</value>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>DataImportKindViewStatus</source>
+            <source>DataImportKind</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -312,7 +312,7 @@ You can paste the data from the clipboard or upload a spreadsheet file.</value>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>DataImportKindSearchControl</source>
+            <source>DataImportKind</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -2045,7 +2045,7 @@ Unmapped data can be skipped or added as new items. Mapped data can be updated o
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>DataMappingTableSearchString</source>
+            <source>DataMappingTable</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -2084,7 +2084,7 @@ Unmapped data can be skipped or added as new items. Mapped data can be updated o
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>DataMappingTableViewStatus</source>
+            <source>DataMappingTable</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -2123,7 +2123,7 @@ Unmapped data can be skipped or added as new items. Mapped data can be updated o
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>DataMappingTableSearchControl</source>
+            <source>DataMappingTable</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>

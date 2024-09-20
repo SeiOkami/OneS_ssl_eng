@@ -568,7 +568,7 @@ Searching for occurrences…</value>
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>UsageInstancesSearchString</source>
+          <source>UsageInstances</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1019,7 +1019,7 @@ Searching for occurrences…</value>
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>UsageInstancesSearchString</source>
+          <source>UsageInstances</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1058,7 +1058,7 @@ Searching for occurrences…</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>UsageInstancesViewStatus</source>
+          <source>UsageInstances</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1097,7 +1097,7 @@ Searching for occurrences…</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>UsageInstancesSearchControl</source>
+          <source>UsageInstances</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2101,7 +2101,7 @@ Merging items…</value>
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>UnsuccessfulReplacementsSearchString</source>
+          <source>UnsuccessfulReplacements</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2473,7 +2473,7 @@ Merging items…</value>
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>UnsuccessfulReplacementsSearchString</source>
+          <source>UnsuccessfulReplacements</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2512,7 +2512,7 @@ Merging items…</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>UnsuccessfulReplacementsViewStatus</source>
+          <source>UnsuccessfulReplacements</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2551,7 +2551,7 @@ Merging items…</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>UnsuccessfulReplacementsSearchControl</source>
+          <source>UnsuccessfulReplacements</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

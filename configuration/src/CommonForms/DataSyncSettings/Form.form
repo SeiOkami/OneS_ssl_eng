@@ -2720,7 +2720,7 @@ To switch to exchange using a web service, use the switch to Internet connection
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ApplicationsListSearchString</source>
+          <source>ApplicationsList</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2759,7 +2759,7 @@ To switch to exchange using a web service, use the switch to Internet connection
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ApplicationsListViewStatus</source>
+          <source>ApplicationsList</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2798,7 +2798,7 @@ To switch to exchange using a web service, use the switch to Internet connection
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ApplicationsListSearchControl</source>
+          <source>ApplicationsList</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

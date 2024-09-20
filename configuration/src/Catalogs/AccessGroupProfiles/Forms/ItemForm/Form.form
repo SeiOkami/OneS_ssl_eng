@@ -861,7 +861,7 @@ The displayed details might differ from the current profile settings.</value>
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>RolesSearchString</source>
+            <source>Roles</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -906,7 +906,7 @@ The displayed details might differ from the current profile settings.</value>
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>RolesSearchString</source>
+          <source>Roles</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -945,7 +945,7 @@ The displayed details might differ from the current profile settings.</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>RolesViewStatus</source>
+          <source>Roles</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -984,7 +984,7 @@ The displayed details might differ from the current profile settings.</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>RolesSearchControl</source>
+          <source>Roles</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1287,7 +1287,7 @@ The displayed details might differ from the current profile settings.</value>
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>AccessKindsSearchString</source>
+          <source>AccessKinds</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1326,7 +1326,7 @@ The displayed details might differ from the current profile settings.</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>AccessKindsViewStatus</source>
+          <source>AccessKinds</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1365,7 +1365,7 @@ The displayed details might differ from the current profile settings.</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>AccessKindsSearchControl</source>
+          <source>AccessKinds</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1708,7 +1708,7 @@ The displayed details might differ from the current profile settings.</value>
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <source>AccessValuesSearchString</source>
+                <source>AccessValues</source>
                 <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -1747,7 +1747,7 @@ The displayed details might differ from the current profile settings.</value>
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>ViewStatusAddition</type>
-                <source>AccessValuesViewStatus</source>
+                <source>AccessValues</source>
                 <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -1786,7 +1786,7 @@ The displayed details might differ from the current profile settings.</value>
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>SearchControlAddition</type>
-                <source>AccessValuesSearchControl</source>
+                <source>AccessValues</source>
                 <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>

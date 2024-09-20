@@ -436,7 +436,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>RecipientsSearchString</source>
+            <source>Recipients</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -708,7 +708,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>RecipientsSearchString</source>
+          <source>Recipients</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -747,7 +747,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>RecipientsViewStatus</source>
+          <source>Recipients</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -786,7 +786,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>RecipientsSearchControl</source>
+          <source>Recipients</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1526,7 +1526,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>SMSDistributionResultSearchString</source>
+            <source>SMSDistributionResult</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1758,7 +1758,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>SMSDistributionResultSearchString</source>
+          <source>SMSDistributionResult</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1797,7 +1797,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>SMSDistributionResultViewStatus</source>
+          <source>SMSDistributionResult</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1836,7 +1836,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>SMSDistributionResultSearchControl</source>
+          <source>SMSDistributionResult</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

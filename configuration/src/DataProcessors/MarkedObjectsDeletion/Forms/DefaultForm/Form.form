@@ -876,7 +876,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>MarkedForDeletionItemsTreeSearchString</source>
+      <source>MarkedForDeletionItemsTree</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -1931,7 +1931,7 @@ Searching for marked objects</value>
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>MarkedForDeletionItemsTreeSearchString</source>
+          <source>MarkedForDeletionItemsTree</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1970,7 +1970,7 @@ Searching for marked objects</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>MarkedForDeletionItemsTreeViewStatus</source>
+          <source>MarkedForDeletionItemsTree</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2009,7 +2009,7 @@ Searching for marked objects</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>MarkedForDeletionItemsTreeSearchControl</source>
+          <source>MarkedForDeletionItemsTree</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2498,7 +2498,7 @@ Searching for marked objects</value>
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <source>NotDeletedItemsSearchString</source>
+                <source>NotTrash</source>
                 <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -2555,7 +2555,7 @@ Searching for marked objects</value>
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>NotDeletedItemsSearchString</source>
+              <source>NotTrash</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2594,7 +2594,7 @@ Searching for marked objects</value>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>NotDeletedItemsViewStatus</source>
+              <source>NotTrash</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -2633,7 +2633,7 @@ Searching for marked objects</value>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>NotDeletedItemsSearchControl</source>
+              <source>NotTrash</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -3070,7 +3070,7 @@ Searching for marked objects</value>
                       </userVisible>
                       <autoFill>true</autoFill>
                     </contextMenu>
-                    <source>NotDeletedItemsLinksSearchString</source>
+                    <source>NotDeletedItemsUsageInstances</source>
                     <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                       <autoMaxWidth>true</autoMaxWidth>
                     </extInfo>
@@ -3127,7 +3127,7 @@ Searching for marked objects</value>
                     </userVisible>
                     <autoFill>true</autoFill>
                   </contextMenu>
-                  <source>NotDeletedItemsLinksSearchString</source>
+                  <source>NotDeletedItemsUsageInstances</source>
                   <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -3166,7 +3166,7 @@ Searching for marked objects</value>
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>ViewStatusAddition</type>
-                  <source>NotDeletedItemsLinksViewStatus</source>
+                  <source>NotDeletedItemsUsageInstances</source>
                   <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>
@@ -3205,7 +3205,7 @@ Searching for marked objects</value>
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>SearchControlAddition</type>
-                  <source>NotDeletedItemsLinksSearchControl</source>
+                  <source>NotDeletedItemsUsageInstances</source>
                   <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                   </extInfo>

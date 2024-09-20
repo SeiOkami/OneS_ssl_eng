@@ -359,7 +359,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>FoundContactsSearchString</source>
+          <source>FoundContacts</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -398,7 +398,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>FoundContactsViewStatus</source>
+          <source>FoundContacts</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -437,7 +437,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>FoundContactsSearchControl</source>
+          <source>FoundContacts</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -694,7 +694,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ContactsBySubjectSearchString</source>
+          <source>ContactsBySubject</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -733,7 +733,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ContactsBySubjectViewStatus</source>
+          <source>ContactsBySubject</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -772,7 +772,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ContactsBySubjectSearchControl</source>
+          <source>ContactsBySubject</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1051,7 +1051,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>UsersGroupsSearchString</source>
+          <source>UserGroups</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1090,7 +1090,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>UsersGroupsViewStatus</source>
+          <source>UserGroups</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1129,7 +1129,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>UsersGroupsSearchControl</source>
+          <source>UserGroups</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1368,7 +1368,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>UsersList1SearchString</source>
+          <source>UsersList</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1407,7 +1407,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>UsersList1ViewStatus</source>
+          <source>UsersList</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1446,7 +1446,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>UsersList1SearchControl</source>
+          <source>UsersList</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

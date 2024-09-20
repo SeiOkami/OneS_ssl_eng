@@ -3975,7 +3975,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>DigitalSignaturesSearchString</source>
+            <source>DigitalSignatures</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -4024,7 +4024,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>DigitalSignaturesSearchString</source>
+          <source>DigitalSignatures</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -4063,7 +4063,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>DigitalSignaturesViewStatus</source>
+          <source>DigitalSignatures</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -4102,7 +4102,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>DigitalSignaturesSearchControl</source>
+          <source>DigitalSignatures</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -4378,7 +4378,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>EncryptionCertificatesSearchString</source>
+            <source>EncryptionCertificates</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -4427,7 +4427,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>EncryptionCertificatesSearchString</source>
+          <source>EncryptionCertificates</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -4466,7 +4466,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>EncryptionCertificatesViewStatus</source>
+          <source>EncryptionCertificates</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -4505,7 +4505,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>EncryptionCertificatesSearchControl</source>
+          <source>EncryptionCertificates</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

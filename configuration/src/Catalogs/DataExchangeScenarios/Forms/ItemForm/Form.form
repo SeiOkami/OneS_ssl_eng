@@ -744,7 +744,7 @@ The exact scenario execution time depends on the application workload.</value>
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>ScheduleCompositionSearchString</source>
+        <source>ScheduleComposition</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -783,7 +783,7 @@ The exact scenario execution time depends on the application workload.</value>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>ScheduleCompositionViewStatus</source>
+        <source>ScheduleComposition</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -822,7 +822,7 @@ The exact scenario execution time depends on the application workload.</value>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>ScheduleCompositionSearchControl</source>
+        <source>ScheduleComposition</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>

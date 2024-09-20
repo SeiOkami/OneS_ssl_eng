@@ -629,7 +629,7 @@ However, this object must be accessible if you want third-party applications to 
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>MetadataObjectsSearchString</source>
+          <source>MetadataObjects</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -668,7 +668,7 @@ However, this object must be accessible if you want third-party applications to 
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>MetadataObjectsViewStatus</source>
+          <source>MetadataObjects</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -707,7 +707,7 @@ However, this object must be accessible if you want third-party applications to 
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>MetadataObjectsSearchControl</source>
+          <source>MetadataObjects</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

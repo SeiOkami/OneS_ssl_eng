@@ -369,7 +369,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>PropertiesSetsSearchString</source>
+            <source>PropertiesSets</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -408,7 +408,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>PropertiesSetsViewStatus</source>
+            <source>PropertiesSets</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -447,7 +447,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>PropertiesSetsSearchControl</source>
+            <source>PropertiesSets</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -664,7 +664,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>UnusedSetsSearchString</source>
+            <source>UnusedSets</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -703,7 +703,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>UnusedSetsViewStatus</source>
+            <source>UnusedSets</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -742,7 +742,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>UnusedSetsSearchControl</source>
+            <source>UnusedSets</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1250,7 +1250,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>PropertiesSearchString</source>
+        <source>Properties</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1289,7 +1289,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>PropertiesViewStatus</source>
+        <source>Properties</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1328,7 +1328,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>PropertiesSearchControl</source>
+        <source>Properties</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>

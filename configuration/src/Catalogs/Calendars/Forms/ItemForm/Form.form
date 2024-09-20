@@ -1543,7 +1543,7 @@ will be excluded from workdays.</value>
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <source>FillingTemplateSearchString</source>
+                <source>FillingTemplate</source>
                 <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -1582,7 +1582,7 @@ will be excluded from workdays.</value>
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>ViewStatusAddition</type>
-                <source>FillingTemplateViewStatus</source>
+                <source>FillingTemplate</source>
                 <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -1621,7 +1621,7 @@ will be excluded from workdays.</value>
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>SearchControlAddition</type>
-                <source>FillingTemplateSearchControl</source>
+                <source>FillingTemplate</source>
                 <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>

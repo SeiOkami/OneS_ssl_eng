@@ -1021,7 +1021,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>NodesStateListSearchString</source>
+      <source>NodesStateList</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -1060,7 +1060,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>NodesStateListViewStatus</source>
+      <source>NodesStateList</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -1099,7 +1099,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>NodesStateListSearchControl</source>
+      <source>NodesStateList</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

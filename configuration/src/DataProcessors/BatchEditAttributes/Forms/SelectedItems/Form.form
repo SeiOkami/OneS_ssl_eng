@@ -288,7 +288,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>SettingsComposerSettingsFilterSearchString</source>
+        <source>SettingsComposerSettingsFilter</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -327,7 +327,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>SettingsComposerSettingsFilterViewStatus</source>
+        <source>SettingsComposerSettingsFilter</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -366,7 +366,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>SettingsComposerSettingsFilterSearchControl</source>
+        <source>SettingsComposerSettingsFilter</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -620,7 +620,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>ListSearchString_SSLy</source>
+        <source>List</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <width>40</width>
           <autoMaxWidth>true</autoMaxWidth>
@@ -661,7 +661,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>ListViewStatus_SSLy</source>
+        <source>List</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -700,7 +700,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>ListSearchControl_SSLy</source>
+        <source>List</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>

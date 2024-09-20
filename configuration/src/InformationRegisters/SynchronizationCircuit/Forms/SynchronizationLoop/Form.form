@@ -610,7 +610,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>NodeTable_SearchString</source>
+          <source>NodeTable_</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -649,7 +649,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>NodeTable_ViewStatus</source>
+          <source>NodeTable_</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -688,7 +688,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>NodeTable_SearchControl</source>
+          <source>NodeTable_</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

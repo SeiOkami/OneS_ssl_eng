@@ -361,7 +361,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>IBUsersSearchString</source>
+      <source>IBUsers</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -1149,7 +1149,7 @@ associated with the 1C:Enterprise user.</value>
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>IBUsersSearchString</source>
+      <source>IBUsers</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -1188,7 +1188,7 @@ associated with the 1C:Enterprise user.</value>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>IBUsersViewStatus</source>
+      <source>IBUsers</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -1227,7 +1227,7 @@ associated with the 1C:Enterprise user.</value>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>IBUsersSearchControl</source>
+      <source>IBUsers</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

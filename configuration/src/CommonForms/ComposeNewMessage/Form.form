@@ -373,7 +373,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>RecipientsSearchString_SSLy</source>
+      <source>Recipients</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -412,7 +412,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>RecipientsViewStatus_SSLy</source>
+      <source>Recipients</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -451,7 +451,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>RecipientsSearchControl_SSLy</source>
+      <source>Recipients</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -793,7 +793,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>SelectedSaveFormatsSearchString</source>
+        <source>SelectedSaveFormats</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -832,7 +832,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>SelectedSaveFormatsViewStatus</source>
+        <source>SelectedSaveFormats</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -871,7 +871,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>SelectedSaveFormatsSearchControl</source>
+        <source>SelectedSaveFormats</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>

@@ -2291,7 +2291,7 @@ data mapping was performed correctly.</value>
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>StatisticsInformationTreeSearchString</source>
+          <source>StatisticsInformationTree</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2330,7 +2330,7 @@ data mapping was performed correctly.</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>StatisticsInformationTreeViewStatus</source>
+          <source>StatisticsInformationTree</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2369,7 +2369,7 @@ data mapping was performed correctly.</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>StatisticsInformationTreeSearchControl</source>
+          <source>StatisticsInformationTree</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

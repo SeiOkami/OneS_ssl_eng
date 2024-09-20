@@ -884,7 +884,7 @@ and set the Availability to &quot;Available.&quot;</value>
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>AdditionalReportOptionsSearchString</source>
+              <source>AdditionalReportOptions</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -923,7 +923,7 @@ and set the Availability to &quot;Available.&quot;</value>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>AdditionalReportOptionsViewStatus</source>
+              <source>AdditionalReportOptions</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -962,7 +962,7 @@ and set the Availability to &quot;Available.&quot;</value>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>AdditionalReportOptionsSearchControl</source>
+              <source>AdditionalReportOptions</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -1968,7 +1968,7 @@ and set the Availability to &quot;Available.&quot;</value>
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ObjectCommandsSearchString</source>
+          <source>ObjectCommands</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2007,7 +2007,7 @@ and set the Availability to &quot;Available.&quot;</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ObjectCommandsViewStatus</source>
+          <source>ObjectCommands</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2046,7 +2046,7 @@ and set the Availability to &quot;Available.&quot;</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ObjectCommandsSearchControl</source>
+          <source>ObjectCommands</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2947,7 +2947,7 @@ application without setting the safe mode.</value>
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ImportCommandsSearchString</source>
+          <source>ImportCommands</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2986,7 +2986,7 @@ application without setting the safe mode.</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ImportCommandsViewStatus</source>
+          <source>ImportCommands</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -3025,7 +3025,7 @@ application without setting the safe mode.</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ImportCommandsSearchControl</source>
+          <source>ImportCommands</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

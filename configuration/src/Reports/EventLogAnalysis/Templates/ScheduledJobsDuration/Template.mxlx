@@ -2772,7 +2772,7 @@
 					<d3p1:text>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сводная</v8:content>
+							<v8:content>Pivot</v8:content>
 						</v8:item>
 					</d3p1:text>
 					<d3p1:strIsChanged>false</d3p1:strIsChanged>

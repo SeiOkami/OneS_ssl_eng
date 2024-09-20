@@ -1600,7 +1600,7 @@ Then, if any items are left unmapped, you can map them manually.</value>
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>MappingTableSearchString</source>
+          <source>MappingTable</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1639,7 +1639,7 @@ Then, if any items are left unmapped, you can map them manually.</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>MappingTableViewStatus</source>
+          <source>MappingTable</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1678,7 +1678,7 @@ Then, if any items are left unmapped, you can map them manually.</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>MappingTableSearchControl</source>
+          <source>MappingTable</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

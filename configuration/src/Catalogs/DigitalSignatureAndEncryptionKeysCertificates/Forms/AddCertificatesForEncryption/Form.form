@@ -191,7 +191,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>CertificatesSearchString</source>
+          <source>Certificates</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -230,7 +230,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>CertificatesViewStatus</source>
+          <source>Certificates</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -269,7 +269,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>CertificatesSearchControl</source>
+          <source>Certificates</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -618,7 +618,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>CertificateDataDetails1SearchString</source>
+            <source>DetailsOfCertificateData</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -657,7 +657,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>CertificateDataDetails1ViewStatus</source>
+            <source>DetailsOfCertificateData</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -696,7 +696,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>CertificateDataDetails1SearchControl</source>
+            <source>DetailsOfCertificateData</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1039,7 +1039,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>FilesAreNotCertificatesSearchString</source>
+        <source>FilesAreNotCertificates</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1078,7 +1078,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>FilesAreNotCertificatesViewStatus</source>
+        <source>FilesAreNotCertificates</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -1117,7 +1117,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>FilesAreNotCertificatesSearchControl</source>
+        <source>FilesAreNotCertificates</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>

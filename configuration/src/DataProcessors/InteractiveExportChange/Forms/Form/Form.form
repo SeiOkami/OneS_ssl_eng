@@ -450,7 +450,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>AdditionalRegistrationSearchString</source>
+      <source>AdditionalRegistration</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -489,7 +489,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>AdditionalRegistrationViewStatus</source>
+      <source>AdditionalRegistration</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -528,7 +528,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>AdditionalRegistrationSearchControl</source>
+      <source>AdditionalRegistration</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

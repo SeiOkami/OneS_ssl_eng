@@ -2331,7 +2331,7 @@ or other handlers modify objects readable by this handler.</value>
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>UpdateHandlersSearchString</source>
+      <source>UpdateHandlers</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -2370,7 +2370,7 @@ or other handlers modify objects readable by this handler.</value>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>UpdateHandlersViewStatus</source>
+      <source>UpdateHandlers</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -2409,7 +2409,7 @@ or other handlers modify objects readable by this handler.</value>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>UpdateHandlersSearchControl</source>
+      <source>UpdateHandlers</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

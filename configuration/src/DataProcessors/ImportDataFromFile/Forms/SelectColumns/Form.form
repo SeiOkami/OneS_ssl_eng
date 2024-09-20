@@ -330,7 +330,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>ColumnsList1SearchString</source>
+        <source>ColumnsList</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -384,7 +384,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ColumnsList1SearchString</source>
+      <source>ColumnsList</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -423,7 +423,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ColumnsList1ViewStatus</source>
+      <source>ColumnsList</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -462,7 +462,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ColumnsList1SearchControl</source>
+      <source>ColumnsList</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

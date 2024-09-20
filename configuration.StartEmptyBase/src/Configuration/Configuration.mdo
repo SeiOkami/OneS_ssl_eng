@@ -18,7 +18,7 @@
   <namePrefix>SSL_</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
-  <compatibilityMode>8.3.24</compatibilityMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
   <commonModules>CommonModule.ConfigurationSubsystemsOverridable</commonModules>
   <commonModules>CommonModule.SSL_StartEmptyBase</commonModules>
   <informationRegisters>InformationRegister.ApplicationRuntimeParameters</informationRegisters>

@@ -477,7 +477,7 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>OptionUsersSearchString</source>
+              <source>OptionUsers</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -568,7 +568,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>OptionUsersSearchString</source>
+            <source>OptionUsers</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -607,7 +607,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>OptionUsersViewStatus</source>
+            <source>OptionUsers</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -646,7 +646,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>OptionUsersSearchControl</source>
+            <source>OptionUsers</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1322,7 +1322,7 @@ This option is recommended if you made significant changes to the report option.
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>SubsystemsTreeSearchString</source>
+            <source>SubsystemsTree</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -1704,7 +1704,7 @@ This option is recommended if you made significant changes to the report option.
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>SubsystemsTreeSearchString</source>
+          <source>SubsystemsTree</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1743,7 +1743,7 @@ This option is recommended if you made significant changes to the report option.
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>SubsystemsTreeViewStatus</source>
+          <source>SubsystemsTree</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1782,7 +1782,7 @@ This option is recommended if you made significant changes to the report option.
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>SubsystemsTreeSearchControl</source>
+          <source>SubsystemsTree</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

@@ -290,7 +290,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>GroupCompositionSearchString</source>
+          <source>GroupingComposition</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -681,7 +681,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>GroupCompositionSearchString</source>
+          <source>GroupingComposition</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -720,7 +720,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>GroupCompositionViewStatus</source>
+          <source>GroupingComposition</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -759,7 +759,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>GroupCompositionSearchControl</source>
+          <source>GroupingComposition</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2641,7 +2641,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>FiltersSearchString</source>
+            <source>Filters</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -2782,7 +2782,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>FiltersSearchString</source>
+          <source>Filters</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2821,7 +2821,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>FiltersViewStatus</source>
+          <source>Filters</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -2860,7 +2860,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>FiltersSearchControl</source>
+          <source>Filters</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -4424,7 +4424,7 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>SelectedFieldsSearchString</source>
+              <source>SelectedFields</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -4532,7 +4532,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>SelectedFieldsSearchString</source>
+            <source>SelectedFields</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -4571,7 +4571,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>ViewStatusAddition</type>
-            <source>SelectedFieldsViewStatus</source>
+            <source>SelectedFields</source>
             <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -4610,7 +4610,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>SearchControlAddition</type>
-            <source>SelectedFieldsSearchControl</source>
+            <source>SelectedFields</source>
             <extInfo xsi:type="form:SearchControlAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -5776,7 +5776,7 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <source>SortSearchString</source>
+                <source>Sort</source>
                 <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                 </extInfo>
@@ -5849,7 +5849,7 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <source>SortSearchString</source>
+              <source>Sort</source>
               <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -5888,7 +5888,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>ViewStatusAddition</type>
-              <source>SortViewStatus</source>
+              <source>Sort</source>
               <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -5927,7 +5927,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>SearchControlAddition</type>
-              <source>SortSearchControl</source>
+              <source>Sort</source>
               <extInfo xsi:type="form:SearchControlAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
@@ -7142,7 +7142,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>AppearanceSearchString</source>
+            <source>Appearance</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -7260,7 +7260,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>AppearanceSearchString</source>
+          <source>Appearance</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -7299,7 +7299,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>AppearanceViewStatus</source>
+          <source>Appearance</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -7338,7 +7338,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>AppearanceSearchControl</source>
+          <source>Appearance</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -8664,7 +8664,7 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <source>OptionStructureSearchString</source>
+            <source>OptionStructure</source>
             <extInfo xsi:type="form:SearchStringAdditionExtInfo">
               <autoMaxWidth>true</autoMaxWidth>
             </extInfo>
@@ -8797,7 +8797,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>OptionStructureSearchString</source>
+          <source>OptionStructure</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -8836,7 +8836,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>OptionStructureViewStatus</source>
+          <source>OptionStructure</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -8875,7 +8875,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>OptionStructureSearchControl</source>
+          <source>OptionStructure</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -11418,7 +11418,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>List1SearchString</source>
+        <source>List1</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -11457,7 +11457,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>List1ViewStatus</source>
+        <source>List1</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -11496,7 +11496,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>List1SearchControl</source>
+        <source>List1</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -11769,7 +11769,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>List2SearchString</source>
+        <source>List2</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -11808,7 +11808,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>List2ViewStatus</source>
+        <source>List2</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -11847,7 +11847,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>List2SearchControl</source>
+        <source>List2</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -12120,7 +12120,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>List3SearchString</source>
+        <source>List3</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -12159,7 +12159,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>List3ViewStatus</source>
+        <source>List3</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -12198,7 +12198,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>List3SearchControl</source>
+        <source>List3</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -12471,7 +12471,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>List4SearchString</source>
+        <source>List4</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -12510,7 +12510,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>List4ViewStatus</source>
+        <source>List4</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -12549,7 +12549,7 @@ In the Advanced mode, you can edit report structure. To save the changes, you ha
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>List4SearchControl</source>
+        <source>List4</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>

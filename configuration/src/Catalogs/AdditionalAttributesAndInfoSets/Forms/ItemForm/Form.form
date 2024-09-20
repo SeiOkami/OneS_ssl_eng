@@ -210,7 +210,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>AdditionalAttributesSearchString</source>
+      <source>AdditionalAttributes</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -249,7 +249,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>AdditionalAttributesViewStatus</source>
+      <source>AdditionalAttributes</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -288,7 +288,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>AdditionalAttributesSearchControl</source>
+      <source>AdditionalAttributes</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -452,7 +452,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>AdditionalInfoSearchString</source>
+      <source>AdditionalInfo</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -491,7 +491,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>AdditionalInfoViewStatus</source>
+      <source>AdditionalInfo</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -530,7 +530,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>AdditionalInfoSearchControl</source>
+      <source>AdditionalInfo</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

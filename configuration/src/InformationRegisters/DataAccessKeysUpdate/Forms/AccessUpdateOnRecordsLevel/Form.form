@@ -2455,7 +2455,7 @@ automatically.</value>
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>ListsSearchString</source>
+        <source>Lists</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <width>15</width>
           <autoMaxWidth>true</autoMaxWidth>
@@ -3466,7 +3466,7 @@ of the last access update job for the list.</value>
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>ListsSearchString</source>
+        <source>Lists</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -3505,7 +3505,7 @@ of the last access update job for the list.</value>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>ListsViewStatus</source>
+        <source>Lists</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -3544,7 +3544,7 @@ of the last access update job for the list.</value>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>ListsSearchControl</source>
+        <source>Lists</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>

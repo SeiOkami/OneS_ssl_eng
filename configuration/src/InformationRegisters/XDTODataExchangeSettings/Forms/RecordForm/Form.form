@@ -309,7 +309,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>SupportedObjectsSearchString</source>
+          <source>SupportedObjects</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -348,7 +348,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>SupportedObjectsViewStatus</source>
+          <source>SupportedObjects</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -387,7 +387,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>SupportedObjectsSearchControl</source>
+          <source>SupportedObjects</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -726,7 +726,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>SupportedCorrespondentObjectsSearchString</source>
+          <source>SupportedCorrespondentObjects</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -765,7 +765,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>SupportedCorrespondentObjectsViewStatus</source>
+          <source>SupportedCorrespondentObjects</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -804,7 +804,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>SupportedCorrespondentObjectsSearchControl</source>
+          <source>SupportedCorrespondentObjects</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

@@ -335,7 +335,7 @@ or other handlers modify objects readable by this handler.</value>
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>IntersectionsSearchString</source>
+          <source>Intersections</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -374,7 +374,7 @@ or other handlers modify objects readable by this handler.</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>IntersectionsViewStatus</source>
+          <source>Intersections</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -413,7 +413,7 @@ or other handlers modify objects readable by this handler.</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>IntersectionsSearchControl</source>
+          <source>Intersections</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -709,7 +709,7 @@ or other handlers modify objects readable by this handler.</value>
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>LowPriorityHandlersSearchString</source>
+          <source>LowPriorityHandlers</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -748,7 +748,7 @@ or other handlers modify objects readable by this handler.</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>LowPriorityHandlersViewStatus</source>
+          <source>LowPriorityHandlers</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -787,7 +787,7 @@ or other handlers modify objects readable by this handler.</value>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>LowPriorityHandlersSearchControl</source>
+          <source>LowPriorityHandlers</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
